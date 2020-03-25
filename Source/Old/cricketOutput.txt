@@ -1,0 +1,2134 @@
+Timestamp: 0.09287981859410431 seconds
+176.08301 = F3 with a volume of: 0.11680898 and a tuning of: 0.14500000000000002
+185.25954 = F#3 with a volume of: 21.259937 and a tuning of: 0.02400000000000002
+181.0076 = F#3 with a volume of: 27.420809 and a tuning of: -0.378
+193.92139 = G3 with a volume of: 0.08651867 and a tuning of: -0.185
+190.75388 = G3 with a volume of: 0.11777283 and a tuning of: -0.47
+191.02184 = G3 with a volume of: 0.14637963 and a tuning of: -0.446
+229.0019 = A#3 with a volume of: 0.15518227 and a tuning of: -0.306
+224.64117 = A3 with a volume of: 0.09191807 and a tuning of: 0.361
+245.79108 = B3 with a volume of: 0.078344844 and a tuning of: -0.08100000000000002
+262.8392 = C4 with a volume of: 0.12492209 and a tuning of: 0.07999999999999996
+268.841 = C4 with a volume of: 0.07609881 and a tuning of: 0.47
+280.8412 = C#4 with a volume of: 0.113339044 and a tuning of: 0.22699999999999998
+294.737 = D4 with a volume of: 0.09400818 and a tuning of: 0.06300000000000006
+285.93164 = D4 with a volume of: 0.15087211 and a tuning of: -0.462
+324.20636 = E4 with a volume of: 0.10524562 and a tuning of: -0.28800000000000003
+325.43442 = E4 with a volume of: 0.1113116 and a tuning of: -0.22199999999999998
+340.85443 = F4 with a volume of: 0.07348803 and a tuning of: -0.421
+365.5489 = F#4 with a volume of: 0.28745562 and a tuning of: -0.21000000000000002
+366.3129 = F#4 with a volume of: 0.17400871 and a tuning of: -0.174
+431.58484 = A4 with a volume of: 0.09401203 and a tuning of: -0.33499999999999996
+428.2891 = A4 with a volume of: 0.11404725 and a tuning of: -0.46799999999999997
+435.3926 = A4 with a volume of: 5.877585 and a tuning of: -0.183
+446.17612 = A4 with a volume of: 0.09708971 and a tuning of: 0.241
+436.9079 = A4 with a volume of: 77.20824 and a tuning of: -0.123
+437.26257 = A4 with a volume of: 199.58366 and a tuning of: -0.10899999999999999
+439.51376 = A4 with a volume of: 227.57903 and a tuning of: -0.020000000000000018
+442.83606 = A4 with a volume of: 181.66528 and a tuning of: 0.11099999999999999
+436.9794 = A4 with a volume of: 114.55098 and a tuning of: -0.12
+458.07343 = A#4 with a volume of: 0.08781054 and a tuning of: -0.304
+463.56067 = A#4 with a volume of: 0.06285953 and a tuning of: -0.09699999999999998
+525.75757 = C5 with a volume of: 0.055911474 and a tuning of: 0.08199999999999996
+530.4142 = C5 with a volume of: 0.042030625 and a tuning of: 0.235
+646.04346 = E5 with a volume of: 0.8235767 and a tuning of: -0.351
+Magnitude Average: 26.018985839052633
+Magnitude Threshold: 20
+Frequency Count Average: 1.5
+Frequency Count Threshold: 1
+STRUCK NOTES:
+184.9972113558172 = F#3 at a volume of: 21.259937286376953
+440.0 = A4 at a volume of: 134.41079560915628
+
+Timestamp: 0.5108390022675737 seconds
+169.6526 = F3 with a volume of: 10.424114 and a tuning of: -0.5
+186.32037 = F#3 with a volume of: 19.784462 and a tuning of: 0.123
+186.49792 = F#3 with a volume of: 16.647297 and a tuning of: 0.139
+186.9201 = F#3 with a volume of: 14.562341 and a tuning of: 0.17900000000000005
+186.7611 = F#3 with a volume of: 13.12712 and a tuning of: 0.16400000000000003
+186.73483 = F#3 with a volume of: 12.466558 and a tuning of: 0.16100000000000003
+186.76865 = F#3 with a volume of: 12.557626 and a tuning of: 0.16400000000000003
+184.62686 = F#3 with a volume of: 13.175338 and a tuning of: -0.034999999999999976
+194.6206 = G3 with a volume of: 19.917015 and a tuning of: -0.123
+188.5351 = F#3 with a volume of: 20.100447 and a tuning of: 0.32700000000000007
+267.78693 = C4 with a volume of: 34.47705 and a tuning of: 0.402
+277.9761 = C#4 with a volume of: 58.75705 and a tuning of: 0.049000000000000044
+278.28372 = C#4 with a volume of: 83.35606 and a tuning of: 0.06800000000000006
+278.25455 = C#4 with a volume of: 88.07006 and a tuning of: 0.06600000000000006
+278.47882 = C#4 with a volume of: 83.717064 and a tuning of: 0.07999999999999996
+278.7441 = C#4 with a volume of: 75.44906 and a tuning of: 0.09699999999999998
+278.93198 = C#4 with a volume of: 64.00897 and a tuning of: 0.10799999999999998
+279.48846 = C#4 with a volume of: 53.41581 and a tuning of: 0.14300000000000002
+281.50015 = C#4 with a volume of: 44.685173 and a tuning of: 0.267
+291.2229 = D4 with a volume of: 39.428833 and a tuning of: -0.14500000000000002
+368.82526 = F#4 with a volume of: 6.3230743 and a tuning of: -0.05499999999999999
+433.15228 = A4 with a volume of: 27.143703 and a tuning of: -0.272
+441.10004 = A4 with a volume of: 27.226902 and a tuning of: 0.04300000000000004
+442.726 = A4 with a volume of: 25.433386 and a tuning of: 0.10599999999999998
+442.8912 = A4 with a volume of: 21.386353 and a tuning of: 0.11299999999999999
+442.9186 = A4 with a volume of: 18.452473 and a tuning of: 0.11399999999999999
+442.96094 = A4 with a volume of: 15.861317 and a tuning of: 0.11599999999999999
+442.88742 = A4 with a volume of: 13.650733 and a tuning of: 0.11299999999999999
+442.93164 = A4 with a volume of: 11.757688 and a tuning of: 0.11399999999999999
+443.2529 = A4 with a volume of: 8.490365 and a tuning of: 0.127
+463.8238 = A#4 with a volume of: 11.423234 and a tuning of: -0.08799999999999997
+Magnitude Average: 31.137957173009074
+Magnitude Threshold: 20
+Frequency Count Average: 3.7142857142857144
+Frequency Count Threshold: 3
+STRUCK NOTES:
+277.1826309768721 = C#4 at a volume of: 72.39629581996373
+
+Timestamp: 0.9984580498866213 seconds
+186.17621 = F#3 with a volume of: 4.741577 and a tuning of: 0.10899999999999999
+186.58658 = F#3 with a volume of: 4.373544 and a tuning of: 0.14800000000000002
+186.10435 = F#3 with a volume of: 3.9429133 and a tuning of: 0.10299999999999998
+186.22998 = F#3 with a volume of: 3.6336763 and a tuning of: 0.11399999999999999
+186.67398 = F#3 with a volume of: 3.5253353 and a tuning of: 0.15600000000000003
+185.13951 = F#3 with a volume of: 3.5234933 and a tuning of: 0.013000000000000012
+183.54216 = F#3 with a volume of: 4.4954805 and a tuning of: -0.137
+257.7471 = C4 with a volume of: 3.9454634 and a tuning of: -0.259
+270.88815 = C#4 with a volume of: 5.8860097 and a tuning of: -0.398
+288.5226 = D4 with a volume of: 53.189434 and a tuning of: -0.306
+291.31906 = D4 with a volume of: 51.440228 and a tuning of: -0.139
+295.2119 = D4 with a volume of: 40.834282 and a tuning of: 0.08999999999999997
+294.24725 = D4 with a volume of: 37.61052 and a tuning of: 0.03400000000000003
+292.3757 = D4 with a volume of: 37.309944 and a tuning of: -0.07700000000000001
+295.69046 = D4 with a volume of: 29.772116 and a tuning of: 0.119
+293.2456 = D4 with a volume of: 30.670675 and a tuning of: -0.024999999999999967
+293.00964 = D4 with a volume of: 28.366758 and a tuning of: -0.03899999999999998
+301.3283 = D4 with a volume of: 19.65298 and a tuning of: 0.44500000000000006
+317.74426 = D#4 with a volume of: 23.239626 and a tuning of: 0.364
+333.11423 = E4 with a volume of: 33.78897 and a tuning of: 0.18200000000000005
+331.63452 = E4 with a volume of: 41.850426 and a tuning of: 0.10499999999999998
+330.78366 = E4 with a volume of: 40.201965 and a tuning of: 0.06000000000000005
+331.42444 = E4 with a volume of: 36.193962 and a tuning of: 0.09399999999999997
+331.75443 = E4 with a volume of: 30.902445 and a tuning of: 0.11099999999999999
+331.69775 = E4 with a volume of: 26.056513 and a tuning of: 0.10799999999999998
+331.99347 = E4 with a volume of: 22.889107 and a tuning of: 0.123
+332.14294 = E4 with a volume of: 18.68383 and a tuning of: 0.131
+345.38678 = F4 with a volume of: 26.597946 and a tuning of: -0.192
+Magnitude Average: 23.832829330648696
+Magnitude Threshold: 20
+Frequency Count Average: 5.75
+Frequency Count Threshold: 5
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 36.572074617658345
+329.6275569128699 = E4 at a volume of: 31.320902347564697
+
+Timestamp: 1.253877551020408 seconds
+258.91592 = C4 with a volume of: 24.947552 and a tuning of: -0.181
+302.55878 = D#4 with a volume of: 30.045214 and a tuning of: -0.484
+355.44025 = F4 with a volume of: 197.13643 and a tuning of: 0.30500000000000005
+370.564 = F#4 with a volume of: 209.09607 and a tuning of: 0.026000000000000023
+371.4033 = F#4 with a volume of: 168.0406 and a tuning of: 0.06500000000000006
+370.93314 = F#4 with a volume of: 145.21759 and a tuning of: 0.04300000000000004
+371.32584 = F#4 with a volume of: 92.0553 and a tuning of: 0.062000000000000055
+370.5437 = F#4 with a volume of: 81.148994 and a tuning of: 0.025000000000000022
+372.0074 = F#4 with a volume of: 199.04182 and a tuning of: 0.09299999999999997
+371.49167 = F#4 with a volume of: 121.25157 and a tuning of: 0.06900000000000006
+371.81754 = F#4 with a volume of: 103.75698 and a tuning of: 0.08499999999999996
+386.294 = G4 with a volume of: 165.23808 and a tuning of: -0.254
+Magnitude Average: 128.08135080337524
+Magnitude Threshold: 20
+Frequency Count Average: 4.5
+Frequency Count Threshold: 4
+STRUCK NOTES:
+369.9944227116344 = F#4 at a volume of: 139.95111656188965
+
+Timestamp: 1.787936507936508 seconds
+147.69716 = D3 with a volume of: 15.540043 and a tuning of: 0.10099999999999998
+147.6001 = D3 with a volume of: 21.174911 and a tuning of: 0.08999999999999997
+147.59673 = D3 with a volume of: 29.855898 and a tuning of: 0.08899999999999997
+147.30576 = D3 with a volume of: 35.904896 and a tuning of: 0.05500000000000005
+147.25491 = D3 with a volume of: 40.464127 and a tuning of: 0.049000000000000044
+147.26442 = D3 with a volume of: 44.739788 and a tuning of: 0.050000000000000044
+147.12254 = D3 with a volume of: 46.607292 and a tuning of: 0.03400000000000003
+147.38329 = D3 with a volume of: 47.103985 and a tuning of: 0.06400000000000006
+151.05809 = D3 with a volume of: 43.122414 and a tuning of: 0.491
+301.0054 = D4 with a volume of: 8.871906 and a tuning of: 0.42700000000000005
+353.74692 = F4 with a volume of: 15.66181 and a tuning of: 0.22199999999999998
+362.78113 = F#4 with a volume of: 10.833336 and a tuning of: -0.34099999999999997
+371.44034 = F#4 with a volume of: 11.538016 and a tuning of: 0.06700000000000006
+371.01236 = F#4 with a volume of: 10.172307 and a tuning of: 0.04700000000000004
+371.0337 = F#4 with a volume of: 8.789304 and a tuning of: 0.04800000000000004
+370.74124 = F#4 with a volume of: 7.781476 and a tuning of: 0.03400000000000003
+371.63712 = F#4 with a volume of: 7.2474656 and a tuning of: 0.07600000000000007
+373.5845 = F#4 with a volume of: 6.858441 and a tuning of: 0.16700000000000004
+375.48132 = F#4 with a volume of: 5.474833 and a tuning of: 0.254
+406.35236 = G#4 with a volume of: 74.20912 and a tuning of: -0.378
+417.3309 = G#4 with a volume of: 74.79156 and a tuning of: 0.08399999999999996
+419.23123 = G#4 with a volume of: 78.39644 and a tuning of: 0.16200000000000003
+419.61325 = G#4 with a volume of: 65.95598 and a tuning of: 0.17800000000000005
+419.14102 = G#4 with a volume of: 59.270424 and a tuning of: 0.15900000000000003
+419.11316 = G#4 with a volume of: 52.787014 and a tuning of: 0.15800000000000003
+419.0786 = G#4 with a volume of: 46.64661 and a tuning of: 0.15600000000000003
+419.37704 = G#4 with a volume of: 40.610893 and a tuning of: 0.16800000000000004
+417.9662 = G#4 with a volume of: 36.08355 and a tuning of: 0.10999999999999999
+432.54367 = A4 with a volume of: 51.375732 and a tuning of: -0.296
+460.07953 = A#4 with a volume of: 16.393148 and a tuning of: -0.22799999999999998
+Magnitude Average: 33.80875719388326
+Magnitude Threshold: 20
+Frequency Count Average: 7.333333333333333
+Frequency Count Threshold: 7
+STRUCK NOTES:
+146.8323839587038 = D3 at a volume of: 35.17386746406555
+415.3046975799451 = G#4 at a volume of: 56.81780815124512
+
+Timestamp: 2.2523356009070294 seconds
+155.40987 = D#3 with a volume of: 19.730331 and a tuning of: -0.018000000000000016
+148.70575 = D3 with a volume of: 21.625847 and a tuning of: 0.21899999999999997
+147.40381 = D3 with a volume of: 21.636114 and a tuning of: 0.06700000000000006
+147.50893 = D3 with a volume of: 19.726412 and a tuning of: 0.07899999999999996
+147.41946 = D3 with a volume of: 17.535282 and a tuning of: 0.06900000000000006
+147.53387 = D3 with a volume of: 15.319939 and a tuning of: 0.08199999999999996
+147.48813 = D3 with a volume of: 13.616579 and a tuning of: 0.07699999999999996
+147.39795 = D3 with a volume of: 12.405652 and a tuning of: 0.06600000000000006
+205.03668 = G#3 with a volume of: 4.783791 and a tuning of: -0.21999999999999997
+225.64662 = A3 with a volume of: 13.2928 and a tuning of: 0.43800000000000006
+222.98558 = A3 with a volume of: 10.975069 and a tuning of: 0.23299999999999998
+222.87645 = A3 with a volume of: 10.47426 and a tuning of: 0.22399999999999998
+222.54225 = A3 with a volume of: 9.581171 and a tuning of: 0.19800000000000006
+222.55933 = A3 with a volume of: 8.793093 and a tuning of: 0.20000000000000007
+292.0748 = D4 with a volume of: 128.24524 and a tuning of: -0.09399999999999997
+292.2234 = D4 with a volume of: 132.34366 and a tuning of: -0.08599999999999997
+292.694 = D4 with a volume of: 132.21243 and a tuning of: -0.057999999999999996
+293.14493 = D4 with a volume of: 119.31454 and a tuning of: -0.030999999999999972
+293.6516 = D4 with a volume of: 101.84398 and a tuning of: -0.0010000000000000009
+294.078 = D4 with a volume of: 86.48185 and a tuning of: 0.02400000000000002
+294.24918 = D4 with a volume of: 75.11192 and a tuning of: 0.03400000000000003
+294.2564 = D4 with a volume of: 66.913734 and a tuning of: 0.03400000000000003
+299.57568 = D4 with a volume of: 47.35965 and a tuning of: 0.345
+Magnitude Average: 47.36188451103542
+Magnitude Threshold: 20
+Frequency Count Average: 4.0
+Frequency Count Threshold: 4
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 105.3084192276001
+
+Timestamp: 2.507755102040816 seconds
+151.07022 = D3 with a volume of: 5.287886 and a tuning of: 0.492
+148.04144 = D3 with a volume of: 4.2527666 and a tuning of: 0.14100000000000001
+160.37248 = E3 with a volume of: 6.212541 and a tuning of: -0.473
+212.82756 = G#3 with a volume of: 8.16429 and a tuning of: 0.42600000000000005
+216.53886 = A3 with a volume of: 6.628871 and a tuning of: -0.275
+222.66675 = A3 with a volume of: 5.5799527 and a tuning of: 0.20799999999999996
+222.89944 = A3 with a volume of: 5.3409557 and a tuning of: 0.22599999999999998
+222.73677 = A3 with a volume of: 5.167421 and a tuning of: 0.21399999999999997
+222.84581 = A3 with a volume of: 4.7831206 and a tuning of: 0.22199999999999998
+222.76102 = A3 with a volume of: 4.28957 and a tuning of: 0.21499999999999997
+222.8075 = A3 with a volume of: 3.9739835 and a tuning of: 0.21899999999999997
+228.459 = A#3 with a volume of: 2.50961 and a tuning of: -0.347
+293.8824 = D4 with a volume of: 41.78195 and a tuning of: 0.01200000000000001
+293.91714 = D4 with a volume of: 37.09089 and a tuning of: 0.014000000000000012
+294.1302 = D4 with a volume of: 32.958252 and a tuning of: 0.027000000000000024
+294.20648 = D4 with a volume of: 29.866371 and a tuning of: 0.031000000000000028
+294.29102 = D4 with a volume of: 27.704636 and a tuning of: 0.03600000000000003
+294.34955 = D4 with a volume of: 25.90655 and a tuning of: 0.040000000000000036
+292.83765 = D4 with a volume of: 24.434017 and a tuning of: -0.04899999999999999
+302.5992 = D#4 with a volume of: 47.91556 and a tuning of: -0.482
+296.96457 = D4 with a volume of: 45.08903 and a tuning of: 0.19300000000000006
+331.31375 = E4 with a volume of: 28.176474 and a tuning of: 0.08799999999999997
+331.03104 = E4 with a volume of: 34.404346 and a tuning of: 0.07300000000000006
+330.82993 = E4 with a volume of: 33.15903 and a tuning of: 0.06300000000000006
+331.80716 = E4 with a volume of: 31.509949 and a tuning of: 0.11399999999999999
+331.85974 = E4 with a volume of: 28.239195 and a tuning of: 0.11599999999999999
+331.73276 = E4 with a volume of: 24.508474 and a tuning of: 0.10999999999999999
+331.93063 = E4 with a volume of: 22.190838 and a tuning of: 0.12
+332.56085 = E4 with a volume of: 20.06284 and a tuning of: 0.15300000000000002
+345.0904 = F4 with a volume of: 20.007616 and a tuning of: -0.20700000000000002
+Magnitude Average: 20.57323300043742
+Magnitude Threshold: 20
+Frequency Count Average: 5.666666666666667
+Frequency Count Threshold: 5
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 33.10396218299866
+329.6275569128699 = E4 at a volume of: 27.78139328956604
+
+Timestamp: 2.995374149659864 seconds
+371.2398 = F#4 with a volume of: 37.872482 and a tuning of: 0.05800000000000005
+371.3601 = F#4 with a volume of: 34.026028 and a tuning of: 0.06300000000000006
+371.41483 = F#4 with a volume of: 25.540218 and a tuning of: 0.06600000000000006
+371.2061 = F#4 with a volume of: 23.29489 and a tuning of: 0.05600000000000005
+371.83194 = F#4 with a volume of: 28.878584 and a tuning of: 0.08499999999999996
+373.37805 = F#4 with a volume of: 37.18975 and a tuning of: 0.15700000000000003
+371.49973 = F#4 with a volume of: 29.58647 and a tuning of: 0.07000000000000006
+371.9372 = F#4 with a volume of: 21.456627 and a tuning of: 0.08999999999999997
+381.6149 = G4 with a volume of: 25.957602 and a tuning of: -0.46499999999999997
+412.332 = G#4 with a volume of: 59.115215 and a tuning of: -0.125
+419.66638 = G#4 with a volume of: 222.18306 and a tuning of: 0.18000000000000005
+418.36954 = G#4 with a volume of: 219.03262 and a tuning of: 0.127
+418.61255 = G#4 with a volume of: 196.95341 and a tuning of: 0.137
+419.334 = G#4 with a volume of: 161.29837 and a tuning of: 0.16700000000000004
+419.44485 = G#4 with a volume of: 135.58578 and a tuning of: 0.17100000000000004
+419.23865 = G#4 with a volume of: 120.71039 and a tuning of: 0.16300000000000003
+419.0856 = G#4 with a volume of: 107.99081 and a tuning of: 0.15600000000000003
+419.11584 = G#4 with a volume of: 94.076126 and a tuning of: 0.15800000000000003
+425.352 = G#4 with a volume of: 54.060467 and a tuning of: 0.41300000000000003
+Magnitude Average: 86.04257402921978
+Magnitude Threshold: 20
+Frequency Count Average: 8.5
+Frequency Count Threshold: 8
+STRUCK NOTES:
+369.9944227116344 = F#4 at a volume of: 29.730631113052368
+415.3046975799451 = G#4 at a volume of: 146.32730992635092
+
+Timestamp: 3.250793650793651 seconds
+146.82005 = D3 with a volume of: 53.406887 and a tuning of: -0.0020000000000000018
+291.85562 = D4 with a volume of: 4.548853 and a tuning of: -0.10699999999999998
+335.28528 = E4 with a volume of: 30.30394 and a tuning of: 0.29400000000000004
+331.5314 = E4 with a volume of: 32.027424 and a tuning of: 0.09899999999999998
+330.36478 = E4 with a volume of: 32.99638 and a tuning of: 0.038000000000000034
+331.54333 = E4 with a volume of: 32.55414 and a tuning of: 0.09999999999999998
+331.91342 = E4 with a volume of: 28.983368 and a tuning of: 0.119
+331.7782 = E4 with a volume of: 24.472618 and a tuning of: 0.11199999999999999
+331.89328 = E4 with a volume of: 21.774591 and a tuning of: 0.118
+334.01608 = E4 with a volume of: 19.398495 and a tuning of: 0.22799999999999998
+340.60886 = F4 with a volume of: 29.158619 and a tuning of: -0.433
+368.06445 = F#4 with a volume of: 12.520846 and a tuning of: -0.09099999999999997
+372.44412 = F#4 with a volume of: 9.125883 and a tuning of: 0.11399999999999999
+371.9297 = F#4 with a volume of: 8.648617 and a tuning of: 0.08999999999999997
+371.62723 = F#4 with a volume of: 8.198712 and a tuning of: 0.07600000000000007
+413.68665 = G#4 with a volume of: 13.634684 and a tuning of: -0.068
+418.88812 = G#4 with a volume of: 50.922302 and a tuning of: 0.14800000000000002
+419.02924 = G#4 with a volume of: 47.80657 and a tuning of: 0.15400000000000003
+419.237 = G#4 with a volume of: 42.35533 and a tuning of: 0.16300000000000003
+419.11246 = G#4 with a volume of: 37.681328 and a tuning of: 0.15800000000000003
+419.25253 = G#4 with a volume of: 32.829323 and a tuning of: 0.16300000000000003
+419.11502 = G#4 with a volume of: 28.55062 and a tuning of: 0.15800000000000003
+419.21417 = G#4 with a volume of: 25.295084 and a tuning of: 0.16200000000000003
+419.27826 = G#4 with a volume of: 22.47027 and a tuning of: 0.16400000000000003
+426.10788 = G#4 with a volume of: 14.005687 and a tuning of: 0.44400000000000006
+1338.3771 = E6 with a volume of: 5.9012265 and a tuning of: 0.258
+Magnitude Average: 25.752761308963482
+Magnitude Threshold: 20
+Frequency Count Average: 4.2
+Frequency Count Threshold: 4
+STRUCK NOTES:
+329.6275569128699 = E4 at a volume of: 28.801419893900555
+415.3046975799451 = G#4 at a volume of: 33.50505659315321
+
+Timestamp: 3.5062131519274375 seconds
+193.19179 = G3 with a volume of: 26.278265 and a tuning of: -0.25
+209.60074 = G#3 with a volume of: 49.5948 and a tuning of: 0.16100000000000003
+208.29443 = G#3 with a volume of: 74.7271 and a tuning of: 0.05300000000000005
+208.3516 = G#3 with a volume of: 89.409294 and a tuning of: 0.05800000000000005
+208.49681 = G#3 with a volume of: 96.23596 and a tuning of: 0.07000000000000006
+208.62175 = G#3 with a volume of: 95.81309 and a tuning of: 0.07999999999999996
+208.69334 = G#3 with a volume of: 92.68129 and a tuning of: 0.08599999999999997
+208.92618 = G#3 with a volume of: 88.972946 and a tuning of: 0.10499999999999998
+209.78154 = G#3 with a volume of: 86.69494 and a tuning of: 0.17600000000000005
+217.1521 = A3 with a volume of: 33.93112 and a tuning of: -0.22599999999999998
+321.043 = E4 with a volume of: 9.625722 and a tuning of: -0.457
+330.83386 = E4 with a volume of: 10.199866 and a tuning of: 0.06300000000000006
+332.16223 = E4 with a volume of: 11.32538 and a tuning of: 0.132
+332.29056 = E4 with a volume of: 10.014223 and a tuning of: 0.139
+346.10605 = F4 with a volume of: 6.7665596 and a tuning of: -0.15599999999999997
+419.94174 = G#4 with a volume of: 10.619853 and a tuning of: 0.19200000000000006
+418.99155 = G#4 with a volume of: 11.073425 and a tuning of: 0.15300000000000002
+419.10144 = G#4 with a volume of: 11.011407 and a tuning of: 0.15700000000000003
+419.1291 = G#4 with a volume of: 9.933818 and a tuning of: 0.15800000000000003
+Magnitude Average: 43.41626603979813
+Magnitude Threshold: 20
+Frequency Count Average: 4.0
+Frequency Count Threshold: 4
+STRUCK NOTES:
+207.65234878997256 = G#3 at a volume of: 84.26617670059204
+
+Timestamp: 3.9706122448979593 seconds
+155.37372 = D#3 with a volume of: 13.85678 and a tuning of: -0.021999999999999964
+208.76862 = G#3 with a volume of: 38.074394 and a tuning of: 0.09199999999999997
+210.88266 = G#3 with a volume of: 27.903372 and a tuning of: 0.267
+218.98671 = A3 with a volume of: 19.677341 and a tuning of: -0.08000000000000002
+214.11725 = A3 with a volume of: 14.209397 and a tuning of: -0.47
+215.12863 = A3 with a volume of: 12.726648 and a tuning of: -0.388
+213.31494 = G#3 with a volume of: 16.463367 and a tuning of: 0.46499999999999997
+251.40181 = B3 with a volume of: 90.84245 and a tuning of: 0.30900000000000005
+248.09326 = B3 with a volume of: 110.483604 and a tuning of: 0.07999999999999996
+246.90486 = B3 with a volume of: 137.69353 and a tuning of: -0.0030000000000000027
+247.04163 = B3 with a volume of: 143.46312 and a tuning of: 0.007000000000000006
+246.87918 = B3 with a volume of: 133.22127 and a tuning of: -0.0050000000000000044
+247.33139 = B3 with a volume of: 116.03653 and a tuning of: 0.027000000000000024
+247.42934 = B3 with a volume of: 97.93558 and a tuning of: 0.03400000000000003
+247.69383 = B3 with a volume of: 83.30891 and a tuning of: 0.052000000000000046
+246.99855 = B3 with a volume of: 70.832115 and a tuning of: 0.0030000000000000027
+Magnitude Average: 70.42052507400513
+Magnitude Threshold: 20
+Frequency Count Average: 2.75
+Frequency Count Threshold: 2
+STRUCK NOTES:
+246.94165062806206 = B3 at a volume of: 111.62183094024658
+
+Timestamp: 4.2260317460317465 seconds
+238.24617 = A#3 with a volume of: 35.1333 and a tuning of: 0.379
+233.2847 = A#3 with a volume of: 18.725641 and a tuning of: 0.015000000000000013
+245.61446 = B3 with a volume of: 43.30166 and a tuning of: -0.09399999999999997
+250.28113 = B3 with a volume of: 45.703716 and a tuning of: 0.23199999999999998
+247.5769 = B3 with a volume of: 43.086773 and a tuning of: 0.04400000000000004
+247.44585 = B3 with a volume of: 41.86734 and a tuning of: 0.03500000000000003
+249.37096 = B3 with a volume of: 35.43431 and a tuning of: 0.16900000000000004
+247.59013 = B3 with a volume of: 32.850697 and a tuning of: 0.04500000000000004
+247.65637 = B3 with a volume of: 29.798584 and a tuning of: 0.050000000000000044
+276.06305 = C#4 with a volume of: 158.45139 and a tuning of: -0.07100000000000001
+278.19675 = C#4 with a volume of: 173.47267 and a tuning of: 0.06300000000000006
+278.36014 = C#4 with a volume of: 201.82666 and a tuning of: 0.07300000000000006
+278.43307 = C#4 with a volume of: 210.0991 and a tuning of: 0.07699999999999996
+278.53024 = C#4 with a volume of: 196.27069 and a tuning of: 0.08299999999999996
+278.68707 = C#4 with a volume of: 174.06853 and a tuning of: 0.09299999999999997
+278.96686 = C#4 with a volume of: 151.41621 and a tuning of: 0.11099999999999999
+279.14697 = C#4 with a volume of: 130.61493 and a tuning of: 0.122
+275.47717 = C#4 with a volume of: 94.66901 and a tuning of: -0.10699999999999998
+Magnitude Average: 100.93284511566162
+Magnitude Threshold: 20
+Frequency Count Average: 5.333333333333333
+Frequency Count Threshold: 5
+STRUCK NOTES:
+246.94165062806206 = B3 at a volume of: 37.723227183024086
+277.1826309768721 = C#4 at a volume of: 165.65435451931424
+
+Timestamp: 4.713650793650793 seconds
+151.70224 = D#3 with a volume of: 28.736298 and a tuning of: -0.436
+148.38036 = D3 with a volume of: 34.08697 and a tuning of: 0.18100000000000005
+147.43149 = D3 with a volume of: 45.130108 and a tuning of: 0.07000000000000006
+147.28648 = D3 with a volume of: 53.857143 and a tuning of: 0.05300000000000005
+147.18056 = D3 with a volume of: 59.547314 and a tuning of: 0.041000000000000036
+147.21964 = D3 with a volume of: 64.68798 and a tuning of: 0.04500000000000004
+147.02354 = D3 with a volume of: 67.53258 and a tuning of: 0.02200000000000002
+147.13766 = D3 with a volume of: 68.93165 and a tuning of: 0.03500000000000003
+149.29022 = D3 with a volume of: 67.46449 and a tuning of: 0.28700000000000003
+250.84428 = B3 with a volume of: 8.293384 and a tuning of: 0.271
+249.92484 = B3 with a volume of: 6.453308 and a tuning of: 0.20699999999999996
+247.99997 = B3 with a volume of: 5.790379 and a tuning of: 0.07400000000000007
+273.28055 = C#4 with a volume of: 21.840672 and a tuning of: -0.246
+272.85684 = C#4 with a volume of: 14.522226 and a tuning of: -0.273
+274.22537 = C#4 with a volume of: 12.175533 and a tuning of: -0.186
+289.90454 = D4 with a volume of: 58.29063 and a tuning of: -0.22399999999999998
+295.8202 = D4 with a volume of: 44.255314 and a tuning of: 0.126
+291.99722 = D4 with a volume of: 52.269527 and a tuning of: -0.09899999999999998
+291.1192 = D4 with a volume of: 52.439995 and a tuning of: -0.15099999999999997
+291.0851 = D4 with a volume of: 43.336052 and a tuning of: -0.15299999999999997
+291.94635 = D4 with a volume of: 36.18498 and a tuning of: -0.10199999999999998
+297.21875 = D4 with a volume of: 36.478115 and a tuning of: 0.20799999999999996
+297.19757 = D4 with a volume of: 28.241228 and a tuning of: 0.20699999999999996
+297.62814 = D4 with a volume of: 33.539467 and a tuning of: 0.23199999999999998
+594.52905 = D5 with a volume of: 8.436789 and a tuning of: 0.20999999999999996
+591.9515 = D5 with a volume of: 7.449434 and a tuning of: 0.135
+590.83 = D5 with a volume of: 5.859427 and a tuning of: 0.10199999999999998
+Magnitude Average: 35.77151819511696
+Magnitude Threshold: 20
+Frequency Count Average: 3.2
+Frequency Count Threshold: 3
+STRUCK NOTES:
+146.8323839587038 = D3 at a volume of: 56.253391810825896
+293.6647679174076 = D4 at a volume of: 45.697173309326175
+
+Timestamp: 5.178049886621316 seconds
+147.27127 = D3 with a volume of: 31.43138 and a tuning of: 0.051000000000000045
+147.2916 = D3 with a volume of: 28.55582 and a tuning of: 0.05400000000000005
+147.48308 = D3 with a volume of: 25.926472 and a tuning of: 0.07600000000000007
+147.2375 = D3 with a volume of: 23.548592 and a tuning of: 0.04700000000000004
+147.43083 = D3 with a volume of: 21.148159 and a tuning of: 0.07000000000000006
+147.19615 = D3 with a volume of: 18.573624 and a tuning of: 0.04200000000000004
+160.30019 = E3 with a volume of: 19.676865 and a tuning of: -0.481
+245.99136 = B3 with a volume of: 107.2768 and a tuning of: -0.067
+246.5922 = B3 with a volume of: 134.87459 and a tuning of: -0.024999999999999967
+247.15028 = B3 with a volume of: 171.05664 and a tuning of: 0.014000000000000012
+246.84976 = B3 with a volume of: 176.60463 and a tuning of: -0.007000000000000006
+247.07294 = B3 with a volume of: 164.16162 and a tuning of: 0.009000000000000008
+247.1869 = B3 with a volume of: 143.58653 and a tuning of: 0.017000000000000015
+247.4584 = B3 with a volume of: 122.90879 and a tuning of: 0.03600000000000003
+247.7109 = B3 with a volume of: 104.51101 and a tuning of: 0.05300000000000005
+250.75151 = B3 with a volume of: 79.75769 and a tuning of: 0.265
+268.21198 = C4 with a volume of: 29.132141 and a tuning of: 0.43000000000000005
+Magnitude Average: 82.51360915688907
+Magnitude Threshold: 20
+Frequency Count Average: 7.0
+Frequency Count Threshold: 7
+STRUCK NOTES:
+246.94165062806206 = B3 at a volume of: 140.622576713562
+
+Timestamp: 5.6656689342403626 seconds
+233.23225 = A#3 with a volume of: 17.122545 and a tuning of: 0.01100000000000001
+247.90361 = B3 with a volume of: 24.56981 and a tuning of: 0.06700000000000006
+247.49966 = B3 with a volume of: 20.193151 and a tuning of: 0.039000000000000035
+247.47061 = B3 with a volume of: 18.0541 and a tuning of: 0.03700000000000003
+247.79602 = B3 with a volume of: 17.159851 and a tuning of: 0.05900000000000005
+247.7512 = B3 with a volume of: 15.181572 and a tuning of: 0.05600000000000005
+248.21616 = B3 with a volume of: 13.908513 and a tuning of: 0.08899999999999997
+272.7675 = C#4 with a volume of: 43.322098 and a tuning of: -0.278
+269.9688 = C#4 with a volume of: 35.11889 and a tuning of: -0.457
+274.3699 = C#4 with a volume of: 29.070204 and a tuning of: -0.177
+294.5729 = D4 with a volume of: 164.57893 and a tuning of: 0.05300000000000005
+291.02966 = D4 with a volume of: 210.68858 and a tuning of: -0.15699999999999997
+291.766 = D4 with a volume of: 178.32988 and a tuning of: -0.11299999999999999
+295.38727 = D4 with a volume of: 130.57922 and a tuning of: 0.10099999999999998
+291.72266 = D4 with a volume of: 144.7568 and a tuning of: -0.11499999999999999
+293.07928 = D4 with a volume of: 115.225174 and a tuning of: -0.034999999999999976
+295.77063 = D4 with a volume of: 91.65699 and a tuning of: 0.123
+296.53317 = D4 with a volume of: 144.00272 and a tuning of: 0.16800000000000004
+299.35587 = D4 with a volume of: 91.11137 and a tuning of: 0.3320000000000001
+Magnitude Average: 79.1910740199842
+Magnitude Threshold: 20
+Frequency Count Average: 4.0
+Frequency Count Threshold: 4
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 147.47728824615479
+
+Timestamp: 6.15328798185941 seconds
+164.60951 = E3 with a volume of: 28.881697 and a tuning of: -0.021999999999999964
+163.32364 = E3 with a volume of: 33.30697 and a tuning of: -0.15799999999999997
+162.94466 = E3 with a volume of: 41.041702 and a tuning of: -0.198
+163.34056 = E3 with a volume of: 46.10747 and a tuning of: -0.15599999999999997
+163.39676 = E3 with a volume of: 50.28679 and a tuning of: -0.14999999999999997
+163.56294 = E3 with a volume of: 52.974213 and a tuning of: -0.132
+163.65167 = E3 with a volume of: 52.668026 and a tuning of: -0.123
+163.7108 = E3 with a volume of: 49.16438 and a tuning of: -0.11699999999999999
+170.23198 = F3 with a volume of: 35.93271 and a tuning of: -0.441
+232.00757 = A#3 with a volume of: 3.415585 and a tuning of: -0.08000000000000002
+272.90933 = C#4 with a volume of: 13.492008 and a tuning of: -0.269
+293.12854 = D4 with a volume of: 26.54892 and a tuning of: -0.03199999999999997
+294.98956 = D4 with a volume of: 20.98145 and a tuning of: 0.07699999999999996
+293.7069 = D4 with a volume of: 20.440853 and a tuning of: 0.0020000000000000018
+291.75214 = D4 with a volume of: 21.724096 and a tuning of: -0.11399999999999999
+292.6263 = D4 with a volume of: 16.042866 and a tuning of: -0.062
+292.31992 = D4 with a volume of: 15.239908 and a tuning of: -0.08000000000000002
+295.13867 = D4 with a volume of: 8.861135 and a tuning of: 0.08599999999999997
+300.3078 = D4 with a volume of: 27.452156 and a tuning of: 0.387
+296.42984 = D4 with a volume of: 15.1905985 and a tuning of: 0.16200000000000003
+334.28418 = E4 with a volume of: 7.8495584 and a tuning of: 0.242
+330.10788 = E4 with a volume of: 8.550396 and a tuning of: 0.025000000000000022
+332.17703 = E4 with a volume of: 8.563113 and a tuning of: 0.133
+332.4439 = E4 with a volume of: 7.804447 and a tuning of: 0.14700000000000002
+332.01767 = E4 with a volume of: 6.805287 and a tuning of: 0.125
+332.50125 = E4 with a volume of: 5.528245 and a tuning of: 0.15000000000000002
+654.9554 = E5 with a volume of: 5.194561 and a tuning of: -0.11399999999999999
+657.26196 = E5 with a volume of: 4.31395 and a tuning of: -0.05299999999999999
+Magnitude Average: 22.655824525015696
+Magnitude Threshold: 20
+Frequency Count Average: 4.8
+Frequency Count Threshold: 4
+STRUCK NOTES:
+164.81377845643496 = E3 at a volume of: 44.303905725479126
+
+Timestamp: 6.408707482993197 seconds
+161.99994 = E3 with a volume of: 34.808273 and a tuning of: -0.299
+163.37968 = E3 with a volume of: 30.38225 and a tuning of: -0.15199999999999997
+164.87692 = E3 with a volume of: 24.660387 and a tuning of: 0.006000000000000005
+164.9961 = E3 with a volume of: 20.939116 and a tuning of: 0.019000000000000017
+165.32283 = E3 with a volume of: 17.838293 and a tuning of: 0.05300000000000005
+165.0955 = E3 with a volume of: 15.713152 and a tuning of: 0.029000000000000026
+165.32892 = E3 with a volume of: 13.705097 and a tuning of: 0.05400000000000005
+164.67262 = E3 with a volume of: 12.558352 and a tuning of: -0.015000000000000013
+163.3728 = E3 with a volume of: 14.664276 and a tuning of: -0.15299999999999997
+241.46497 = B3 with a volume of: 85.73531 and a tuning of: -0.389
+246.25816 = B3 with a volume of: 102.72257 and a tuning of: -0.04799999999999999
+246.91359 = B3 with a volume of: 120.75676 and a tuning of: -0.0020000000000000018
+246.92227 = B3 with a volume of: 119.22155 and a tuning of: -0.0020000000000000018
+247.0786 = B3 with a volume of: 107.65139 and a tuning of: 0.009000000000000008
+247.35399 = B3 with a volume of: 92.81874 and a tuning of: 0.028000000000000025
+247.57507 = B3 with a volume of: 78.1728 and a tuning of: 0.04400000000000004
+247.8664 = B3 with a volume of: 64.91406 and a tuning of: 0.06400000000000006
+253.6066 = B3 with a volume of: 45.142353 and a tuning of: 0.46099999999999997
+268.47998 = C4 with a volume of: 28.459625 and a tuning of: 0.44700000000000006
+276.60873 = C#4 with a volume of: 11.81545 and a tuning of: -0.035999999999999976
+Magnitude Average: 52.133990573883054
+Magnitude Threshold: 20
+Frequency Count Average: 5.333333333333333
+Frequency Count Threshold: 5
+STRUCK NOTES:
+246.94165062806206 = B3 at a volume of: 98.03683907645089
+
+Timestamp: 6.873106575963718 seconds
+247.81255 = B3 with a volume of: 16.581161 and a tuning of: 0.06000000000000005
+247.52596 = B3 with a volume of: 11.414473 and a tuning of: 0.040000000000000036
+252.36142 = B3 with a volume of: 20.416145 and a tuning of: 0.375
+268.63284 = C4 with a volume of: 70.876015 and a tuning of: 0.4570000000000001
+269.23218 = C4 with a volume of: 49.80289 and a tuning of: 0.496
+271.14948 = C#4 with a volume of: 38.43682 and a tuning of: -0.381
+294.043 = D4 with a volume of: 231.09126 and a tuning of: 0.02200000000000002
+292.28894 = D4 with a volume of: 203.56517 and a tuning of: -0.08200000000000002
+294.88455 = D4 with a volume of: 171.54321 and a tuning of: 0.07100000000000006
+291.5113 = D4 with a volume of: 194.30504 and a tuning of: -0.128
+291.58005 = D4 with a volume of: 168.24861 and a tuning of: -0.124
+291.50162 = D4 with a volume of: 137.58513 and a tuning of: -0.128
+292.81778 = D4 with a volume of: 110.8453 and a tuning of: -0.05099999999999999
+296.0854 = D4 with a volume of: 118.743744 and a tuning of: 0.14200000000000002
+301.28418 = D4 with a volume of: 85.09445 and a tuning of: 0.44300000000000006
+Magnitude Average: 108.56996167500814
+Magnitude Threshold: 20
+Frequency Count Average: 5.0
+Frequency Count Threshold: 5
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 166.99093341827393
+
+Timestamp: 7.337505668934241 seconds
+274.4463 = C#4 with a volume of: 31.87395 and a tuning of: -0.172
+289.91525 = D4 with a volume of: 20.93948 and a tuning of: -0.22299999999999998
+294.99292 = D4 with a volume of: 23.196152 and a tuning of: 0.07799999999999996
+291.3205 = D4 with a volume of: 28.1008 and a tuning of: -0.139
+295.11023 = D4 with a volume of: 19.495192 and a tuning of: 0.08499999999999996
+293.3844 = D4 with a volume of: 18.974886 and a tuning of: -0.017000000000000015
+291.1424 = D4 with a volume of: 21.003954 and a tuning of: -0.14999999999999997
+297.5132 = D4 with a volume of: 14.921043 and a tuning of: 0.22499999999999998
+322.06674 = E4 with a volume of: 14.120362 and a tuning of: -0.402
+333.2279 = E4 with a volume of: 17.458162 and a tuning of: 0.18800000000000006
+332.94357 = E4 with a volume of: 14.040671 and a tuning of: 0.17300000000000004
+331.9851 = E4 with a volume of: 12.605726 and a tuning of: 0.123
+331.9404 = E4 with a volume of: 10.999509 and a tuning of: 0.121
+333.75623 = E4 with a volume of: 9.561206 and a tuning of: 0.21499999999999997
+332.28232 = E4 with a volume of: 8.083847 and a tuning of: 0.138
+364.06656 = F#4 with a volume of: 190.94 and a tuning of: -0.28
+367.7049 = F#4 with a volume of: 186.48906 and a tuning of: -0.10799999999999998
+371.17264 = F#4 with a volume of: 164.30896 and a tuning of: 0.05500000000000005
+371.09656 = F#4 with a volume of: 126.88482 and a tuning of: 0.051000000000000045
+371.06183 = F#4 with a volume of: 111.30753 and a tuning of: 0.049000000000000044
+367.51752 = F#4 with a volume of: 75.40039 and a tuning of: -0.11699999999999999
+371.91785 = F#4 with a volume of: 141.02806 and a tuning of: 0.08899999999999997
+371.73584 = F#4 with a volume of: 94.53961 and a tuning of: 0.08099999999999996
+371.50018 = F#4 with a volume of: 82.47498 and a tuning of: 0.07000000000000006
+384.83218 = G4 with a volume of: 55.77909 and a tuning of: -0.32
+Magnitude Average: 59.78109802246094
+Magnitude Threshold: 20
+Frequency Count Average: 4.75
+Frequency Count Threshold: 4
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 22.154196548461915
+369.9944227116344 = F#4 at a volume of: 122.80417728424072
+
+Timestamp: 7.592925170068027 seconds
+290.90598 = D4 with a volume of: 16.131481 and a tuning of: -0.16399999999999998
+291.1249 = D4 with a volume of: 9.961293 and a tuning of: -0.15099999999999997
+291.04803 = D4 with a volume of: 7.2838826 and a tuning of: -0.15499999999999997
+298.7144 = D4 with a volume of: 6.6838737 and a tuning of: 0.29500000000000004
+354.99887 = F4 with a volume of: 17.301231 and a tuning of: 0.28300000000000003
+371.38885 = F#4 with a volume of: 36.531136 and a tuning of: 0.06500000000000006
+371.37518 = F#4 with a volume of: 32.2624 and a tuning of: 0.06400000000000006
+371.1872 = F#4 with a volume of: 23.400354 and a tuning of: 0.05500000000000005
+375.11557 = F#4 with a volume of: 47.95907 and a tuning of: 0.237
+371.65912 = F#4 with a volume of: 41.164886 and a tuning of: 0.07699999999999996
+371.58737 = F#4 with a volume of: 28.536438 and a tuning of: 0.07400000000000007
+371.5028 = F#4 with a volume of: 25.605713 and a tuning of: 0.07000000000000006
+373.7461 = F#4 with a volume of: 25.745733 and a tuning of: 0.17400000000000004
+411.3305 = G#4 with a volume of: 141.88129 and a tuning of: -0.16699999999999998
+416.50488 = G#4 with a volume of: 131.1895 and a tuning of: 0.049000000000000044
+418.7996 = G#4 with a volume of: 119.22004 and a tuning of: 0.14500000000000002
+419.45535 = G#4 with a volume of: 98.5417 and a tuning of: 0.17200000000000004
+419.38345 = G#4 with a volume of: 85.409134 and a tuning of: 0.16900000000000004
+419.1194 = G#4 with a volume of: 77.088394 and a tuning of: 0.15800000000000003
+419.09125 = G#4 with a volume of: 68.90922 and a tuning of: 0.15700000000000003
+419.14563 = G#4 with a volume of: 60.41396 and a tuning of: 0.15900000000000003
+414.7881 = G#4 with a volume of: 45.18936 and a tuning of: -0.021999999999999964
+442.18753 = A4 with a volume of: 24.717619 and a tuning of: 0.08499999999999996
+Magnitude Average: 50.918595894523285
+Magnitude Threshold: 20
+Frequency Count Average: 5.0
+Frequency Count Threshold: 5
+STRUCK NOTES:
+369.9944227116344 = F#4 at a volume of: 30.463808877127512
+415.3046975799451 = G#4 at a volume of: 91.98251046074762
+
+Timestamp: 8.103764172335602 seconds
+152.62988 = D#3 with a volume of: 2.0543528 and a tuning of: -0.32999999999999996
+186.1414 = F#3 with a volume of: 10.6847925 and a tuning of: 0.10599999999999998
+186.39485 = F#3 with a volume of: 8.862143 and a tuning of: 0.13
+186.70267 = F#3 with a volume of: 7.3412356 and a tuning of: 0.15800000000000003
+186.8468 = F#3 with a volume of: 6.427606 and a tuning of: 0.17200000000000004
+187.06989 = F#3 with a volume of: 5.9057345 and a tuning of: 0.19200000000000006
+187.77377 = F#3 with a volume of: 5.59465 and a tuning of: 0.257
+186.32681 = F#3 with a volume of: 3.8300977 and a tuning of: 0.123
+193.08047 = G3 with a volume of: 18.745792 and a tuning of: -0.26
+189.24983 = F#3 with a volume of: 14.060817 and a tuning of: 0.393
+266.14944 = C4 with a volume of: 46.59841 and a tuning of: 0.29600000000000004
+276.92792 = C#4 with a volume of: 58.12938 and a tuning of: -0.016000000000000014
+278.4357 = C#4 with a volume of: 75.114235 and a tuning of: 0.07799999999999996
+278.3154 = C#4 with a volume of: 73.45567 and a tuning of: 0.07000000000000006
+278.6096 = C#4 with a volume of: 66.71402 and a tuning of: 0.08799999999999997
+278.9505 = C#4 with a volume of: 57.430386 and a tuning of: 0.10999999999999999
+279.2027 = C#4 with a volume of: 48.380615 and a tuning of: 0.125
+281.22427 = C#4 with a volume of: 37.785763 and a tuning of: 0.25
+291.7698 = D4 with a volume of: 36.60159 and a tuning of: -0.11299999999999999
+290.9317 = D4 with a volume of: 19.74279 and a tuning of: -0.16199999999999998
+347.8421 = F4 with a volume of: 2.5220432 and a tuning of: -0.069
+380.5009 = F#4 with a volume of: 2.9896994 and a tuning of: 0.484
+420.06805 = G#4 with a volume of: 14.03343 and a tuning of: 0.19700000000000006
+416.5071 = G#4 with a volume of: 8.899064 and a tuning of: 0.050000000000000044
+419.32568 = G#4 with a volume of: 7.5608816 and a tuning of: 0.16600000000000004
+425.00427 = G#4 with a volume of: 5.5681305 and a tuning of: 0.399
+421.8534 = G#4 with a volume of: 4.9529986 and a tuning of: 0.27
+446.64304 = A4 with a volume of: 17.704573 and a tuning of: 0.259
+441.95334 = A4 with a volume of: 18.699518 and a tuning of: 0.07600000000000007
+443.5183 = A4 with a volume of: 16.78871 and a tuning of: 0.137
+441.9266 = A4 with a volume of: 14.259907 and a tuning of: 0.07500000000000007
+443.29187 = A4 with a volume of: 12.505148 and a tuning of: 0.129
+442.47055 = A4 with a volume of: 10.640432 and a tuning of: 0.09599999999999997
+442.9917 = A4 with a volume of: 9.188281 and a tuning of: 0.11699999999999999
+446.4996 = A4 with a volume of: 6.836775 and a tuning of: 0.253
+455.46442 = A#4 with a volume of: 18.731466 and a tuning of: -0.402
+471.24802 = A#4 with a volume of: 2.7857966 and a tuning of: 0.18700000000000006
+1191.7245 = D6 with a volume of: 4.1093087 and a tuning of: 0.249
+Magnitude Average: 20.58516434619301
+Magnitude Threshold: 20
+Frequency Count Average: 3.5714285714285716
+Frequency Count Threshold: 3
+STRUCK NOTES:
+277.1826309768721 = C#4 at a volume of: 63.20405133565267
+
+Timestamp: 8.544943310657596 seconds
+172.58058 = F3 with a volume of: 1.4313965 and a tuning of: -0.203
+186.1378 = F#3 with a volume of: 2.2538087 and a tuning of: 0.10599999999999998
+185.78001 = F#3 with a volume of: 2.1291945 and a tuning of: 0.07300000000000006
+186.10965 = F#3 with a volume of: 1.9181764 and a tuning of: 0.10299999999999998
+185.92882 = F#3 with a volume of: 1.7966759 and a tuning of: 0.08599999999999997
+242.04323 = B3 with a volume of: 2.5329578 and a tuning of: -0.347
+268.51254 = C4 with a volume of: 10.051396 and a tuning of: 0.44900000000000007
+292.03534 = D4 with a volume of: 23.946468 and a tuning of: -0.09699999999999998
+294.65753 = D4 with a volume of: 24.524122 and a tuning of: 0.05800000000000005
+291.52304 = D4 with a volume of: 27.573046 and a tuning of: -0.127
+293.79318 = D4 with a volume of: 20.835165 and a tuning of: 0.007000000000000006
+295.3819 = D4 with a volume of: 17.161 and a tuning of: 0.09999999999999998
+290.80096 = D4 with a volume of: 21.585157 and a tuning of: -0.16999999999999998
+294.75012 = D4 with a volume of: 14.541112 and a tuning of: 0.06300000000000006
+293.87762 = D4 with a volume of: 13.900065 and a tuning of: 0.01200000000000001
+297.73843 = D4 with a volume of: 13.792073 and a tuning of: 0.238
+338.1405 = E4 with a volume of: 22.213717 and a tuning of: 0.44100000000000006
+336.44315 = E4 with a volume of: 20.269451 and a tuning of: 0.354
+333.23636 = E4 with a volume of: 18.385021 and a tuning of: 0.18800000000000006
+330.78534 = E4 with a volume of: 17.786947 and a tuning of: 0.06000000000000005
+331.45804 = E4 with a volume of: 17.436789 and a tuning of: 0.09499999999999997
+331.99536 = E4 with a volume of: 16.393305 and a tuning of: 0.123
+331.82562 = E4 with a volume of: 13.773433 and a tuning of: 0.11499999999999999
+331.79297 = E4 with a volume of: 11.808002 and a tuning of: 0.11299999999999999
+332.7718 = E4 with a volume of: 12.155991 and a tuning of: 0.16400000000000003
+430.61047 = A4 with a volume of: 3.5561256 and a tuning of: -0.374
+Magnitude Average: 13.60579214646266
+Magnitude Threshold: 13.60579214646266
+Frequency Count Average: 6.333333333333333
+Frequency Count Threshold: 6
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 20.508266925811768
+329.6275569128699 = E4 at a volume of: 15.391355378287178
+
+Timestamp: 9.009342403628118 seconds
+291.08176 = D4 with a volume of: 3.4043195 and a tuning of: -0.15299999999999997
+287.8932 = D4 with a volume of: 3.184083 and a tuning of: -0.344
+365.17023 = F#4 with a volume of: 46.68404 and a tuning of: -0.22799999999999998
+370.25412 = F#4 with a volume of: 48.380024 and a tuning of: 0.01200000000000001
+371.4019 = F#4 with a volume of: 40.529552 and a tuning of: 0.06500000000000006
+371.3505 = F#4 with a volume of: 37.295574 and a tuning of: 0.06300000000000006
+371.04428 = F#4 with a volume of: 34.331055 and a tuning of: 0.049000000000000044
+371.17722 = F#4 with a volume of: 30.980223 and a tuning of: 0.05500000000000005
+371.4199 = F#4 with a volume of: 27.877497 and a tuning of: 0.06600000000000006
+366.9701 = F#4 with a volume of: 22.38693 and a tuning of: -0.14300000000000002
+371.50275 = F#4 with a volume of: 46.124046 and a tuning of: 0.07000000000000006
+429.5203 = A4 with a volume of: 53.793385 and a tuning of: -0.418
+442.1187 = A4 with a volume of: 55.255367 and a tuning of: 0.08299999999999996
+442.5656 = A4 with a volume of: 60.227596 and a tuning of: 0.09999999999999998
+442.7154 = A4 with a volume of: 53.019543 and a tuning of: 0.10599999999999998
+443.2399 = A4 with a volume of: 44.925148 and a tuning of: 0.127
+442.7487 = A4 with a volume of: 40.17047 and a tuning of: 0.10699999999999998
+442.5183 = A4 with a volume of: 35.84878 and a tuning of: 0.09799999999999998
+442.79968 = A4 with a volume of: 30.756584 and a tuning of: 0.10899999999999999
+446.3187 = A4 with a volume of: 22.043615 and a tuning of: 0.246
+457.74063 = A#4 with a volume of: 30.000914 and a tuning of: -0.316
+Magnitude Average: 36.534226133709865
+Magnitude Threshold: 20
+Frequency Count Average: 5.333333333333333
+Frequency Count Threshold: 5
+STRUCK NOTES:
+369.9944227116344 = F#4 at a volume of: 35.988112688064575
+440.0 = A4 at a volume of: 45.743355887276785
+
+Timestamp: 9.287981859410431 seconds
+147.57526 = D3 with a volume of: 29.69184 and a tuning of: 0.08699999999999997
+147.34981 = D3 with a volume of: 35.374493 and a tuning of: 0.06000000000000005
+147.27121 = D3 with a volume of: 39.3664 and a tuning of: 0.051000000000000045
+147.1349 = D3 with a volume of: 42.9627 and a tuning of: 0.03500000000000003
+147.12337 = D3 with a volume of: 44.96826 and a tuning of: 0.03400000000000003
+147.27246 = D3 with a volume of: 45.807808 and a tuning of: 0.051000000000000045
+342.20547 = F4 with a volume of: 16.100473 and a tuning of: -0.352
+398.89877 = G4 with a volume of: 99.973755 and a tuning of: 0.30200000000000005
+419.2663 = G#4 with a volume of: 158.95175 and a tuning of: 0.16400000000000003
+419.22235 = G#4 with a volume of: 159.55757 and a tuning of: 0.16200000000000003
+419.52136 = G#4 with a volume of: 132.35774 and a tuning of: 0.17400000000000004
+419.22964 = G#4 with a volume of: 116.67784 and a tuning of: 0.16200000000000003
+419.15695 = G#4 with a volume of: 104.41989 and a tuning of: 0.15900000000000003
+419.0203 = G#4 with a volume of: 92.406136 and a tuning of: 0.15400000000000003
+419.44583 = G#4 with a volume of: 78.82805 and a tuning of: 0.17100000000000004
+420.47305 = G#4 with a volume of: 66.5272 and a tuning of: 0.21399999999999997
+428.99017 = A4 with a volume of: 137.63855 and a tuning of: -0.439
+452.60532 = A4 with a volume of: 27.30977 and a tuning of: 0.488
+447.30228 = A4 with a volume of: 9.508543 and a tuning of: 0.28400000000000003
+Magnitude Average: 75.7067776730186
+Magnitude Threshold: 20
+Frequency Count Average: 6.5
+Frequency Count Threshold: 6
+STRUCK NOTES:
+146.8323839587038 = D3 at a volume of: 39.695250511169434
+415.3046975799451 = G#4 at a volume of: 120.45699746268136
+
+Timestamp: 9.729160997732427 seconds
+146.64696 = D3 with a volume of: 28.300016 and a tuning of: -0.021999999999999964
+147.05168 = D3 with a volume of: 26.860481 and a tuning of: 0.025000000000000022
+147.49046 = D3 with a volume of: 24.310644 and a tuning of: 0.07699999999999996
+147.38081 = D3 with a volume of: 22.497633 and a tuning of: 0.06400000000000006
+147.29935 = D3 with a volume of: 20.68272 and a tuning of: 0.05400000000000005
+147.4788 = D3 with a volume of: 18.58417 and a tuning of: 0.07600000000000007
+147.49931 = D3 with a volume of: 16.615973 and a tuning of: 0.07799999999999996
+147.16426 = D3 with a volume of: 14.415154 and a tuning of: 0.039000000000000035
+148.9271 = D3 with a volume of: 9.726048 and a tuning of: 0.245
+222.94308 = A3 with a volume of: 11.417188 and a tuning of: 0.22999999999999998
+222.56544 = A3 with a volume of: 10.49956 and a tuning of: 0.20000000000000007
+223.31308 = A3 with a volume of: 10.240039 and a tuning of: 0.258
+229.69019 = A#3 with a volume of: 12.908473 and a tuning of: -0.254
+270.9697 = C#4 with a volume of: 35.96285 and a tuning of: -0.393
+292.94543 = D4 with a volume of: 123.399216 and a tuning of: -0.04299999999999998
+292.37866 = D4 with a volume of: 150.29437 and a tuning of: -0.07600000000000001
+292.90408 = D4 with a volume of: 147.11363 and a tuning of: -0.044999999999999984
+293.24207 = D4 with a volume of: 130.86049 and a tuning of: -0.024999999999999967
+293.75296 = D4 with a volume of: 111.01593 and a tuning of: 0.0050000000000000044
+294.15262 = D4 with a volume of: 94.59719 and a tuning of: 0.028000000000000025
+294.40475 = D4 with a volume of: 82.9428 and a tuning of: 0.04300000000000004
+298.26672 = D4 with a volume of: 101.33957 and a tuning of: 0.269
+299.83856 = D4 with a volume of: 69.52832 and a tuning of: 0.36
+419.4602 = G#4 with a volume of: 15.744848 and a tuning of: 0.17200000000000004
+419.053 = G#4 with a volume of: 15.649876 and a tuning of: 0.15500000000000003
+419.22745 = G#4 with a volume of: 9.063515 and a tuning of: 0.16200000000000003
+418.99615 = G#4 with a volume of: 8.011572 and a tuning of: 0.15300000000000002
+Magnitude Average: 48.984528930098925
+Magnitude Threshold: 20
+Frequency Count Average: 6.333333333333333
+Frequency Count Threshold: 6
+STRUCK NOTES:
+146.8323839587038 = D3 at a volume of: 21.53334891796112
+293.6647679174076 = D4 at a volume of: 120.03194754464286
+
+Timestamp: 9.984580498866213 seconds
+147.33217 = D3 with a volume of: 5.3262486 and a tuning of: 0.05800000000000005
+147.52316 = D3 with a volume of: 5.7880244 and a tuning of: 0.08099999999999996
+148.00778 = D3 with a volume of: 4.652069 and a tuning of: 0.138
+220.47427 = A3 with a volume of: 3.955868 and a tuning of: 0.03700000000000003
+230.72665 = A#3 with a volume of: 13.598425 and a tuning of: -0.176
+225.78728 = A3 with a volume of: 9.906859 and a tuning of: 0.44900000000000007
+223.01582 = A3 with a volume of: 6.6435475 and a tuning of: 0.235
+222.67783 = A3 with a volume of: 6.209086 and a tuning of: 0.20899999999999996
+223.35347 = A3 with a volume of: 5.810731 and a tuning of: 0.261
+222.62639 = A3 with a volume of: 5.2859273 and a tuning of: 0.20499999999999996
+221.996 = A3 with a volume of: 4.831438 and a tuning of: 0.15600000000000003
+222.52597 = A3 with a volume of: 4.3101482 and a tuning of: 0.19700000000000006
+277.34183 = C#4 with a volume of: 33.25796 and a tuning of: 0.009000000000000008
+293.85147 = D4 with a volume of: 50.779102 and a tuning of: 0.01100000000000001
+294.07068 = D4 with a volume of: 45.815155 and a tuning of: 0.02300000000000002
+293.92767 = D4 with a volume of: 40.91843 and a tuning of: 0.015000000000000013
+294.18457 = D4 with a volume of: 36.64414 and a tuning of: 0.030000000000000027
+294.2959 = D4 with a volume of: 33.207523 and a tuning of: 0.03700000000000003
+294.3631 = D4 with a volume of: 29.926537 and a tuning of: 0.041000000000000036
+291.63742 = D4 with a volume of: 24.881454 and a tuning of: -0.12
+305.13004 = D#4 with a volume of: 44.89741 and a tuning of: -0.33699999999999997
+296.24637 = D4 with a volume of: 48.439407 and a tuning of: 0.15100000000000002
+336.74237 = E4 with a volume of: 24.46464 and a tuning of: 0.369
+332.79727 = E4 with a volume of: 30.59713 and a tuning of: 0.16500000000000004
+331.9741 = E4 with a volume of: 34.877804 and a tuning of: 0.122
+330.78833 = E4 with a volume of: 34.299126 and a tuning of: 0.06000000000000005
+331.70703 = E4 with a volume of: 32.717674 and a tuning of: 0.10799999999999998
+331.60135 = E4 with a volume of: 28.98635 and a tuning of: 0.10299999999999998
+331.66486 = E4 with a volume of: 24.92448 and a tuning of: 0.10599999999999998
+331.85513 = E4 with a volume of: 22.299976 and a tuning of: 0.11599999999999999
+333.33273 = E4 with a volume of: 16.226622 and a tuning of: 0.19300000000000006
+369.53433 = F#4 with a volume of: 5.25172 and a tuning of: -0.021999999999999964
+Magnitude Average: 22.491594173014164
+Magnitude Threshold: 20
+Frequency Count Average: 3.5714285714285716
+Frequency Count Threshold: 3
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 38.8264684677124
+329.6275569128699 = E4 at a volume of: 28.116145133972168
+
+Timestamp: 10.448979591836734 seconds
+371.19656 = F#4 with a volume of: 31.352419 and a tuning of: 0.05600000000000005
+371.31012 = F#4 with a volume of: 29.14706 and a tuning of: 0.061000000000000054
+376.97488 = F#4 with a volume of: 68.617455 and a tuning of: 0.32300000000000006
+374.46637 = F#4 with a volume of: 51.55996 and a tuning of: 0.20699999999999996
+371.934 = F#4 with a volume of: 33.702087 and a tuning of: 0.08999999999999997
+371.47495 = F#4 with a volume of: 25.724897 and a tuning of: 0.06900000000000006
+371.57977 = F#4 with a volume of: 22.90261 and a tuning of: 0.07400000000000007
+371.82404 = F#4 with a volume of: 20.745867 and a tuning of: 0.08499999999999996
+378.16257 = F#4 with a volume of: 22.422018 and a tuning of: 0.378
+410.45728 = G#4 with a volume of: 229.9982 and a tuning of: -0.20400000000000001
+415.63293 = G#4 with a volume of: 226.14352 and a tuning of: 0.013000000000000012
+418.26572 = G#4 with a volume of: 231.6427 and a tuning of: 0.122
+419.0615 = G#4 with a volume of: 196.64117 and a tuning of: 0.15500000000000003
+419.49356 = G#4 with a volume of: 164.32355 and a tuning of: 0.17300000000000004
+419.30692 = G#4 with a volume of: 144.99615 and a tuning of: 0.16600000000000004
+419.11023 = G#4 with a volume of: 130.89032 and a tuning of: 0.15700000000000003
+419.16647 = G#4 with a volume of: 114.38679 and a tuning of: 0.16000000000000003
+417.07745 = G#4 with a volume of: 94.45997 and a tuning of: 0.07300000000000006
+439.7314 = A4 with a volume of: 57.777657 and a tuning of: -0.01100000000000001
+Magnitude Average: 99.86496875160618
+Magnitude Threshold: 20
+Frequency Count Average: 5.0
+Frequency Count Threshold: 5
+STRUCK NOTES:
+369.9944227116344 = F#4 at a volume of: 27.262490272521973
+415.3046975799451 = G#4 at a volume of: 162.93552207946777
+
+Timestamp: 10.704399092970522 seconds
+156.93231 = D#3 with a volume of: 5.8155317 and a tuning of: 0.15100000000000002
+300.5788 = D4 with a volume of: 6.124474 and a tuning of: 0.402
+336.2158 = E4 with a volume of: 37.286835 and a tuning of: 0.34199999999999997
+332.23047 = E4 with a volume of: 34.8226 and a tuning of: 0.136
+330.65823 = E4 with a volume of: 34.35556 and a tuning of: 0.05400000000000005
+331.21976 = E4 with a volume of: 34.146404 and a tuning of: 0.08299999999999996
+331.66537 = E4 with a volume of: 31.263393 and a tuning of: 0.10599999999999998
+331.8561 = E4 with a volume of: 26.307392 and a tuning of: 0.11599999999999999
+331.95612 = E4 with a volume of: 23.070845 and a tuning of: 0.121
+333.55878 = E4 with a volume of: 22.059141 and a tuning of: 0.20499999999999996
+341.65308 = F4 with a volume of: 40.823376 and a tuning of: -0.38
+365.57028 = F#4 with a volume of: 27.472254 and a tuning of: -0.20900000000000002
+369.7361 = F#4 with a volume of: 18.431068 and a tuning of: -0.013000000000000012
+371.32306 = F#4 with a volume of: 8.874189 and a tuning of: 0.062000000000000055
+371.57196 = F#4 with a volume of: 10.025429 and a tuning of: 0.07300000000000006
+372.1477 = F#4 with a volume of: 8.440761 and a tuning of: 0.09999999999999998
+371.48178 = F#4 with a volume of: 6.930126 and a tuning of: 0.06900000000000006
+408.79663 = G#4 with a volume of: 53.729256 and a tuning of: -0.274
+417.40088 = G#4 with a volume of: 50.977554 and a tuning of: 0.08699999999999997
+419.334 = G#4 with a volume of: 52.742428 and a tuning of: 0.16700000000000004
+419.19397 = G#4 with a volume of: 46.91543 and a tuning of: 0.16100000000000003
+419.21933 = G#4 with a volume of: 41.86489 and a tuning of: 0.16200000000000003
+419.16498 = G#4 with a volume of: 36.112865 and a tuning of: 0.16000000000000003
+419.15366 = G#4 with a volume of: 31.456722 and a tuning of: 0.15900000000000003
+419.08728 = G#4 with a volume of: 28.174576 and a tuning of: 0.15600000000000003
+416.05038 = G#4 with a volume of: 23.631372 and a tuning of: 0.031000000000000028
+436.30118 = A4 with a volume of: 21.483316 and a tuning of: -0.14700000000000002
+554.13824 = C#5 with a volume of: 8.358534 and a tuning of: -0.008000000000000007
+554.38196 = C#5 with a volume of: 7.110771 and a tuning of: 0.0
+558.04376 = C#5 with a volume of: 9.189846 and a tuning of: 0.11399999999999999
+555.14594 = C#5 with a volume of: 9.1483755 and a tuning of: 0.02400000000000002
+Magnitude Average: 25.714365051638694
+Magnitude Threshold: 20
+Frequency Count Average: 4.166666666666667
+Frequency Count Threshold: 4
+STRUCK NOTES:
+329.6275569128699 = E4 at a volume of: 30.661032676696777
+415.3046975799451 = G#4 at a volume of: 38.984479665756226
+
+Timestamp: 10.95981859410431 seconds
+147.97314 = D3 with a volume of: 47.153633 and a tuning of: 0.133
+180.22609 = F#3 with a volume of: 13.357178 and a tuning of: -0.453
+207.21863 = G#3 with a volume of: 31.72057 and a tuning of: -0.03699999999999998
+208.03035 = G#3 with a volume of: 49.154873 and a tuning of: 0.031000000000000028
+208.13124 = G#3 with a volume of: 74.59807 and a tuning of: 0.039000000000000035
+208.29494 = G#3 with a volume of: 90.30142 and a tuning of: 0.05300000000000005
+208.51657 = G#3 with a volume of: 98.65345 and a tuning of: 0.07100000000000006
+208.62543 = G#3 with a volume of: 100.71284 and a tuning of: 0.07999999999999996
+208.7373 = G#3 with a volume of: 95.79091 and a tuning of: 0.08999999999999997
+208.87772 = G#3 with a volume of: 89.631645 and a tuning of: 0.10099999999999998
+211.87029 = G#3 with a volume of: 60.97149 and a tuning of: 0.348
+273.479 = C#4 with a volume of: 7.2019014 and a tuning of: -0.23299999999999998
+283.22632 = C#4 with a volume of: 5.2630196 and a tuning of: 0.373
+288.05234 = D4 with a volume of: 7.4045777 and a tuning of: -0.33499999999999996
+322.41037 = E4 with a volume of: 14.385602 and a tuning of: -0.384
+328.3323 = E4 with a volume of: 11.793197 and a tuning of: -0.069
+332.17938 = E4 with a volume of: 11.519781 and a tuning of: 0.133
+331.97314 = E4 with a volume of: 10.280931 and a tuning of: 0.122
+409.99414 = G#4 with a volume of: 12.187568 and a tuning of: -0.22299999999999998
+414.00632 = G#4 with a volume of: 7.295989 and a tuning of: -0.05499999999999999
+417.87787 = G#4 with a volume of: 12.842019 and a tuning of: 0.10599999999999998
+419.00824 = G#4 with a volume of: 13.608851 and a tuning of: 0.15300000000000002
+419.1982 = G#4 with a volume of: 11.940977 and a tuning of: 0.16100000000000003
+419.3842 = G#4 with a volume of: 10.751736 and a tuning of: 0.16900000000000004
+419.15268 = G#4 with a volume of: 9.810035 and a tuning of: 0.15900000000000003
+438.53766 = A4 with a volume of: 6.101911 and a tuning of: -0.057999999999999996
+Magnitude Average: 34.78592960651104
+Magnitude Threshold: 20
+Frequency Count Average: 3.8
+Frequency Count Threshold: 3
+STRUCK NOTES:
+207.65234878997256 = G#3 at a volume of: 78.82047176361084
+
+Timestamp: 11.42421768707483 seconds
+182.2 = F#3 with a volume of: 5.485822 and a tuning of: -0.264
+193.71625 = G3 with a volume of: 19.493185 and a tuning of: -0.203
+208.11081 = G#3 with a volume of: 19.196712 and a tuning of: 0.038000000000000034
+215.25294 = A3 with a volume of: 20.67526 and a tuning of: -0.378
+237.81313 = A#3 with a volume of: 74.940414 and a tuning of: 0.347
+240.12204 = B3 with a volume of: 53.08686 and a tuning of: -0.485
+245.98831 = B3 with a volume of: 107.98175 and a tuning of: -0.067
+247.01279 = B3 with a volume of: 146.27531 and a tuning of: 0.0040000000000000036
+246.81609 = B3 with a volume of: 147.22107 and a tuning of: -0.009000000000000008
+247.14647 = B3 with a volume of: 135.36125 and a tuning of: 0.014000000000000012
+247.00847 = B3 with a volume of: 118.93262 and a tuning of: 0.0040000000000000036
+247.56755 = B3 with a volume of: 103.99896 and a tuning of: 0.04300000000000004
+247.79774 = B3 with a volume of: 87.65951 and a tuning of: 0.05900000000000005
+259.82706 = C4 with a volume of: 59.7614 and a tuning of: -0.12
+Magnitude Average: 78.57643764359611
+Magnitude Threshold: 20
+Frequency Count Average: 3.0
+Frequency Count Threshold: 3
+STRUCK NOTES:
+246.94165062806206 = B3 at a volume of: 121.06149618966239
+
+Timestamp: 11.888616780045352 seconds
+238.94397 = A#3 with a volume of: 29.072222 and a tuning of: 0.43000000000000005
+233.51215 = A#3 with a volume of: 13.128427 and a tuning of: 0.031000000000000028
+242.47772 = B3 with a volume of: 22.3816 and a tuning of: -0.316
+247.8025 = B3 with a volume of: 20.279741 and a tuning of: 0.06000000000000005
+249.03302 = B3 with a volume of: 18.902605 and a tuning of: 0.14600000000000002
+248.16338 = B3 with a volume of: 17.946442 and a tuning of: 0.08499999999999996
+247.66936 = B3 with a volume of: 16.099249 and a tuning of: 0.050000000000000044
+248.77353 = B3 with a volume of: 14.98604 and a tuning of: 0.127
+248.31114 = B3 with a volume of: 12.97846 and a tuning of: 0.09499999999999997
+269.67642 = C#4 with a volume of: 39.982582 and a tuning of: -0.476
+271.58823 = C#4 with a volume of: 33.961044 and a tuning of: -0.353
+266.70255 = C4 with a volume of: 19.586355 and a tuning of: 0.3320000000000001
+290.9162 = D4 with a volume of: 191.95247 and a tuning of: -0.16299999999999998
+291.44427 = D4 with a volume of: 158.42398 and a tuning of: -0.132
+294.73517 = D4 with a volume of: 128.01442 and a tuning of: 0.062000000000000055
+290.86804 = D4 with a volume of: 157.8188 and a tuning of: -0.16599999999999998
+291.2136 = D4 with a volume of: 134.0987 and a tuning of: -0.14600000000000002
+291.1367 = D4 with a volume of: 104.78604 and a tuning of: -0.14999999999999997
+292.90262 = D4 with a volume of: 79.48078 and a tuning of: -0.044999999999999984
+296.57626 = D4 with a volume of: 90.81151 and a tuning of: 0.17000000000000004
+302.5444 = D#4 with a volume of: 58.6974 and a tuning of: -0.485
+Magnitude Average: 64.92327912648518
+Magnitude Threshold: 20
+Frequency Count Average: 5.0
+Frequency Count Threshold: 5
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 130.67333698272705
+
+Timestamp: 12.144036281179138 seconds
+148.65767 = D3 with a volume of: 29.43002 and a tuning of: 0.21299999999999997
+147.34077 = D3 with a volume of: 41.60633 and a tuning of: 0.05900000000000005
+147.14847 = D3 with a volume of: 49.65265 and a tuning of: 0.03700000000000003
+147.26428 = D3 with a volume of: 54.295322 and a tuning of: 0.050000000000000044
+147.2147 = D3 with a volume of: 59.21589 and a tuning of: 0.04500000000000004
+147.14615 = D3 with a volume of: 62.32752 and a tuning of: 0.03600000000000003
+147.12666 = D3 with a volume of: 63.5009 and a tuning of: 0.03400000000000003
+159.69864 = D#3 with a volume of: 22.138948 and a tuning of: 0.45400000000000007
+203.59901 = G#3 with a volume of: 6.829394 and a tuning of: -0.34199999999999997
+250.1157 = B3 with a volume of: 13.7859535 and a tuning of: 0.22099999999999997
+247.76772 = B3 with a volume of: 8.340719 and a tuning of: 0.05700000000000005
+248.49336 = B3 with a volume of: 7.3984756 and a tuning of: 0.10799999999999998
+247.39423 = B3 with a volume of: 6.455881 and a tuning of: 0.031000000000000028
+248.57016 = B3 with a volume of: 5.7257905 and a tuning of: 0.11299999999999999
+271.75592 = C#4 with a volume of: 38.85215 and a tuning of: -0.34299999999999997
+272.3754 = C#4 with a volume of: 12.079939 and a tuning of: -0.303
+269.9831 = C#4 with a volume of: 9.950781 and a tuning of: -0.456
+292.61456 = D4 with a volume of: 51.108356 and a tuning of: -0.063
+292.07425 = D4 with a volume of: 45.565525 and a tuning of: -0.09499999999999997
+291.06317 = D4 with a volume of: 45.52768 and a tuning of: -0.15499999999999997
+291.2426 = D4 with a volume of: 36.106064 and a tuning of: -0.14400000000000002
+291.92328 = D4 with a volume of: 30.22019 and a tuning of: -0.10299999999999998
+294.6749 = D4 with a volume of: 18.837408 and a tuning of: 0.05900000000000005
+301.52066 = D4 with a volume of: 54.5727 and a tuning of: 0.4570000000000001
+296.883 = D4 with a volume of: 41.446743 and a tuning of: 0.18800000000000006
+297.16693 = D4 with a volume of: 31.319895 and a tuning of: 0.20499999999999996
+591.9104 = D5 with a volume of: 5.368086 and a tuning of: 0.134
+591.0579 = D5 with a volume of: 4.36465 and a tuning of: 0.10899999999999999
+Magnitude Average: 30.57228422164917
+Magnitude Threshold: 20
+Frequency Count Average: 4.75
+Frequency Count Threshold: 4
+STRUCK NOTES:
+146.8323839587038 = D3 at a volume of: 55.0997683207194
+293.6647679174076 = D4 at a volume of: 38.4017094203404
+
+Timestamp: 12.60843537414966 seconds
+147.53435 = D3 with a volume of: 30.178934 and a tuning of: 0.08199999999999996
+147.2117 = D3 with a volume of: 27.440825 and a tuning of: 0.04400000000000004
+147.16898 = D3 with a volume of: 24.745968 and a tuning of: 0.039000000000000035
+147.37054 = D3 with a volume of: 22.244398 and a tuning of: 0.06300000000000006
+147.43887 = D3 with a volume of: 20.068459 and a tuning of: 0.07100000000000006
+147.71988 = D3 with a volume of: 18.36834 and a tuning of: 0.10399999999999998
+156.39131 = D#3 with a volume of: 13.64219 and a tuning of: 0.09099999999999997
+167.08072 = E3 with a volume of: 14.636525 and a tuning of: 0.236
+235.4164 = A#3 with a volume of: 86.927124 and a tuning of: 0.17200000000000004
+246.78276 = B3 with a volume of: 142.43498 and a tuning of: -0.01200000000000001
+247.20485 = B3 with a volume of: 190.59628 and a tuning of: 0.018000000000000016
+246.79233 = B3 with a volume of: 192.29587 and a tuning of: -0.01100000000000001
+247.08722 = B3 with a volume of: 177.33252 and a tuning of: 0.010000000000000009
+247.2098 = B3 with a volume of: 157.00876 and a tuning of: 0.018000000000000016
+247.41246 = B3 with a volume of: 137.37209 and a tuning of: 0.03200000000000003
+247.73694 = B3 with a volume of: 119.078835 and a tuning of: 0.05500000000000005
+243.95872 = B3 with a volume of: 92.14688 and a tuning of: -0.21100000000000002
+258.61328 = C4 with a volume of: 101.15896 and a tuning of: -0.201
+285.91458 = D4 with a volume of: 22.918633 and a tuning of: -0.46399999999999997
+296.93033 = D4 with a volume of: 11.484984 and a tuning of: 0.19100000000000006
+Magnitude Average: 80.10407748222352
+Magnitude Threshold: 20
+Frequency Count Average: 3.2
+Frequency Count Threshold: 3
+STRUCK NOTES:
+146.8323839587038 = D3 at a volume of: 23.841153780619305
+246.94165062806206 = B3 at a volume of: 159.44561876569475
+
+Timestamp: 13.072834467120181 seconds
+236.88954 = A#3 with a volume of: 22.843664 and a tuning of: 0.28
+249.2665 = B3 with a volume of: 23.993465 and a tuning of: 0.16200000000000003
+248.60173 = B3 with a volume of: 27.055809 and a tuning of: 0.11499999999999999
+247.99234 = B3 with a volume of: 22.035246 and a tuning of: 0.07300000000000006
+247.82957 = B3 with a volume of: 19.811474 and a tuning of: 0.062000000000000055
+247.85617 = B3 with a volume of: 18.710732 and a tuning of: 0.06300000000000006
+248.75497 = B3 with a volume of: 17.255981 and a tuning of: 0.126
+248.27625 = B3 with a volume of: 14.511974 and a tuning of: 0.09299999999999997
+270.2311 = C#4 with a volume of: 42.222088 and a tuning of: -0.44
+270.25803 = C#4 with a volume of: 34.444107 and a tuning of: -0.438
+270.71326 = C#4 with a volume of: 36.01255 and a tuning of: -0.40900000000000003
+287.76562 = D4 with a volume of: 211.48822 and a tuning of: -0.352
+291.12317 = D4 with a volume of: 182.3918 and a tuning of: -0.15099999999999997
+294.3056 = D4 with a volume of: 167.54865 and a tuning of: 0.03700000000000003
+291.12973 = D4 with a volume of: 198.54778 and a tuning of: -0.15099999999999997
+291.9825 = D4 with a volume of: 165.63503 and a tuning of: -0.09999999999999998
+295.46603 = D4 with a volume of: 122.68794 and a tuning of: 0.10499999999999998
+291.6223 = D4 with a volume of: 136.75497 and a tuning of: -0.121
+293.39218 = D4 with a volume of: 106.05394 and a tuning of: -0.017000000000000015
+300.1524 = D4 with a volume of: 57.53125 and a tuning of: 0.378
+Magnitude Average: 81.376833152771
+Magnitude Threshold: 20
+Frequency Count Average: 7.0
+Frequency Count Threshold: 7
+STRUCK NOTES:
+246.94165062806206 = B3 at a volume of: 20.482097353254044
+293.6647679174076 = D4 at a volume of: 154.23144313267298
+
+Timestamp: 13.328253968253968 seconds
+247.211 = B3 with a volume of: 13.884442 and a tuning of: 0.018000000000000016
+248.15419 = B3 with a volume of: 9.066263 and a tuning of: 0.08399999999999996
+248.05562 = B3 with a volume of: 8.451112 and a tuning of: 0.07699999999999996
+247.874 = B3 with a volume of: 7.7347865 and a tuning of: 0.06500000000000006
+248.1652 = B3 with a volume of: 6.9450397 and a tuning of: 0.08499999999999996
+249.0791 = B3 with a volume of: 6.2421436 and a tuning of: 0.14900000000000002
+248.10751 = B3 with a volume of: 5.519804 and a tuning of: 0.08099999999999996
+244.66484 = B3 with a volume of: 5.062624 and a tuning of: -0.16099999999999998
+266.63303 = C4 with a volume of: 27.171429 and a tuning of: 0.32800000000000007
+273.47095 = C#4 with a volume of: 17.97364 and a tuning of: -0.23399999999999999
+270.52063 = C#4 with a volume of: 12.759207 and a tuning of: -0.422
+271.4042 = C#4 with a volume of: 8.887607 and a tuning of: -0.365
+295.57034 = D4 with a volume of: 88.59217 and a tuning of: 0.11099999999999999
+292.90482 = D4 with a volume of: 77.671844 and a tuning of: -0.044999999999999984
+292.69876 = D4 with a volume of: 57.330612 and a tuning of: -0.057999999999999996
+291.9322 = D4 with a volume of: 57.35631 and a tuning of: -0.10299999999999998
+291.93542 = D4 with a volume of: 46.538074 and a tuning of: -0.10299999999999998
+292.73645 = D4 with a volume of: 39.76479 and a tuning of: -0.05499999999999999
+296.1994 = D4 with a volume of: 54.259254 and a tuning of: 0.14800000000000002
+296.48175 = D4 with a volume of: 41.722034 and a tuning of: 0.16500000000000004
+298.43793 = D4 with a volume of: 33.08608 and a tuning of: 0.279
+322.67264 = E4 with a volume of: 10.0799675 and a tuning of: -0.37
+331.8326 = E4 with a volume of: 28.272146 and a tuning of: 0.11499999999999999
+333.65366 = E4 with a volume of: 25.566092 and a tuning of: 0.20999999999999996
+332.25565 = E4 with a volume of: 22.1659 and a tuning of: 0.137
+330.43875 = E4 with a volume of: 20.989761 and a tuning of: 0.04200000000000004
+330.77527 = E4 with a volume of: 20.259533 and a tuning of: 0.06000000000000005
+331.66745 = E4 with a volume of: 18.304104 and a tuning of: 0.10599999999999998
+332.21002 = E4 with a volume of: 15.263122 and a tuning of: 0.135
+332.1027 = E4 with a volume of: 13.427582 and a tuning of: 0.129
+Magnitude Average: 26.678249152501426
+Magnitude Threshold: 20
+Frequency Count Average: 7.666666666666667
+Frequency Count Threshold: 7
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 57.90438652038574
+
+Timestamp: 13.815873015873017 seconds
+158.98874 = D#3 with a volume of: 38.49641 and a tuning of: 0.377
+162.00713 = E3 with a volume of: 33.036083 and a tuning of: -0.298
+164.78218 = E3 with a volume of: 25.977375 and a tuning of: -0.0040000000000000036
+165.15494 = E3 with a volume of: 22.376091 and a tuning of: 0.03500000000000003
+165.31604 = E3 with a volume of: 19.414564 and a tuning of: 0.052000000000000046
+165.08679 = E3 with a volume of: 17.098078 and a tuning of: 0.028000000000000025
+165.13911 = E3 with a volume of: 15.183824 and a tuning of: 0.03400000000000003
+165.12344 = E3 with a volume of: 13.890436 and a tuning of: 0.03200000000000003
+166.26622 = E3 with a volume of: 14.639111 and a tuning of: 0.15100000000000002
+228.39555 = A#3 with a volume of: 41.866127 and a tuning of: -0.352
+247.83897 = B3 with a volume of: 112.52111 and a tuning of: 0.062000000000000055
+246.92134 = B3 with a volume of: 137.18468 and a tuning of: -0.0020000000000000018
+246.88364 = B3 with a volume of: 134.80591 and a tuning of: -0.0050000000000000044
+247.00487 = B3 with a volume of: 122.014565 and a tuning of: 0.0040000000000000036
+247.26617 = B3 with a volume of: 106.155624 and a tuning of: 0.02200000000000002
+247.56471 = B3 with a volume of: 90.17238 and a tuning of: 0.04300000000000004
+247.81154 = B3 with a volume of: 75.55222 and a tuning of: 0.06000000000000005
+245.87576 = B3 with a volume of: 60.144527 and a tuning of: -0.07500000000000001
+255.756 = C4 with a volume of: 90.96025 and a tuning of: -0.393
+Magnitude Average: 61.65733493001837
+Magnitude Threshold: 20
+Frequency Count Average: 7.5
+Frequency Count Threshold: 7
+STRUCK NOTES:
+246.94165062806206 = B3 at a volume of: 104.81887674331665
+
+Timestamp: 14.280272108843537 seconds
+158.74052 = D#3 with a volume of: 19.05495 and a tuning of: 0.35
+159.97804 = D#3 with a volume of: 11.465457 and a tuning of: 0.484
+234.8989 = A#3 with a volume of: 38.165234 and a tuning of: 0.134
+236.28227 = A#3 with a volume of: 26.108635 and a tuning of: 0.236
+248.19179 = B3 with a volume of: 19.799337 and a tuning of: 0.08699999999999997
+247.67914 = B3 with a volume of: 15.054781 and a tuning of: 0.051000000000000045
+247.46909 = B3 with a volume of: 14.601995 and a tuning of: 0.03600000000000003
+247.75958 = B3 with a volume of: 13.014299 and a tuning of: 0.05700000000000005
+248.00742 = B3 with a volume of: 11.457511 and a tuning of: 0.07400000000000007
+269.1217 = C4 with a volume of: 57.643814 and a tuning of: 0.489
+272.0445 = C#4 with a volume of: 29.110638 and a tuning of: -0.324
+276.76678 = C#4 with a volume of: 92.686874 and a tuning of: -0.025999999999999968
+291.90494 = D4 with a volume of: 165.2952 and a tuning of: -0.10499999999999998
+290.65155 = D4 with a volume of: 181.03288 and a tuning of: -0.179
+294.9173 = D4 with a volume of: 120.72746 and a tuning of: 0.07300000000000006
+292.83517 = D4 with a volume of: 119.90379 and a tuning of: -0.04899999999999999
+291.3828 = D4 with a volume of: 119.06715 and a tuning of: -0.136
+288.82874 = D4 with a volume of: 95.093155 and a tuning of: -0.28800000000000003
+296.92322 = D4 with a volume of: 114.270035 and a tuning of: 0.19100000000000006
+296.67767 = D4 with a volume of: 82.402176 and a tuning of: 0.17600000000000005
+308.9255 = D#4 with a volume of: 88.794464 and a tuning of: -0.123
+1180.2343 = D6 with a volume of: 13.397249 and a tuning of: 0.08099999999999996
+1182.1571 = D6 with a volume of: 11.538865 and a tuning of: 0.10999999999999999
+Magnitude Average: 63.46460661680802
+Magnitude Threshold: 20
+Frequency Count Average: 2.8333333333333335
+Frequency Count Threshold: 2
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 128.95695604596818
+
+Timestamp: 14.744671201814059 seconds
+279.67105 = C#4 with a volume of: 11.5354185 and a tuning of: 0.15400000000000003
+291.33847 = D4 with a volume of: 26.123379 and a tuning of: -0.138
+292.49173 = D4 with a volume of: 21.913422 and a tuning of: -0.07
+291.00366 = D4 with a volume of: 20.520344 and a tuning of: -0.15799999999999997
+294.2189 = D4 with a volume of: 14.648731 and a tuning of: 0.03200000000000003
+295.46036 = D4 with a volume of: 12.486327 and a tuning of: 0.10499999999999998
+300.29413 = D4 with a volume of: 16.710522 and a tuning of: 0.386
+296.42557 = D4 with a volume of: 16.965662 and a tuning of: 0.16100000000000003
+296.19577 = D4 with a volume of: 9.945719 and a tuning of: 0.14800000000000002
+337.94678 = E4 with a volume of: 35.20078 and a tuning of: 0.43100000000000005
+332.57767 = E4 with a volume of: 11.744084 and a tuning of: 0.15400000000000003
+332.55142 = E4 with a volume of: 10.656894 and a tuning of: 0.15200000000000002
+333.25464 = E4 with a volume of: 9.561035 and a tuning of: 0.18900000000000006
+331.98868 = E4 with a volume of: 8.766636 and a tuning of: 0.123
+331.5822 = E4 with a volume of: 7.617577 and a tuning of: 0.10199999999999998
+362.71896 = F#4 with a volume of: 172.50392 and a tuning of: -0.344
+368.47275 = F#4 with a volume of: 157.26537 and a tuning of: -0.07200000000000001
+371.34183 = F#4 with a volume of: 123.872185 and a tuning of: 0.062000000000000055
+370.96774 = F#4 with a volume of: 109.8172 and a tuning of: 0.04500000000000004
+371.2401 = F#4 with a volume of: 71.648575 and a tuning of: 0.05800000000000005
+367.30963 = F#4 with a volume of: 62.88692 and a tuning of: -0.127
+372.0271 = F#4 with a volume of: 138.98703 and a tuning of: 0.09399999999999997
+371.57755 = F#4 with a volume of: 92.445915 and a tuning of: 0.07300000000000006
+371.81058 = F#4 with a volume of: 79.73302 and a tuning of: 0.08399999999999996
+388.54877 = G4 with a volume of: 63.853245 and a tuning of: -0.15299999999999997
+Magnitude Average: 52.29639612197876
+Magnitude Threshold: 20
+Frequency Count Average: 4.4
+Frequency Count Threshold: 4
+STRUCK NOTES:
+369.9944227116344 = F#4 at a volume of: 104.58202600479126
+
+Timestamp: 15.000090702947846 seconds
+186.53351 = F#3 with a volume of: 17.748455 and a tuning of: 0.14300000000000002
+185.22151 = F#3 with a volume of: 29.12671 and a tuning of: 0.020000000000000018
+185.08572 = F#3 with a volume of: 37.397343 and a tuning of: 0.008000000000000007
+185.14417 = F#3 with a volume of: 41.70609 and a tuning of: 0.013000000000000012
+185.03004 = F#3 with a volume of: 42.909256 and a tuning of: 0.0030000000000000027
+185.1103 = F#3 with a volume of: 42.455917 and a tuning of: 0.010000000000000009
+185.23326 = F#3 with a volume of: 40.119827 and a tuning of: 0.02200000000000002
+191.57997 = G3 with a volume of: 28.378052 and a tuning of: -0.395
+370.39362 = F#4 with a volume of: 33.633217 and a tuning of: 0.018000000000000016
+371.10382 = F#4 with a volume of: 30.94976 and a tuning of: 0.051000000000000045
+377.3803 = F#4 with a volume of: 42.344517 and a tuning of: 0.34199999999999997
+371.78107 = F#4 with a volume of: 28.037899 and a tuning of: 0.08299999999999996
+371.50702 = F#4 with a volume of: 25.103111 and a tuning of: 0.07000000000000006
+371.56226 = F#4 with a volume of: 22.481073 and a tuning of: 0.07300000000000006
+371.5618 = F#4 with a volume of: 20.117672 and a tuning of: 0.07300000000000006
+372.53955 = F#4 with a volume of: 19.833559 and a tuning of: 0.118
+407.3712 = G#4 with a volume of: 174.2319 and a tuning of: -0.33399999999999996
+414.948 = G#4 with a volume of: 169.91249 and a tuning of: -0.015000000000000013
+418.3644 = G#4 with a volume of: 187.4312 and a tuning of: 0.127
+419.14575 = G#4 with a volume of: 162.11627 and a tuning of: 0.15900000000000003
+419.46887 = G#4 with a volume of: 137.67212 and a tuning of: 0.17200000000000004
+419.27234 = G#4 with a volume of: 122.33019 and a tuning of: 0.16400000000000003
+419.07382 = G#4 with a volume of: 110.541664 and a tuning of: 0.15600000000000003
+419.13257 = G#4 with a volume of: 98.39851 and a tuning of: 0.15800000000000003
+418.84778 = G#4 with a volume of: 88.10954 and a tuning of: 0.14700000000000002
+431.1553 = A4 with a volume of: 81.19386 and a tuning of: -0.352
+Magnitude Average: 70.54923915863037
+Magnitude Threshold: 20
+Frequency Count Average: 7.333333333333333
+Frequency Count Threshold: 7
+STRUCK NOTES:
+184.9972113558172 = F#3 at a volume of: 35.923371178763254
+369.9944227116344 = F#4 at a volume of: 25.73661313738142
+415.3046975799451 = G#4 at a volume of: 134.5639991760254
+
+Timestamp: 15.464489795918368 seconds
+186.00148 = F#3 with a volume of: 9.854543 and a tuning of: 0.09299999999999997
+185.7458 = F#3 with a volume of: 8.935247 and a tuning of: 0.06900000000000006
+186.16798 = F#3 with a volume of: 8.363777 and a tuning of: 0.10899999999999999
+186.06839 = F#3 with a volume of: 7.980755 and a tuning of: 0.09899999999999998
+185.53278 = F#3 with a volume of: 7.729537 and a tuning of: 0.050000000000000044
+195.68454 = G3 with a volume of: 14.23924 and a tuning of: -0.02799999999999997
+190.90358 = G3 with a volume of: 11.182493 and a tuning of: -0.456
+188.62784 = F#3 with a volume of: 10.231595 and a tuning of: 0.33599999999999997
+273.77222 = C#4 with a volume of: 16.979855 and a tuning of: -0.21499999999999997
+276.0763 = C#4 with a volume of: 29.85075 and a tuning of: -0.07
+286.1322 = D4 with a volume of: 86.95932 and a tuning of: -0.45
+292.44516 = D4 with a volume of: 73.10137 and a tuning of: -0.07300000000000001
+292.50253 = D4 with a volume of: 83.52433 and a tuning of: -0.069
+290.30765 = D4 with a volume of: 98.96515 and a tuning of: -0.2
+293.91864 = D4 with a volume of: 65.49296 and a tuning of: 0.014000000000000012
+293.87274 = D4 with a volume of: 56.8971 and a tuning of: 0.01200000000000001
+291.07556 = D4 with a volume of: 60.779354 and a tuning of: -0.15399999999999997
+297.2084 = D4 with a volume of: 41.12882 and a tuning of: 0.20699999999999996
+300.78122 = D4 with a volume of: 29.940132 and a tuning of: 0.41400000000000003
+407.91254 = G#4 with a volume of: 13.372295 and a tuning of: -0.311
+418.1836 = G#4 with a volume of: 14.513035 and a tuning of: 0.119
+419.129 = G#4 with a volume of: 16.0933 and a tuning of: 0.15800000000000003
+419.36856 = G#4 with a volume of: 14.027519 and a tuning of: 0.16800000000000004
+419.2191 = G#4 with a volume of: 12.229063 and a tuning of: 0.16200000000000003
+418.97946 = G#4 with a volume of: 10.892393 and a tuning of: 0.15200000000000002
+419.1255 = G#4 with a volume of: 9.710188 and a tuning of: 0.15800000000000003
+419.34668 = G#4 with a volume of: 8.281104 and a tuning of: 0.16700000000000004
+419.31546 = G#4 with a volume of: 4.920257 and a tuning of: 0.16600000000000004
+434.3033 = A4 with a volume of: 9.499426 and a tuning of: -0.22599999999999998
+Magnitude Average: 28.816376011947106
+Magnitude Threshold: 20
+Frequency Count Average: 4.0
+Frequency Count Threshold: 4
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 67.95902252197266
+
+Timestamp: 15.928888888888888 seconds
+267.89764 = C4 with a volume of: 6.158892 and a tuning of: 0.41000000000000003
+336.5713 = E4 with a volume of: 24.490973 and a tuning of: 0.36
+341.89337 = F4 with a volume of: 48.82383 and a tuning of: -0.368
+370.80728 = F#4 with a volume of: 208.68681 and a tuning of: 0.03700000000000003
+370.9137 = F#4 with a volume of: 145.18224 and a tuning of: 0.04200000000000004
+371.22888 = F#4 with a volume of: 124.18371 and a tuning of: 0.05700000000000005
+371.1947 = F#4 with a volume of: 92.642555 and a tuning of: 0.05600000000000005
+372.16867 = F#4 with a volume of: 218.6644 and a tuning of: 0.10099999999999998
+371.73264 = F#4 with a volume of: 182.08012 and a tuning of: 0.08099999999999996
+371.6933 = F#4 with a volume of: 160.64832 and a tuning of: 0.07899999999999996
+371.67984 = F#4 with a volume of: 104.81658 and a tuning of: 0.07799999999999996
+373.03192 = F#4 with a volume of: 61.28695 and a tuning of: 0.14100000000000001
+Magnitude Average: 114.80544793605804
+Magnitude Threshold: 20
+Frequency Count Average: 9.0
+Frequency Count Threshold: 9
+STRUCK NOTES:
+369.9944227116344 = F#4 at a volume of: 144.24352010091147
+
+Timestamp: 16.184308390022675 seconds
+278.07498 = C#4 with a volume of: 5.399266 and a tuning of: 0.05500000000000005
+363.5163 = F#4 with a volume of: 43.25549 and a tuning of: -0.306
+370.19968 = F#4 with a volume of: 46.658005 and a tuning of: 0.009000000000000008
+371.23065 = F#4 with a volume of: 46.33282 and a tuning of: 0.05700000000000005
+371.07324 = F#4 with a volume of: 41.216682 and a tuning of: 0.050000000000000044
+371.28903 = F#4 with a volume of: 36.417274 and a tuning of: 0.06000000000000005
+371.43063 = F#4 with a volume of: 32.372574 and a tuning of: 0.06700000000000006
+371.55545 = F#4 with a volume of: 29.141178 and a tuning of: 0.07200000000000006
+371.97693 = F#4 with a volume of: 26.057646 and a tuning of: 0.09199999999999997
+390.23788 = G4 with a volume of: 33.294693 and a tuning of: -0.07800000000000001
+414.17184 = G#4 with a volume of: 41.928333 and a tuning of: -0.04799999999999999
+420.08362 = G#4 with a volume of: 163.81471 and a tuning of: 0.19800000000000006
+418.89474 = G#4 with a volume of: 156.31923 and a tuning of: 0.14900000000000002
+419.1501 = G#4 with a volume of: 134.94072 and a tuning of: 0.15900000000000003
+419.5175 = G#4 with a volume of: 113.53421 and a tuning of: 0.17400000000000004
+419.3278 = G#4 with a volume of: 101.31864 and a tuning of: 0.16600000000000004
+419.10733 = G#4 with a volume of: 91.5887 and a tuning of: 0.15700000000000003
+419.09338 = G#4 with a volume of: 81.37223 and a tuning of: 0.15700000000000003
+419.15344 = G#4 with a volume of: 70.698784 and a tuning of: 0.15900000000000003
+Magnitude Average: 68.19269413697093
+Magnitude Threshold: 20
+Frequency Count Average: 4.5
+Frequency Count Threshold: 4
+STRUCK NOTES:
+369.9944227116344 = F#4 at a volume of: 36.88516862051828
+415.3046975799451 = G#4 at a volume of: 106.1683955722385
+
+Timestamp: 16.648707482993196 seconds
+169.64177 = E3 with a volume of: 15.324794 and a tuning of: 0.499
+185.95757 = F#3 with a volume of: 18.110939 and a tuning of: 0.08899999999999997
+185.6534 = F#3 with a volume of: 19.638758 and a tuning of: 0.061000000000000054
+196.51448 = G3 with a volume of: 15.011853 and a tuning of: 0.04500000000000004
+274.1719 = C#4 with a volume of: 81.60598 and a tuning of: -0.19
+278.16858 = C#4 with a volume of: 101.77857 and a tuning of: 0.061000000000000054
+278.25867 = C#4 with a volume of: 121.10602 and a tuning of: 0.06700000000000006
+278.30762 = C#4 with a volume of: 152.76459 and a tuning of: 0.07000000000000006
+278.39334 = C#4 with a volume of: 166.44675 and a tuning of: 0.07500000000000007
+278.438 = C#4 with a volume of: 160.95563 and a tuning of: 0.07799999999999996
+278.66428 = C#4 with a volume of: 145.81532 and a tuning of: 0.09199999999999997
+278.92697 = C#4 with a volume of: 128.40225 and a tuning of: 0.10799999999999998
+279.0884 = C#4 with a volume of: 110.84575 and a tuning of: 0.118
+445.2589 = A4 with a volume of: 33.18495 and a tuning of: 0.20499999999999996
+442.33047 = A4 with a volume of: 35.016876 and a tuning of: 0.09099999999999997
+442.81903 = A4 with a volume of: 29.646376 and a tuning of: 0.10999999999999999
+442.92902 = A4 with a volume of: 25.91595 and a tuning of: 0.11399999999999999
+442.246 = A4 with a volume of: 22.170204 and a tuning of: 0.08799999999999997
+443.34955 = A4 with a volume of: 19.573994 and a tuning of: 0.131
+441.87463 = A4 with a volume of: 16.07654 and a tuning of: 0.07300000000000006
+453.4268 = A#4 with a volume of: 35.587563 and a tuning of: -0.48
+448.9817 = A4 with a volume of: 10.162879 and a tuning of: 0.349
+Magnitude Average: 66.5973878773776
+Magnitude Threshold: 20
+Frequency Count Average: 4.5
+Frequency Count Threshold: 4
+STRUCK NOTES:
+277.1826309768721 = C#4 at a volume of: 129.96898396809897
+440.0 = A4 at a volume of: 24.73332341512044
+
+Timestamp: 17.136326530612244 seconds
+159.58626 = D#3 with a volume of: 2.854194 and a tuning of: 0.44100000000000006
+271.88293 = C#4 with a volume of: 10.659054 and a tuning of: -0.33499999999999996
+272.38712 = C#4 with a volume of: 18.143887 and a tuning of: -0.303
+286.619 = D4 with a volume of: 61.922565 and a tuning of: -0.421
+293.71347 = D4 with a volume of: 51.898136 and a tuning of: 0.0020000000000000018
+294.206 = D4 with a volume of: 53.36549 and a tuning of: 0.031000000000000028
+291.37424 = D4 with a volume of: 61.115555 and a tuning of: -0.136
+295.04462 = D4 with a volume of: 44.22953 and a tuning of: 0.08099999999999996
+293.57782 = D4 with a volume of: 43.66249 and a tuning of: -0.006000000000000005
+291.7013 = D4 with a volume of: 45.120914 and a tuning of: -0.11699999999999999
+297.05743 = D4 with a volume of: 32.429295 and a tuning of: 0.19800000000000006
+300.87943 = D4 with a volume of: 26.58351 and a tuning of: 0.42000000000000004
+319.89777 = D#4 with a volume of: 34.899956 and a tuning of: 0.481
+332.7932 = E4 with a volume of: 30.986443 and a tuning of: 0.16500000000000004
+332.48676 = E4 with a volume of: 34.744507 and a tuning of: 0.14900000000000002
+331.11752 = E4 with a volume of: 33.89834 and a tuning of: 0.07799999999999996
+331.58173 = E4 with a volume of: 33.260994 and a tuning of: 0.10199999999999998
+331.82126 = E4 with a volume of: 30.692932 and a tuning of: 0.11399999999999999
+331.3956 = E4 with a volume of: 26.068731 and a tuning of: 0.09199999999999997
+331.54376 = E4 with a volume of: 22.37173 and a tuning of: 0.09999999999999998
+331.22943 = E4 with a volume of: 12.700665 and a tuning of: 0.08299999999999996
+344.41714 = F4 with a volume of: 14.849115 and a tuning of: -0.241
+Magnitude Average: 33.02081967483867
+Magnitude Threshold: 20
+Frequency Count Average: 7.5
+Frequency Count Threshold: 7
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 47.40305873325893
+329.6275569128699 = E4 at a volume of: 28.090542674064636
+
+Timestamp: 17.623945578231293 seconds
+291.43634 = D4 with a volume of: 8.015095 and a tuning of: -0.132
+291.21136 = D4 with a volume of: 5.921363 and a tuning of: -0.14600000000000002
+357.76242 = F4 with a volume of: 37.587685 and a tuning of: 0.41700000000000004
+370.86002 = F#4 with a volume of: 46.19064 and a tuning of: 0.040000000000000036
+371.14487 = F#4 with a volume of: 45.80982 and a tuning of: 0.05300000000000005
+371.41647 = F#4 with a volume of: 40.06858 and a tuning of: 0.06600000000000006
+371.36542 = F#4 with a volume of: 28.168898 and a tuning of: 0.06400000000000006
+371.118 = F#4 with a volume of: 25.690527 and a tuning of: 0.052000000000000046
+369.69272 = F#4 with a volume of: 24.909708 and a tuning of: -0.015000000000000013
+371.47208 = F#4 with a volume of: 35.9653 and a tuning of: 0.06900000000000006
+371.48593 = F#4 with a volume of: 31.903322 and a tuning of: 0.06900000000000006
+388.71478 = G4 with a volume of: 38.783516 and a tuning of: -0.14600000000000002
+440.57263 = A4 with a volume of: 136.14952 and a tuning of: 0.02200000000000002
+442.40613 = A4 with a volume of: 124.68786 and a tuning of: 0.09399999999999997
+442.50058 = A4 with a volume of: 110.35361 and a tuning of: 0.09799999999999998
+442.59177 = A4 with a volume of: 97.048996 and a tuning of: 0.10099999999999998
+443.1593 = A4 with a volume of: 80.42595 and a tuning of: 0.123
+442.7655 = A4 with a volume of: 70.269005 and a tuning of: 0.10799999999999998
+442.6156 = A4 with a volume of: 62.13483 and a tuning of: 0.10199999999999998
+442.87717 = A4 with a volume of: 53.39817 and a tuning of: 0.11199999999999999
+440.93607 = A4 with a volume of: 45.9312 and a tuning of: 0.03600000000000003
+Magnitude Average: 54.73398040589832
+Magnitude Threshold: 20
+Frequency Count Average: 5.0
+Frequency Count Threshold: 5
+STRUCK NOTES:
+369.9944227116344 = F#4 at a volume of: 34.83834934234619
+440.0 = A4 at a volume of: 86.71101506551106
+
+Timestamp: 17.87936507936508 seconds
+164.53012 = E3 with a volume of: 43.486317 and a tuning of: -0.02999999999999997
+163.0776 = E3 with a volume of: 53.595074 and a tuning of: -0.184
+163.49341 = E3 with a volume of: 61.50091 and a tuning of: -0.14
+163.44363 = E3 with a volume of: 67.2136 and a tuning of: -0.14500000000000002
+163.62743 = E3 with a volume of: 68.87063 and a tuning of: -0.126
+163.75656 = E3 with a volume of: 66.681854 and a tuning of: -0.11199999999999999
+163.8418 = E3 with a volume of: 61.905903 and a tuning of: -0.10299999999999998
+168.42471 = E3 with a volume of: 40.30375 and a tuning of: 0.375
+168.85286 = E3 with a volume of: 52.31454 and a tuning of: 0.41900000000000004
+290.7387 = D4 with a volume of: 17.262842 and a tuning of: -0.174
+353.88132 = F4 with a volume of: 26.34015 and a tuning of: 0.22899999999999998
+361.79102 = F#4 with a volume of: 16.903582 and a tuning of: -0.389
+375.91415 = F#4 with a volume of: 12.100515 and a tuning of: 0.274
+413.62292 = G#4 with a volume of: 32.149822 and a tuning of: -0.07100000000000001
+426.49652 = G#4 with a volume of: 91.84003 and a tuning of: 0.45999999999999996
+444.63544 = A4 with a volume of: 143.70555 and a tuning of: 0.18100000000000005
+442.57693 = A4 with a volume of: 161.40181 and a tuning of: 0.10099999999999998
+442.46164 = A4 with a volume of: 143.15442 and a tuning of: 0.09599999999999997
+443.00507 = A4 with a volume of: 119.28009 and a tuning of: 0.11699999999999999
+442.78647 = A4 with a volume of: 102.93601 and a tuning of: 0.10899999999999999
+442.68414 = A4 with a volume of: 90.20875 and a tuning of: 0.10499999999999998
+442.87747 = A4 with a volume of: 76.97262 and a tuning of: 0.11199999999999999
+453.82764 = A#4 with a volume of: 140.59776 and a tuning of: -0.46499999999999997
+449.44193 = A4 with a volume of: 52.641922 and a tuning of: 0.367
+Magnitude Average: 72.64035209019978
+Magnitude Threshold: 20
+Frequency Count Average: 4.0
+Frequency Count Threshold: 4
+STRUCK NOTES:
+164.81377845643496 = E3 at a volume of: 60.46489824567522
+440.0 = A4 at a volume of: 119.66560690743583
+
+Timestamp: 18.3437641723356 seconds
+146.94138 = D3 with a volume of: 14.985743 and a tuning of: 0.01200000000000001
+204.33049 = G#3 with a volume of: 18.0884 and a tuning of: -0.28
+218.20827 = A3 with a volume of: 11.049328 and a tuning of: -0.14200000000000002
+222.60556 = A3 with a volume of: 10.492799 and a tuning of: 0.20300000000000007
+278.47592 = C#4 with a volume of: 81.9261 and a tuning of: 0.07999999999999996
+294.11792 = D4 with a volume of: 153.96614 and a tuning of: 0.026000000000000023
+292.57086 = D4 with a volume of: 181.53403 and a tuning of: -0.065
+293.04153 = D4 with a volume of: 165.70949 and a tuning of: -0.03699999999999998
+293.46933 = D4 with a volume of: 143.56792 and a tuning of: -0.01200000000000001
+293.8766 = D4 with a volume of: 124.41902 and a tuning of: 0.01200000000000001
+294.04166 = D4 with a volume of: 109.743744 and a tuning of: 0.02200000000000002
+293.98703 = D4 with a volume of: 100.06744 and a tuning of: 0.018000000000000016
+302.84732 = D#4 with a volume of: 144.05968 and a tuning of: -0.46699999999999997
+296.47397 = D4 with a volume of: 98.71688 and a tuning of: 0.16400000000000003
+442.31375 = A4 with a volume of: 14.8042755 and a tuning of: 0.08999999999999997
+1182.4281 = D6 with a volume of: 14.6369705 and a tuning of: 0.11399999999999999
+Magnitude Average: 86.73549681901932
+Magnitude Threshold: 20
+Frequency Count Average: 2.1666666666666665
+Frequency Count Threshold: 2
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 134.7155818939209
+
+Timestamp: 18.784943310657596 seconds
+294.76205 = D4 with a volume of: 36.59713 and a tuning of: 0.06400000000000006
+293.86346 = D4 with a volume of: 26.12518 and a tuning of: 0.01100000000000001
+293.9863 = D4 with a volume of: 24.232517 and a tuning of: 0.018000000000000016
+294.36465 = D4 with a volume of: 21.746231 and a tuning of: 0.041000000000000036
+294.2643 = D4 with a volume of: 19.373419 and a tuning of: 0.03500000000000003
+294.21918 = D4 with a volume of: 17.458128 and a tuning of: 0.03200000000000003
+294.39304 = D4 with a volume of: 15.499314 and a tuning of: 0.04200000000000004
+297.89774 = D4 with a volume of: 48.906136 and a tuning of: 0.247
+296.37256 = D4 with a volume of: 11.71761 and a tuning of: 0.15800000000000003
+334.16824 = E4 with a volume of: 10.59843 and a tuning of: 0.236
+351.9123 = F4 with a volume of: 118.654305 and a tuning of: 0.132
+370.90997 = F#4 with a volume of: 145.81926 and a tuning of: 0.04200000000000004
+371.34796 = F#4 with a volume of: 123.63529 and a tuning of: 0.06300000000000006
+379.03238 = F#4 with a volume of: 198.84941 and a tuning of: 0.41700000000000004
+373.07394 = F#4 with a volume of: 200.32118 and a tuning of: 0.14300000000000002
+371.88138 = F#4 with a volume of: 186.50328 and a tuning of: 0.08799999999999997
+371.6335 = F#4 with a volume of: 163.80215 and a tuning of: 0.07600000000000007
+371.81824 = F#4 with a volume of: 105.33847 and a tuning of: 0.08499999999999996
+371.5861 = F#4 with a volume of: 93.26457 and a tuning of: 0.07400000000000007
+375.0933 = F#4 with a volume of: 89.62799 and a tuning of: 0.236
+Magnitude Average: 82.90350060462951
+Magnitude Threshold: 20
+Frequency Count Average: 5.333333333333333
+Frequency Count Threshold: 5
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 21.593691110610962
+369.9944227116344 = F#4 at a volume of: 145.5263159615653
+
+Timestamp: 19.272562358276645 seconds
+160.93896 = E3 with a volume of: 28.739439 and a tuning of: -0.41200000000000003
+162.62027 = E3 with a volume of: 33.801754 and a tuning of: -0.23199999999999998
+163.01595 = E3 with a volume of: 42.66106 and a tuning of: -0.19
+163.52657 = E3 with a volume of: 48.352684 and a tuning of: -0.136
+163.3784 = E3 with a volume of: 52.08634 and a tuning of: -0.15199999999999997
+163.65817 = E3 with a volume of: 53.61383 and a tuning of: -0.122
+163.70872 = E3 with a volume of: 51.699535 and a tuning of: -0.11699999999999999
+163.71033 = E3 with a volume of: 46.369816 and a tuning of: -0.11699999999999999
+163.24121 = E3 with a volume of: 27.547974 and a tuning of: -0.16599999999999998
+357.9344 = F4 with a volume of: 11.327562 and a tuning of: 0.42600000000000005
+369.83832 = F#4 with a volume of: 13.943279 and a tuning of: -0.008000000000000007
+371.30396 = F#4 with a volume of: 14.340984 and a tuning of: 0.061000000000000054
+371.41556 = F#4 with a volume of: 9.17193 and a tuning of: 0.06600000000000006
+369.7691 = F#4 with a volume of: 7.180628 and a tuning of: -0.01100000000000001
+371.5442 = F#4 with a volume of: 12.910547 and a tuning of: 0.07200000000000006
+371.61984 = F#4 with a volume of: 11.640266 and a tuning of: 0.07500000000000007
+371.70483 = F#4 with a volume of: 10.267193 and a tuning of: 0.07899999999999996
+371.63095 = F#4 with a volume of: 8.218684 and a tuning of: 0.07600000000000007
+386.86118 = G4 with a volume of: 9.366113 and a tuning of: -0.22899999999999998
+435.01804 = A4 with a volume of: 18.225328 and a tuning of: -0.198
+442.49457 = A4 with a volume of: 16.003742 and a tuning of: 0.09699999999999998
+443.48395 = A4 with a volume of: 13.462619 and a tuning of: 0.136
+441.8884 = A4 with a volume of: 12.193031 and a tuning of: 0.07400000000000007
+443.28323 = A4 with a volume of: 9.978057 and a tuning of: 0.128
+442.67422 = A4 with a volume of: 8.661987 and a tuning of: 0.10399999999999998
+442.6783 = A4 with a volume of: 7.7765994 and a tuning of: 0.10499999999999998
+443.37845 = A4 with a volume of: 6.2256074 and a tuning of: 0.132
+443.73422 = A4 with a volume of: 3.7881703 and a tuning of: 0.14600000000000002
+463.53525 = A#4 with a volume of: 8.434056 and a tuning of: -0.09799999999999998
+498.18817 = B4 with a volume of: 78.28572 and a tuning of: 0.15000000000000002
+498.1366 = B4 with a volume of: 77.88049 and a tuning of: 0.14800000000000002
+497.51245 = B4 with a volume of: 71.159744 and a tuning of: 0.126
+497.9357 = B4 with a volume of: 60.143673 and a tuning of: 0.14100000000000001
+497.74976 = B4 with a volume of: 50.668446 and a tuning of: 0.135
+497.85034 = B4 with a volume of: 43.215076 and a tuning of: 0.138
+497.8257 = B4 with a volume of: 37.917988 and a tuning of: 0.137
+497.83038 = B4 with a volume of: 33.158146 and a tuning of: 0.137
+494.69846 = B4 with a volume of: 24.619524 and a tuning of: 0.028000000000000025
+Magnitude Average: 28.29046398714969
+Magnitude Threshold: 20
+Frequency Count Average: 6.8
+Frequency Count Threshold: 6
+STRUCK NOTES:
+164.81377845643496 = E3 at a volume of: 46.047320229666575
+493.8833012561241 = B4 at a volume of: 53.00542343987359
+
+Timestamp: 19.736961451247165 seconds
+159.29887 = D#3 with a volume of: 9.392863 and a tuning of: 0.41000000000000003
+246.61601 = B3 with a volume of: 52.62578 and a tuning of: -0.022999999999999965
+248.40526 = B3 with a volume of: 54.92256 and a tuning of: 0.10199999999999998
+247.98486 = B3 with a volume of: 54.35284 and a tuning of: 0.07200000000000006
+247.72125 = B3 with a volume of: 49.100216 and a tuning of: 0.05400000000000005
+247.62874 = B3 with a volume of: 44.89654 and a tuning of: 0.04800000000000004
+247.8478 = B3 with a volume of: 41.26971 and a tuning of: 0.06300000000000006
+247.71582 = B3 with a volume of: 37.312298 and a tuning of: 0.05400000000000005
+247.59639 = B3 with a volume of: 33.966324 and a tuning of: 0.04500000000000004
+246.7034 = B3 with a volume of: 40.043488 and a tuning of: -0.017000000000000015
+270.78098 = C#4 with a volume of: 29.718863 and a tuning of: -0.405
+293.8361 = D4 with a volume of: 154.85565 and a tuning of: 0.010000000000000009
+292.50745 = D4 with a volume of: 169.78395 and a tuning of: -0.069
+292.5159 = D4 with a volume of: 183.9525 and a tuning of: -0.068
+292.8851 = D4 with a volume of: 176.5132 and a tuning of: -0.046999999999999986
+293.3449 = D4 with a volume of: 157.24968 and a tuning of: -0.019000000000000017
+293.71567 = D4 with a volume of: 134.69394 and a tuning of: 0.0020000000000000018
+294.08694 = D4 with a volume of: 117.57589 and a tuning of: 0.02400000000000002
+294.2919 = D4 with a volume of: 104.19069 and a tuning of: 0.03600000000000003
+299.97467 = D4 with a volume of: 75.372604 and a tuning of: 0.368
+Magnitude Average: 86.08947930335998
+Magnitude Threshold: 20
+Frequency Count Average: 8.5
+Frequency Count Threshold: 8
+STRUCK NOTES:
+246.94165062806206 = B3 at a volume of: 45.38775083753798
+293.6647679174076 = D4 at a volume of: 149.85193729400635
+
+Timestamp: 20.201360544217685 seconds
+279.0924 = C#4 with a volume of: 37.098812 and a tuning of: 0.118
+286.67175 = D4 with a volume of: 25.865873 and a tuning of: -0.418
+293.87967 = D4 with a volume of: 18.38668 and a tuning of: 0.01200000000000001
+293.73248 = D4 with a volume of: 17.067785 and a tuning of: 0.0030000000000000027
+293.8129 = D4 with a volume of: 15.55762 and a tuning of: 0.008000000000000007
+294.24127 = D4 with a volume of: 13.950089 and a tuning of: 0.03300000000000003
+294.2769 = D4 with a volume of: 12.583385 and a tuning of: 0.03600000000000003
+291.02618 = D4 with a volume of: 12.031783 and a tuning of: -0.15699999999999997
+332.23068 = E4 with a volume of: 10.776711 and a tuning of: 0.136
+354.38818 = F4 with a volume of: 187.14676 and a tuning of: 0.253
+370.72647 = F#4 with a volume of: 205.85403 and a tuning of: 0.03400000000000003
+370.93347 = F#4 with a volume of: 162.10867 and a tuning of: 0.04300000000000004
+371.27356 = F#4 with a volume of: 136.93764 and a tuning of: 0.05900000000000005
+371.75436 = F#4 with a volume of: 207.51935 and a tuning of: 0.08199999999999996
+371.50153 = F#4 with a volume of: 182.70564 and a tuning of: 0.07000000000000006
+371.7129 = F#4 with a volume of: 115.97285 and a tuning of: 0.07999999999999996
+371.48993 = F#4 with a volume of: 102.074196 and a tuning of: 0.06900000000000006
+372.46536 = F#4 with a volume of: 94.459724 and a tuning of: 0.11499999999999999
+383.50705 = G4 with a volume of: 153.52151 and a tuning of: -0.38
+Magnitude Average: 90.08521672299034
+Magnitude Threshold: 20
+Frequency Count Average: 4.0
+Frequency Count Threshold: 4
+STRUCK NOTES:
+369.9944227116344 = F#4 at a volume of: 150.95401287078857
+
+Timestamp: 20.688979591836734 seconds
+147.84297 = D3 with a volume of: 43.030746 and a tuning of: 0.118
+147.33412 = D3 with a volume of: 51.370613 and a tuning of: 0.05900000000000005
+147.19728 = D3 with a volume of: 64.65723 and a tuning of: 0.04200000000000004
+147.0143 = D3 with a volume of: 71.823814 and a tuning of: 0.02100000000000002
+147.24844 = D3 with a volume of: 76.73715 and a tuning of: 0.04800000000000004
+147.20271 = D3 with a volume of: 79.36259 and a tuning of: 0.04300000000000004
+147.07288 = D3 with a volume of: 80.73116 and a tuning of: 0.028000000000000025
+147.15901 = D3 with a volume of: 82.0396 and a tuning of: 0.038000000000000034
+151.05301 = D3 with a volume of: 68.99604 and a tuning of: 0.49
+288.04532 = D4 with a volume of: 6.284174 and a tuning of: -0.33499999999999996
+365.37994 = F#4 with a volume of: 8.903065 and a tuning of: -0.21799999999999997
+371.06204 = F#4 with a volume of: 13.932289 and a tuning of: 0.049000000000000044
+371.1705 = F#4 with a volume of: 9.563169 and a tuning of: 0.05400000000000005
+374.4049 = F#4 with a volume of: 15.5081005 and a tuning of: 0.20499999999999996
+371.64798 = F#4 with a volume of: 15.965065 and a tuning of: 0.07699999999999996
+371.76804 = F#4 with a volume of: 12.309576 and a tuning of: 0.08199999999999996
+371.63992 = F#4 with a volume of: 10.869637 and a tuning of: 0.07600000000000007
+371.52228 = F#4 with a volume of: 8.596555 and a tuning of: 0.07100000000000006
+390.89954 = G4 with a volume of: 16.769798 and a tuning of: -0.04899999999999999
+440.42355 = A4 with a volume of: 30.761366 and a tuning of: 0.016000000000000014
+440.1393 = A4 with a volume of: 25.703175 and a tuning of: 0.0050000000000000044
+441.76996 = A4 with a volume of: 18.261814 and a tuning of: 0.06900000000000006
+443.74142 = A4 with a volume of: 14.618514 and a tuning of: 0.14600000000000002
+442.4267 = A4 with a volume of: 12.244522 and a tuning of: 0.09499999999999997
+443.867 = A4 with a volume of: 10.267638 and a tuning of: 0.15100000000000002
+443.53632 = A4 with a volume of: 9.126467 and a tuning of: 0.138
+442.57205 = A4 with a volume of: 8.781174 and a tuning of: 0.09999999999999998
+490.53476 = B4 with a volume of: 48.483124 and a tuning of: -0.118
+496.9182 = B4 with a volume of: 56.80282 and a tuning of: 0.10599999999999998
+497.41888 = B4 with a volume of: 58.21881 and a tuning of: 0.123
+497.94614 = B4 with a volume of: 49.907574 and a tuning of: 0.14100000000000001
+497.56573 = B4 with a volume of: 41.54414 and a tuning of: 0.128
+497.95688 = B4 with a volume of: 34.900208 and a tuning of: 0.14200000000000002
+497.7756 = B4 with a volume of: 30.66955 and a tuning of: 0.135
+497.80698 = B4 with a volume of: 26.484766 and a tuning of: 0.136
+498.14362 = B4 with a volume of: 21.280373 and a tuning of: 0.14800000000000002
+518.2794 = C5 with a volume of: 28.896114 and a tuning of: -0.16599999999999998
+604.4338 = D5 with a volume of: 6.9164853 and a tuning of: 0.496
+Magnitude Average: 33.45576312667445
+Magnitude Threshold: 20
+Frequency Count Average: 5.5
+Frequency Count Threshold: 5
+STRUCK NOTES:
+146.8323839587038 = D3 at a volume of: 68.71911239624023
+493.8833012561241 = B4 at a volume of: 40.92126252916124
+
+Timestamp: 21.153378684807254 seconds
+152.85114 = D#3 with a volume of: 36.571236 and a tuning of: -0.305
+148.58527 = D3 with a volume of: 37.38109 and a tuning of: 0.20499999999999996
+147.34302 = D3 with a volume of: 36.554543 and a tuning of: 0.06000000000000005
+147.27632 = D3 with a volume of: 33.17577 and a tuning of: 0.052000000000000046
+147.25221 = D3 with a volume of: 29.639017 and a tuning of: 0.049000000000000044
+147.33365 = D3 with a volume of: 26.829905 and a tuning of: 0.05900000000000005
+147.21634 = D3 with a volume of: 24.421246 and a tuning of: 0.04500000000000004
+147.04597 = D3 with a volume of: 21.870281 and a tuning of: 0.025000000000000022
+148.62952 = D3 with a volume of: 17.241055 and a tuning of: 0.20999999999999996
+222.65729 = A3 with a volume of: 11.179235 and a tuning of: 0.20699999999999996
+222.92256 = A3 with a volume of: 11.566295 and a tuning of: 0.22799999999999998
+226.50713 = A#3 with a volume of: 17.888784 and a tuning of: -0.496
+291.77026 = D4 with a volume of: 143.56252 and a tuning of: -0.11299999999999999
+292.0513 = D4 with a volume of: 157.85161 and a tuning of: -0.09599999999999997
+292.50418 = D4 with a volume of: 171.80469 and a tuning of: -0.069
+292.98514 = D4 with a volume of: 163.80263 and a tuning of: -0.04099999999999998
+293.33862 = D4 with a volume of: 145.24588 and a tuning of: -0.020000000000000018
+293.7544 = D4 with a volume of: 126.04558 and a tuning of: 0.0050000000000000044
+293.86642 = D4 with a volume of: 110.02078 and a tuning of: 0.01100000000000001
+294.03113 = D4 with a volume of: 96.21728 and a tuning of: 0.02100000000000002
+293.46573 = D4 with a volume of: 59.739956 and a tuning of: -0.01200000000000001
+1185.7152 = D6 with a volume of: 17.27996 and a tuning of: 0.16200000000000003
+Magnitude Average: 67.99496941132979
+Magnitude Threshold: 20
+Frequency Count Average: 5.333333333333333
+Frequency Count Threshold: 5
+STRUCK NOTES:
+146.8323839587038 = D3 at a volume of: 28.74846013387044
+293.6647679174076 = D4 at a volume of: 130.4767680697971
+
+Timestamp: 21.61777777777778 seconds
+277.1326 = C#4 with a volume of: 28.541342 and a tuning of: -0.0040000000000000036
+294.1899 = D4 with a volume of: 20.769712 and a tuning of: 0.030000000000000027
+294.2678 = D4 with a volume of: 18.941927 and a tuning of: 0.03500000000000003
+293.98697 = D4 with a volume of: 17.481342 and a tuning of: 0.018000000000000016
+293.77747 = D4 with a volume of: 16.058176 and a tuning of: 0.006000000000000005
+293.85562 = D4 with a volume of: 14.658943 and a tuning of: 0.01100000000000001
+295.56805 = D4 with a volume of: 13.389764 and a tuning of: 0.11099999999999999
+363.58533 = F#4 with a volume of: 217.18542 and a tuning of: -0.303
+368.84958 = F#4 with a volume of: 208.77687 and a tuning of: -0.05399999999999999
+371.1198 = F#4 with a volume of: 176.15219 and a tuning of: 0.052000000000000046
+370.91257 = F#4 with a volume of: 154.74748 and a tuning of: 0.04200000000000004
+371.09076 = F#4 with a volume of: 98.44479 and a tuning of: 0.051000000000000045
+367.11475 = F#4 with a volume of: 90.69452 and a tuning of: -0.136
+371.69263 = F#4 with a volume of: 195.18771 and a tuning of: 0.07899999999999996
+371.62305 = F#4 with a volume of: 131.31198 and a tuning of: 0.07600000000000007
+371.4626 = F#4 with a volume of: 111.81682 and a tuning of: 0.06800000000000006
+388.14038 = G4 with a volume of: 81.92189 and a tuning of: -0.172
+464.01758 = A#4 with a volume of: 11.685194 and a tuning of: -0.08000000000000002
+Magnitude Average: 89.32033809026082
+Magnitude Threshold: 20
+Frequency Count Average: 3.4
+Frequency Count Threshold: 3
+STRUCK NOTES:
+369.9944227116344 = F#4 at a volume of: 145.89154624938965
+
+Timestamp: 22.105396825396827 seconds
+225.74297 = A3 with a volume of: 0.8048007 and a tuning of: 0.44600000000000006
+285.40933 = D4 with a volume of: 2.3582847 and a tuning of: -0.494
+294.46606 = D4 with a volume of: 2.9999592 and a tuning of: 0.04700000000000004
+294.15268 = D4 with a volume of: 3.0108633 and a tuning of: 0.028000000000000025
+294.42126 = D4 with a volume of: 2.67502 and a tuning of: 0.04400000000000004
+294.6133 = D4 with a volume of: 2.383168 and a tuning of: 0.05500000000000005
+294.04745 = D4 with a volume of: 2.0790505 and a tuning of: 0.02200000000000002
+294.23224 = D4 with a volume of: 1.9508665 and a tuning of: 0.03300000000000003
+294.44055 = D4 with a volume of: 1.8043838 and a tuning of: 0.04500000000000004
+289.4317 = D4 with a volume of: 1.089566 and a tuning of: -0.252
+313.67297 = D#4 with a volume of: 2.568921 and a tuning of: 0.14100000000000001
+368.67548 = F#4 with a volume of: 19.43958 and a tuning of: -0.062
+370.37085 = F#4 with a volume of: 17.948114 and a tuning of: 0.017000000000000015
+371.42355 = F#4 with a volume of: 15.689115 and a tuning of: 0.06600000000000006
+371.33298 = F#4 with a volume of: 8.301969 and a tuning of: 0.062000000000000055
+368.38492 = F#4 with a volume of: 5.5170865 and a tuning of: -0.07600000000000001
+371.70078 = F#4 with a volume of: 13.773935 and a tuning of: 0.07899999999999996
+371.54016 = F#4 with a volume of: 11.817288 and a tuning of: 0.07200000000000006
+371.46185 = F#4 with a volume of: 10.178317 and a tuning of: 0.06800000000000006
+371.47644 = F#4 with a volume of: 9.153069 and a tuning of: 0.06900000000000006
+444.29135 = A4 with a volume of: 7.809077 and a tuning of: 0.16800000000000004
+442.61804 = A4 with a volume of: 7.1805544 and a tuning of: 0.10199999999999998
+443.0842 = A4 with a volume of: 5.938816 and a tuning of: 0.12
+443.16452 = A4 with a volume of: 5.0158467 and a tuning of: 0.124
+442.82443 = A4 with a volume of: 4.3275614 and a tuning of: 0.10999999999999999
+442.5188 = A4 with a volume of: 3.7427475 and a tuning of: 0.09799999999999998
+443.36414 = A4 with a volume of: 3.1617365 and a tuning of: 0.131
+447.90585 = A4 with a volume of: 7.840538 and a tuning of: 0.30800000000000005
+453.87827 = A#4 with a volume of: 3.357887 and a tuning of: -0.463
+614.71497 = D#5 with a volume of: 1.3067266 and a tuning of: -0.21199999999999997
+623.2165 = D#5 with a volume of: 2.9464188 and a tuning of: 0.026000000000000023
+634.621 = D#5 with a volume of: 1.3478278 and a tuning of: 0.33999999999999997
+649.11346 = E5 with a volume of: 6.907513 and a tuning of: -0.269
+647.7294 = E5 with a volume of: 7.179582 and a tuning of: -0.306
+659.0639 = E5 with a volume of: 7.9279213 and a tuning of: -0.006000000000000005
+659.1781 = E5 with a volume of: 6.1800213 and a tuning of: -0.0030000000000000027
+659.39166 = E5 with a volume of: 4.948923 and a tuning of: 0.0030000000000000027
+659.8131 = E5 with a volume of: 3.9573214 and a tuning of: 0.014000000000000012
+659.64526 = E5 with a volume of: 2.8818445 and a tuning of: 0.010000000000000009
+660.2494 = E5 with a volume of: 2.200834 and a tuning of: 0.026000000000000023
+656.5566 = E5 with a volume of: 2.144702 and a tuning of: -0.07200000000000001
+677.3333 = E5 with a volume of: 5.353016 and a tuning of: 0.46799999999999997
+675.6249 = E5 with a volume of: 5.057485 and a tuning of: 0.42400000000000004
+Magnitude Average: 5.680424638958865
+Magnitude Threshold: 5.680424638958865
+Frequency Count Average: 5.333333333333333
+Frequency Count Threshold: 5
+STRUCK NOTES:
+369.9944227116344 = F#4 at a volume of: 12.424274921417236
+
+Timestamp: 22.569795918367348 seconds
+151.16187 = D#3 with a volume of: 20.834667 and a tuning of: -0.497
+410.60583 = G#4 with a volume of: 165.77448 and a tuning of: -0.197
+416.37576 = G#4 with a volume of: 169.51628 and a tuning of: 0.04400000000000004
+418.5513 = G#4 with a volume of: 183.80397 and a tuning of: 0.134
+419.19357 = G#4 with a volume of: 162.7171 and a tuning of: 0.16100000000000003
+419.45624 = G#4 with a volume of: 138.78133 and a tuning of: 0.17200000000000004
+419.2219 = G#4 with a volume of: 123.30449 and a tuning of: 0.16200000000000003
+419.0827 = G#4 with a volume of: 111.350136 and a tuning of: 0.15600000000000003
+419.18304 = G#4 with a volume of: 97.8892 and a tuning of: 0.16000000000000003
+416.65402 = G#4 with a volume of: 76.64324 and a tuning of: 0.05600000000000005
+439.2384 = A4 with a volume of: 43.35741 and a tuning of: -0.02999999999999997
+Magnitude Average: 117.633845242587
+Magnitude Threshold: 20
+Frequency Count Average: 5.0
+Frequency Count Threshold: 5
+STRUCK NOTES:
+415.3046975799451 = G#4 at a volume of: 136.64224667019315
+
+Timestamp: 22.825215419501134 seconds
+152.86116 = D#3 with a volume of: 7.697109 and a tuning of: -0.304
+195.5778 = G3 with a volume of: 6.94303 and a tuning of: -0.03799999999999998
+207.99388 = G#3 with a volume of: 25.173103 and a tuning of: 0.028000000000000025
+208.57397 = G#3 with a volume of: 29.231167 and a tuning of: 0.07600000000000007
+208.40822 = G#3 with a volume of: 31.143816 and a tuning of: 0.062000000000000055
+208.52655 = G#3 with a volume of: 31.583815 and a tuning of: 0.07200000000000006
+208.63113 = G#3 with a volume of: 30.853453 and a tuning of: 0.08099999999999996
+208.97401 = G#3 with a volume of: 29.651917 and a tuning of: 0.10899999999999999
+207.33559 = G#3 with a volume of: 28.160896 and a tuning of: -0.02699999999999997
+210.94731 = G#3 with a volume of: 17.686514 and a tuning of: 0.272
+220.85565 = A3 with a volume of: 12.2062845 and a tuning of: 0.06700000000000006
+266.26968 = C4 with a volume of: 4.790988 and a tuning of: 0.30400000000000005
+349.34518 = F4 with a volume of: 3.605321 and a tuning of: 0.0050000000000000044
+409.02475 = G#4 with a volume of: 46.72301 and a tuning of: -0.264
+417.3228 = G#4 with a volume of: 44.530388 and a tuning of: 0.08299999999999996
+419.30902 = G#4 with a volume of: 46.783974 and a tuning of: 0.16600000000000004
+419.21768 = G#4 with a volume of: 41.898895 and a tuning of: 0.16200000000000003
+419.08838 = G#4 with a volume of: 37.110138 and a tuning of: 0.15700000000000003
+419.18066 = G#4 with a volume of: 33.316353 and a tuning of: 0.16000000000000003
+419.30066 = G#4 with a volume of: 29.8405 and a tuning of: 0.16500000000000004
+419.1183 = G#4 with a volume of: 26.334446 and a tuning of: 0.15800000000000003
+415.76855 = G#4 with a volume of: 22.082823 and a tuning of: 0.019000000000000017
+438.44403 = A4 with a volume of: 19.22888 and a tuning of: -0.062
+Magnitude Average: 26.372905212899912
+Magnitude Threshold: 20
+Frequency Count Average: 3.1666666666666665
+Frequency Count Threshold: 3
+STRUCK NOTES:
+207.65234878997256 = G#3 at a volume of: 29.3997380392892
+415.3046975799451 = G#4 at a volume of: 35.237189531326294
+
+Timestamp: 23.26639455782313 seconds
+198.99063 = G3 with a volume of: 9.585893 and a tuning of: 0.262
+220.50221 = A3 with a volume of: 28.653986 and a tuning of: 0.039000000000000035
+219.86055 = A3 with a volume of: 37.879585 and a tuning of: -0.01100000000000001
+219.23477 = A3 with a volume of: 44.34721 and a tuning of: -0.061
+220.34282 = A3 with a volume of: 41.508465 and a tuning of: 0.026000000000000023
+218.0249 = A3 with a volume of: 22.741405 and a tuning of: -0.15699999999999997
+226.43428 = A3 with a volume of: 18.485973 and a tuning of: 0.499
+221.51234 = A3 with a volume of: 21.64329 and a tuning of: 0.118
+222.17168 = A3 with a volume of: 35.726597 and a tuning of: 0.17000000000000004
+221.91383 = A3 with a volume of: 32.793716 and a tuning of: 0.14900000000000002
+258.82053 = C4 with a volume of: 3.4528236 and a tuning of: -0.187
+362.27194 = F#4 with a volume of: 10.6470785 and a tuning of: -0.366
+368.70667 = F#4 with a volume of: 10.844993 and a tuning of: -0.061
+371.07022 = F#4 with a volume of: 10.458309 and a tuning of: 0.050000000000000044
+371.16302 = F#4 with a volume of: 9.185619 and a tuning of: 0.05400000000000005
+371.36206 = F#4 with a volume of: 6.55178 and a tuning of: 0.06300000000000006
+371.2276 = F#4 with a volume of: 5.8714795 and a tuning of: 0.05700000000000005
+367.63992 = F#4 with a volume of: 6.3565626 and a tuning of: -0.11099999999999999
+371.51413 = F#4 with a volume of: 8.153688 and a tuning of: 0.07000000000000006
+371.6142 = F#4 with a volume of: 7.3583956 and a tuning of: 0.07500000000000007
+388.456 = G4 with a volume of: 5.0150633 and a tuning of: -0.15799999999999997
+422.11862 = G#4 with a volume of: 4.8281093 and a tuning of: 0.281
+418.78452 = G#4 with a volume of: 4.275818 and a tuning of: 0.14400000000000002
+419.0727 = G#4 with a volume of: 3.93064 and a tuning of: 0.15600000000000003
+428.2882 = A4 with a volume of: 5.6659102 and a tuning of: -0.46799999999999997
+459.8766 = A#4 with a volume of: 2.3867297 and a tuning of: -0.236
+888.1673 = A5 with a volume of: 11.912557 and a tuning of: 0.15900000000000003
+888.16064 = A5 with a volume of: 3.4008238 and a tuning of: 0.15900000000000003
+883.805 = A5 with a volume of: 2.4269648 and a tuning of: 0.07400000000000007
+891.01074 = A5 with a volume of: 22.619581 and a tuning of: 0.21499999999999997
+889.92365 = A5 with a volume of: 20.401901 and a tuning of: 0.19400000000000006
+888.43774 = A5 with a volume of: 16.072618 and a tuning of: 0.16500000000000004
+888.4806 = A5 with a volume of: 8.683049 and a tuning of: 0.16600000000000004
+888.3392 = A5 with a volume of: 6.287497 and a tuning of: 0.16300000000000003
+888.2568 = A5 with a volume of: 4.5269265 and a tuning of: 0.16100000000000003
+Magnitude Average: 14.133743980952671
+Magnitude Threshold: 14.133743980952671
+Frequency Count Average: 4.666666666666667
+Frequency Count Threshold: 4
+STRUCK NOTES:
+220.0 = A3 at a volume of: 33.161781787872314
+
+Timestamp: 23.521814058956917 seconds
+225.8304 = A3 with a volume of: 19.194448 and a tuning of: 0.45200000000000007
+223.43074 = A3 with a volume of: 16.722942 and a tuning of: 0.267
+223.59528 = A3 with a volume of: 13.155197 and a tuning of: 0.28
+223.37143 = A3 with a volume of: 12.274686 and a tuning of: 0.263
+221.53818 = A3 with a volume of: 12.497763 and a tuning of: 0.12
+222.72061 = A3 with a volume of: 10.879115 and a tuning of: 0.21199999999999997
+223.94536 = A3 with a volume of: 9.430746 and a tuning of: 0.30700000000000005
+222.287 = A3 with a volume of: 9.881617 and a tuning of: 0.17900000000000005
+222.08846 = A3 with a volume of: 10.716574 and a tuning of: 0.16300000000000003
+305.7256 = D#4 with a volume of: 2.628136 and a tuning of: -0.304
+302.867 = D#4 with a volume of: 15.110061 and a tuning of: -0.46599999999999997
+352.63144 = F4 with a volume of: 4.043511 and a tuning of: 0.16700000000000004
+357.35806 = F4 with a volume of: 3.424351 and a tuning of: 0.398
+371.35297 = F#4 with a volume of: 2.3653214 and a tuning of: 0.06300000000000006
+371.24814 = F#4 with a volume of: 2.0909746 and a tuning of: 0.05800000000000005
+371.21863 = F#4 with a volume of: 1.8411961 and a tuning of: 0.05700000000000005
+363.18234 = F#4 with a volume of: 2.183682 and a tuning of: -0.322
+401.18695 = G4 with a volume of: 2.2712355 and a tuning of: 0.401
+476.37683 = A#4 with a volume of: 3.6369228 and a tuning of: 0.375
+525.00604 = C5 with a volume of: 3.3209841 and a tuning of: 0.05700000000000005
+560.4593 = C#5 with a volume of: 9.176022 and a tuning of: 0.18900000000000006
+577.3567 = D5 with a volume of: 27.718252 and a tuning of: -0.297
+591.06757 = D5 with a volume of: 32.37922 and a tuning of: 0.10899999999999999
+591.3716 = D5 with a volume of: 33.19325 and a tuning of: 0.118
+590.9058 = D5 with a volume of: 26.119589 and a tuning of: 0.10499999999999998
+590.7525 = D5 with a volume of: 21.369614 and a tuning of: 0.09999999999999998
+591.03174 = D5 with a volume of: 17.188623 and a tuning of: 0.10799999999999998
+591.10736 = D5 with a volume of: 13.84437 and a tuning of: 0.11099999999999999
+591.07605 = D5 with a volume of: 11.587447 and a tuning of: 0.10999999999999999
+594.37476 = D5 with a volume of: 9.669443 and a tuning of: 0.20599999999999996
+604.92694 = D#5 with a volume of: 28.14327 and a tuning of: -0.489
+673.6337 = E5 with a volume of: 1.9208488 and a tuning of: 0.373
+773.8119 = G5 with a volume of: 2.241293 and a tuning of: -0.22699999999999998
+Magnitude Average: 11.885475845047921
+Magnitude Threshold: 11.885475845047921
+Frequency Count Average: 2.6666666666666665
+Frequency Count Threshold: 2
+STRUCK NOTES:
+587.3295358348151 = D5 at a volume of: 22.240301540919713
+
+Timestamp: 23.986213151927437 seconds
+277.40427 = C#4 with a volume of: 35.1459 and a tuning of: 0.013000000000000012
+293.95 = D4 with a volume of: 59.627567 and a tuning of: 0.016000000000000014
+294.03592 = D4 with a volume of: 55.055595 and a tuning of: 0.02100000000000002
+294.12573 = D4 with a volume of: 50.724865 and a tuning of: 0.027000000000000024
+294.0542 = D4 with a volume of: 46.2396 and a tuning of: 0.02200000000000002
+293.9667 = D4 with a volume of: 41.86652 and a tuning of: 0.017000000000000015
+294.03247 = D4 with a volume of: 38.293972 and a tuning of: 0.02100000000000002
+291.6457 = D4 with a volume of: 34.362797 and a tuning of: -0.12
+304.3706 = D#4 with a volume of: 54.17105 and a tuning of: -0.381
+296.44647 = D4 with a volume of: 55.945816 and a tuning of: 0.16300000000000003
+547.9222 = C#5 with a volume of: 145.3069 and a tuning of: -0.203
+549.97876 = C#5 with a volume of: 134.07848 and a tuning of: -0.138
+551.4844 = C#5 with a volume of: 111.14206 and a tuning of: -0.09099999999999997
+552.12115 = C#5 with a volume of: 88.08568 and a tuning of: -0.07100000000000001
+552.6675 = C#5 with a volume of: 69.271416 and a tuning of: -0.05399999999999999
+552.78265 = C#5 with a volume of: 55.55856 and a tuning of: -0.04999999999999999
+552.7306 = C#5 with a volume of: 44.048515 and a tuning of: -0.05199999999999999
+552.49146 = C#5 with a volume of: 34.43545 and a tuning of: -0.059
+555.1856 = C#5 with a volume of: 29.152966 and a tuning of: 0.025000000000000022
+602.2845 = D5 with a volume of: 5.5723844 and a tuning of: 0.43500000000000005
+Magnitude Average: 59.40430452823639
+Magnitude Threshold: 20
+Frequency Count Average: 5.666666666666667
+Frequency Count Threshold: 5
+STRUCK NOTES:
+293.6647679174076 = D4 at a volume of: 47.764591693878174
+554.3652619537442 = C#5 at a volume of: 70.72164011001587
+
+Timestamp: 24.450612244897957 seconds
+162.93199 = E3 with a volume of: 40.165108 and a tuning of: -0.199
+163.88611 = E3 with a volume of: 37.320843 and a tuning of: -0.09799999999999998
+164.63345 = E3 with a volume of: 31.48832 and a tuning of: -0.019000000000000017
+165.10469 = E3 with a volume of: 25.980808 and a tuning of: 0.030000000000000027
+165.19742 = E3 with a volume of: 21.767174 and a tuning of: 0.040000000000000036
+165.3065 = E3 with a volume of: 18.693626 and a tuning of: 0.051000000000000045
+165.30977 = E3 with a volume of: 16.440132 and a tuning of: 0.052000000000000046
+165.99266 = E3 with a volume of: 14.335062 and a tuning of: 0.123
+164.39555 = E3 with a volume of: 9.642758 and a tuning of: -0.043999999999999984
+210.8731 = G#3 with a volume of: 7.0719004 and a tuning of: 0.266
+275.4921 = C#4 with a volume of: 19.06989 and a tuning of: -0.10599999999999998
+295.34973 = D4 with a volume of: 15.777068 and a tuning of: 0.09899999999999998
+293.73755 = D4 with a volume of: 13.763033 and a tuning of: 0.0040000000000000036
+294.26126 = D4 with a volume of: 10.611222 and a tuning of: 0.03500000000000003
+294.09845 = D4 with a volume of: 8.304849 and a tuning of: 0.025000000000000022
+293.681 = D4 with a volume of: 7.0059266 and a tuning of: 0.0
+294.0227 = D4 with a volume of: 6.316512 and a tuning of: 0.02100000000000002
+295.16153 = D4 with a volume of: 5.9883785 and a tuning of: 0.08799999999999997
+290.09744 = D4 with a volume of: 7.7956886 and a tuning of: -0.21199999999999997
+326.6353 = E4 with a volume of: 14.383761 and a tuning of: -0.15799999999999997
+336.36523 = E4 with a volume of: 37.281082 and a tuning of: 0.35
+333.64432 = E4 with a volume of: 38.5634 and a tuning of: 0.20899999999999996
+331.27286 = E4 with a volume of: 37.461197 and a tuning of: 0.08599999999999997
+330.8272 = E4 with a volume of: 35.69063 and a tuning of: 0.062000000000000055
+331.6006 = E4 with a volume of: 34.877113 and a tuning of: 0.10299999999999998
+331.59122 = E4 with a volume of: 30.821177 and a tuning of: 0.10199999999999998
+331.81226 = E4 with a volume of: 26.776655 and a tuning of: 0.11399999999999999
+331.14005 = E4 with a volume of: 23.248108 and a tuning of: 0.07899999999999996
+362.52628 = F#4 with a volume of: 5.045372 and a tuning of: -0.354
+443.15643 = A4 with a volume of: 2.06545 and a tuning of: 0.123
+472.78876 = A#4 with a volume of: 4.837492 and a tuning of: 0.244
+504.62927 = B4 with a volume of: 4.164209 and a tuning of: 0.372
+534.8911 = C5 with a volume of: 2.8522131 and a tuning of: 0.38
+639.0136 = D#5 with a volume of: 4.7187295 and a tuning of: 0.45999999999999996
+676.4311 = E5 with a volume of: 2.2877772 and a tuning of: 0.44500000000000006
+718.5551 = F5 with a volume of: 1.8989432 and a tuning of: 0.491
+794.5979 = G5 with a volume of: 2.1254482 and a tuning of: 0.23199999999999998
+853.8106 = G#5 with a volume of: 2.5047317 and a tuning of: 0.476
+939.5034 = A#5 with a volume of: 4.139113 and a tuning of: 0.132
+999.9066 = B5 with a volume of: 2.2871456 and a tuning of: 0.21099999999999997
+1067.3453 = C6 with a volume of: 2.728829 and a tuning of: 0.34099999999999997
+1120.302 = C#6 with a volume of: 1.9768982 and a tuning of: 0.17900000000000005
+1157.833 = D6 with a volume of: 2.6281774 and a tuning of: -0.25
+1196.3481 = D6 with a volume of: 3.2063754 and a tuning of: 0.31600000000000006
+1326.1411 = E6 with a volume of: 5.7683535 and a tuning of: 0.09899999999999998
+1330.0763 = E6 with a volume of: 4.498844 and a tuning of: 0.15100000000000002
+Magnitude Average: 14.269033162490182
+Magnitude Threshold: 14.269033162490182
+Frequency Count Average: 3.625
+Frequency Count Threshold: 3
+STRUCK NOTES:
+164.81377845643496 = E3 at a volume of: 23.98153675927056
+329.6275569128699 = E4 at a volume of: 29.036949021475657
+
+Timestamp: 24.891791383219953 seconds
+248.51607 = B3 with a volume of: 53.599678 and a tuning of: 0.10999999999999999
+249.07225 = B3 with a volume of: 57.16515 and a tuning of: 0.14800000000000002
+247.36992 = B3 with a volume of: 56.00501 and a tuning of: 0.029000000000000026
+247.58455 = B3 with a volume of: 50.54483 and a tuning of: 0.04500000000000004
+247.65945 = B3 with a volume of: 48.50174 and a tuning of: 0.050000000000000044
+247.67369 = B3 with a volume of: 45.46621 and a tuning of: 0.051000000000000045
+247.62749 = B3 with a volume of: 41.441124 and a tuning of: 0.04800000000000004
+247.73303 = B3 with a volume of: 37.848473 and a tuning of: 0.05500000000000005
+246.04056 = B3 with a volume of: 31.343304 and a tuning of: -0.064
+280.84415 = C#4 with a volume of: 151.69519 and a tuning of: 0.22699999999999998
+292.3315 = D4 with a volume of: 202.21146 and a tuning of: -0.07900000000000001
+292.471 = D4 with a volume of: 243.21219 and a tuning of: -0.07100000000000001
+292.9046 = D4 with a volume of: 224.94855 and a tuning of: -0.044999999999999984
+293.27292 = D4 with a volume of: 199.03166 and a tuning of: -0.023999999999999966
+293.57446 = D4 with a volume of: 173.97578 and a tuning of: -0.006000000000000005
+293.76132 = D4 with a volume of: 153.55516 and a tuning of: 0.0050000000000000044
+293.89453 = D4 with a volume of: 137.61891 and a tuning of: 0.013000000000000012
+293.28665 = D4 with a volume of: 130.05815 and a tuning of: -0.022999999999999965
+305.1736 = D#4 with a volume of: 115.3979 and a tuning of: -0.33499999999999996
+Magnitude Average: 113.34844589233398
+Magnitude Threshold: 20
+Frequency Count Average: 8.5
+Frequency Count Threshold: 8
+STRUCK NOTES:
+246.94165062806206 = B3 at a volume of: 46.87950176662869
+293.6647679174076 = D4 at a volume of: 183.07648277282715
+
+Timestamp: 25.379410430839002 seconds
+161.7995 = E3 with a volume of: 1.9894149 and a tuning of: -0.32
+247.55695 = B3 with a volume of: 8.300785 and a tuning of: 0.04300000000000004
+248.16154 = B3 with a volume of: 7.5269446 and a tuning of: 0.08499999999999996
+248.67516 = B3 with a volume of: 6.5999074 and a tuning of: 0.121
+247.80301 = B3 with a volume of: 6.215207 and a tuning of: 0.06000000000000005
+247.28804 = B3 with a volume of: 5.774077 and a tuning of: 0.02400000000000002
+248.07109 = B3 with a volume of: 5.2365627 and a tuning of: 0.07899999999999996
+250.12816 = B3 with a volume of: 9.056794 and a tuning of: 0.22099999999999997
+258.40216 = C4 with a volume of: 12.166617 and a tuning of: -0.21499999999999997
+284.8273 = C#4 with a volume of: 54.0031 and a tuning of: 0.471
+284.3301 = C#4 with a volume of: 58.47793 and a tuning of: 0.44000000000000006
+280.40356 = C#4 with a volume of: 44.08676 and a tuning of: 0.20000000000000007
+279.54926 = C#4 with a volume of: 38.24738 and a tuning of: 0.14700000000000002
+283.56174 = C#4 with a volume of: 45.8351 and a tuning of: 0.393
+278.73264 = C#4 with a volume of: 31.4675 and a tuning of: 0.09599999999999997
+281.22495 = C#4 with a volume of: 32.545467 and a tuning of: 0.25
+283.28012 = C#4 with a volume of: 34.116524 and a tuning of: 0.376
+279.27817 = C#4 with a volume of: 18.085915 and a tuning of: 0.13
+298.26376 = D4 with a volume of: 18.879652 and a tuning of: 0.269
+312.56342 = D#4 with a volume of: 10.904203 and a tuning of: 0.07899999999999996
+421.851 = G#4 with a volume of: 8.178843 and a tuning of: 0.27
+444.45276 = A4 with a volume of: 18.183954 and a tuning of: 0.17400000000000004
+484.18402 = B4 with a volume of: 23.319992 and a tuning of: -0.344
+499.94574 = B4 with a volume of: 33.80303 and a tuning of: 0.21099999999999997
+498.03256 = B4 with a volume of: 35.658333 and a tuning of: 0.14400000000000002
+497.846 = B4 with a volume of: 29.861607 and a tuning of: 0.138
+497.52875 = B4 with a volume of: 26.149435 and a tuning of: 0.127
+498.04462 = B4 with a volume of: 22.48643 and a tuning of: 0.14500000000000002
+497.92868 = B4 with a volume of: 19.490425 and a tuning of: 0.14100000000000001
+498.4517 = B4 with a volume of: 16.326427 and a tuning of: 0.15900000000000003
+510.85107 = C5 with a volume of: 28.480892 and a tuning of: -0.416
+501.11478 = B4 with a volume of: 17.89346 and a tuning of: 0.251
+648.0284 = E5 with a volume of: 4.5293207 and a tuning of: -0.298
+745.02295 = F#5 with a volume of: 1.81996 and a tuning of: 0.11699999999999999
+803.8326 = G5 with a volume of: 1.8533537 and a tuning of: 0.43200000000000005
+Magnitude Average: 21.072894283703395
+Magnitude Threshold: 20
+Frequency Count Average: 3.0
+Frequency Count Threshold: 3
+STRUCK NOTES:
+277.1826309768721 = C#4 at a volume of: 29.266931533813477
+493.8833012561241 = B4 at a volume of: 24.995442708333332
+
+Timestamp: 25.843809523809522 seconds
+187.21632 = F#3 with a volume of: 23.649675 and a tuning of: 0.20599999999999996
+185.90176 = F#3 with a volume of: 20.635885 and a tuning of: 0.08399999999999996
+186.00964 = F#3 with a volume of: 17.548176 and a tuning of: 0.09399999999999997
+186.43277 = F#3 with a volume of: 14.738205 and a tuning of: 0.133
+187.4351 = F#3 with a volume of: 11.1883135 and a tuning of: 0.22599999999999998
+186.7593 = F#3 with a volume of: 9.862093 and a tuning of: 0.16400000000000003
+190.0574 = F#3 with a volume of: 25.821856 and a tuning of: 0.46699999999999997
+273.21014 = C#4 with a volume of: 60.209297 and a tuning of: -0.25
+280.08173 = C#4 with a volume of: 74.77964 and a tuning of: 0.18000000000000005
+278.21548 = C#4 with a volume of: 91.22168 and a tuning of: 0.06400000000000006
+278.34143 = C#4 with a volume of: 120.743645 and a tuning of: 0.07200000000000006
+278.37036 = C#4 with a volume of: 134.54124 and a tuning of: 0.07400000000000007
+278.29114 = C#4 with a volume of: 131.13873 and a tuning of: 0.06900000000000006
+278.74213 = C#4 with a volume of: 120.49659 and a tuning of: 0.09699999999999998
+278.79108 = C#4 with a volume of: 104.53941 and a tuning of: 0.09999999999999998
+279.1435 = C#4 with a volume of: 88.97917 and a tuning of: 0.122
+439.91873 = A4 with a volume of: 37.93168 and a tuning of: -0.0040000000000000036
+441.87595 = A4 with a volume of: 35.91673 and a tuning of: 0.07300000000000006
+442.77307 = A4 with a volume of: 31.434277 and a tuning of: 0.10799999999999998
+442.8441 = A4 with a volume of: 27.057308 and a tuning of: 0.11099999999999999
+442.7818 = A4 with a volume of: 23.494598 and a tuning of: 0.10899999999999999
+442.86395 = A4 with a volume of: 20.012716 and a tuning of: 0.11199999999999999
+442.8762 = A4 with a volume of: 17.001303 and a tuning of: 0.11199999999999999
+443.07416 = A4 with a volume of: 15.65882 and a tuning of: 0.12
+440.88974 = A4 with a volume of: 15.984484 and a tuning of: 0.03400000000000003
+591.6252 = D5 with a volume of: 8.081091 and a tuning of: 0.126
+Magnitude Average: 49.3333316216102
+Magnitude Threshold: 20
+Frequency Count Average: 5.5
+Frequency Count Threshold: 5
+STRUCK NOTES:
+277.1826309768721 = C#4 at a volume of: 108.30501461029053
+440.0 = A4 at a volume of: 24.943545977274578
+
+Timestamp: 26.308208616780046 seconds
+305.32858 = D#4 with a volume of: 8.656051 and a tuning of: -0.32599999999999996
+323.88797 = E4 with a volume of: 9.028047 and a tuning of: -0.305
+343.6393 = F4 with a volume of: 9.105492 and a tuning of: -0.28
+362.735 = F#4 with a volume of: 8.681921 and a tuning of: -0.344
+382.50812 = G4 with a volume of: 8.252414 and a tuning of: -0.425
+404.64822 = G#4 with a volume of: 7.981179 and a tuning of: -0.451
+691.3801 = F5 with a volume of: 3.1271017 and a tuning of: -0.177
+711.1735 = F5 with a volume of: 3.158766 and a tuning of: 0.31200000000000006
+731.128 = F#5 with a volume of: 3.1248374 and a tuning of: -0.20900000000000002
+1014.7841 = B5 with a volume of: 1.0084432 and a tuning of: 0.46699999999999997
+1033.1725 = C6 with a volume of: 1.0378187 and a tuning of: -0.22199999999999998
+1051.2251 = C6 with a volume of: 0.98753434 and a tuning of: 0.07699999999999996
+1313.3186 = E6 with a volume of: 1.2542288 and a tuning of: -0.069
+1332.587 = E6 with a volume of: 1.2647221 and a tuning of: 0.18300000000000005
+1352.4225 = E6 with a volume of: 1.208125 and a tuning of: 0.43900000000000006
+1566.3464 = G6 with a volume of: 1.2780757 and a tuning of: -0.019000000000000017
+1586.183 = G6 with a volume of: 1.3816882 and a tuning of: 0.19900000000000007
+1606.5643 = G6 with a volume of: 1.4211674 and a tuning of: 0.42000000000000004
+1624.0065 = G#6 with a volume of: 1.4020059 and a tuning of: -0.393
+1908.2772 = A#6 with a volume of: 0.92527664 and a tuning of: 0.4
+1927.8318 = B6 with a volume of: 0.94240195 and a tuning of: -0.424
+1945.5575 = B6 with a volume of: 0.9153052 and a tuning of: -0.265
+Magnitude Average: 3.4610273269089786
+Magnitude Threshold: 3.4610273269089786
+Frequency Count Average: 1.5
+Frequency Count Threshold: 1
+STRUCK NOTES:
+
