@@ -26,4 +26,4 @@ def find_center(crop):
     else:  # No mallet present
         med_x = med_y = -1
 
-    return [med_y, med_x]
+    return [med_x, med_y]

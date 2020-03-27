@@ -5,6 +5,19 @@ import numpy as np
 import math
 import mask_color
 
+def compute_slope(line):
+    x1, y1, x2, y2 = line
+    m = (y2-y1)/(x2-x1)
+
+    return (m)
+
+def compute_y_intercept(line):
+    x1, y1 = line[:2]
+    m = compute_slope(line)
+    b = m*(-x1)+y1
+
+    return (b)
+
 def average_lines(lines):
     sum_x1 = sum_y1 = sum_x2 = sum_y2 = 0
     for x1, y1, x2, y2 in lines:
@@ -16,46 +29,28 @@ def average_lines(lines):
     return ([int(sum_x1/len(lines)), int(sum_y1/len(lines)), int(sum_x2/len(lines)), int(sum_y2/len(lines))])
 
 def interpolate_hori(line):
-    x1 = line[0]
-    y1 = line[1]
-    x2 = line[2]
-    y2 = line[3]
-    m = (y2-y1)/(x2-x1)
+    x1, y1 = line[:2]
+    m = compute_slope(line)
 
     return ([0, int(y1 + m * (0 - x1)), 480, int(y1 + m * (480 - x1))])
 
 def interpolate_vert(line, bot_line, top_line):
     # Vertical line
-    l_x1 = line[0]
-    l_y1 = line[1]
-    l_x2 = line[2]
-    l_y2 = line[3]
-    if l_x1 != l_x2:
-        l_m = (l_y2-l_y1)/(l_x2-l_x1)
-        l_b = l_m*(-l_x1)+l_y1
+    l_m = compute_slope(line)
+    l_b = compute_y_intercept(line)
 
     # Bottom line
-    b_x1 = bot_line[0]
-    b_y1 = bot_line[1]
-    b_x2 = bot_line[2]
-    b_y2 = bot_line[3]
-    if b_x1 != b_x2:
-        b_m = (b_y2-b_y1)/(b_x2-b_x1)
-        b_b = b_m*(-b_x1)+b_y1
+    b_m = compute_slope(bot_line)
+    b_b = compute_y_intercept(bot_line)
 
     # Top line
-    t_x1 = top_line[0]
-    t_y1 = top_line[1]
-    t_x2 = top_line[2]
-    t_y2 = top_line[3]
-    if t_x1 != t_x2:
-        t_m = (t_y2-t_y1)/(t_x2-t_x1)
-        t_b = t_m*(-t_x1)+t_y1
+    t_m = compute_slope(top_line)
+    t_b = compute_y_intercept(top_line)
 
     # Calculate intersects
-    if l_x1 == l_x2:
-        x1 = l_x1
-        x2 = l_x2
+    if line[0] == line[2]: # x1 == x2
+        x1 = line[0]
+        x2 = line[2]
     else:
         x1 = int(((l_b-b_b)/(b_m-l_m)))
         x2 = int((l_b-t_b)/(t_m-l_m))
@@ -158,14 +153,17 @@ def get_boundaries(frame):
     w = b = 0
     while b < len(merged_black_lines) - 1 or w < len(merged_white_lines) - 1:
         key = librosa.core.hz_to_note(freq)
+        note_boundaries[key] = {}
         if key[1] == '#': # accidental
-            note_boundaries[key] = [(merged_black_lines[b][0], merged_black_lines[b][1]), (merged_black_lines[b+1][0], merged_black_lines[b+1][1]), (merged_black_lines[b+1][2], merged_black_lines[b+1][3]), (merged_black_lines[b][2], merged_black_lines[b][3])]
+            note_boundaries[key]['bar'] = [(merged_black_lines[b][0], merged_black_lines[b][1]), (merged_black_lines[b+1][0], merged_black_lines[b+1][1]), (merged_black_lines[b+1][2], merged_black_lines[b+1][3]), (merged_black_lines[b][2], merged_black_lines[b][3])]
+            note_boundaries[key]['rope'] = [(merged_black_lines[b][0], int(merged_black_lines[b][1]-25+b*0.5)), (merged_black_lines[b+1][0], int(merged_black_lines[b+1][1]-25+b*0.5)), (merged_black_lines[b+1][2], int(merged_black_lines[b+1][3]+25-b*0.2)), (merged_black_lines[b][2], int(merged_black_lines[b][3]+25-b*0.2))]
             if key[0] == 'A' or key[0] == 'D': # skip gap in black keys
                 b += 2
             else:
                 b += 1
         else: # natural
-            note_boundaries[key] = [(merged_white_lines[w][0], merged_white_lines[w][1]), (merged_white_lines[w+1][0], merged_white_lines[w+1][1]), (merged_white_lines[w+1][2], merged_white_lines[w+1][3]), (merged_white_lines[w][2], merged_white_lines[w][3])]
+            note_boundaries[key]['bar'] = [(merged_white_lines[w][0], merged_white_lines[w][1]), (merged_white_lines[w+1][0], merged_white_lines[w+1][1]), (merged_white_lines[w+1][2], merged_white_lines[w+1][3]), (merged_white_lines[w][2], merged_white_lines[w][3])]
+            note_boundaries[key]['rope'] = [(merged_white_lines[w][0], int(merged_white_lines[w][1]-25+w*0.5)), (merged_white_lines[w+1][0], int(merged_white_lines[w+1][1]-25+w*0.5)), (merged_white_lines[w+1][2], int(merged_white_lines[w+1][3]+10+w*0.2)), (merged_white_lines[w][2], int(merged_white_lines[w][3]+10+w*0.2))]
             w += 1
         freq *= 2**(1/12)
 
@@ -181,14 +179,16 @@ def get_boundaries(frame):
     #    g = np.random.randint(256)
     #    b = np.random.randint(256)
     #    for i in range(3):
-    #        cv2.line(img, note_boundaries[n][i], note_boundaries[n][i+1], (r, g, b), 2)
-    #    cv2.line(img, note_boundaries[n][3], note_boundaries[n][0], (r, g, b), 2)
+    #        cv2.line(img, note_boundaries[n]['bar'][i], note_boundaries[n]['bar'][i+1], (r, g, b), 2)
+    #    cv2.line(img, note_boundaries[n]['bar'][3], note_boundaries[n]['bar'][0], (r, g, b), 2)
+    #    cv2.line(frame, note_boundaries[n]['rope'][0], note_boundaries[n]['rope'][1], (255, 0, 255), 2)
+    #    cv2.line(frame, note_boundaries[n]['rope'][2], note_boundaries[n]['rope'][3], (255, 255, 255), 2)
     #cv2.line(img, (horizontal_line[0], horizontal_line[1]), (horizontal_line[2], horizontal_line[3]), (0, 0, 255), 2)
-    #cv2.line(img, (top_diag_line[0], top_diag_line[1]), (top_diag_line[2], top_diag_line[3]), (255, 0, 0), 2)
-    #cv2.line(img, (bot_diag_line[0], bot_diag_line[1]), (bot_diag_line[2], bot_diag_line[3]), (255, 255, 0), 2)
+    #cv2.line(frame, (top_diag_line[0], top_diag_line[1]+25), (top_diag_line[2], top_diag_line[3]+25), (255, 0, 0), 2)
+    #cv2.line(frame, (bot_diag_line[0], bot_diag_line[1]-25), (bot_diag_line[2], bot_diag_line[3]-25), (255, 255, 0), 2)
 
     #cv2.namedWindow('image', cv2.WINDOW_NORMAL)
-    #cv2.imshow('image', img)
+    #cv2.imshow('image', frame)
 
     #k = cv2.waitKey(0)
     #if k == 27:
