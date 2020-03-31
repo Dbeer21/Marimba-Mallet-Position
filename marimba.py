@@ -4,6 +4,64 @@ import os
 import notes
 import houghp
 import mallet
+from matplotlib import pyplot as plt
+from matplotlib.widgets import Button
+from tkinter.filedialog import askopenfilename
+
+class Base(object):
+    def __init__(self, images):
+        self.ind = 0
+        self.images = images
+        self.setup()
+
+    def next(self, event):
+        if self.ind < len(self.images) - 1:
+            self.ind += 1
+        else:
+            self.ind = 0
+        self.setup()
+
+    def prev(self, event):
+        if self.ind > 0:
+            self.ind -= 1
+        else:
+            self.ind = len(self.images) - 1
+        self.setup()
+
+    def select(self, event):
+        plt.close()
+        self.selection = self.images[self.ind]
+
+    def load(self, event):
+        filename = askopenfilename()
+        plt.close()
+        self.selection = cv2.imread(filename)
+
+    def setup(self):
+        plt.close()
+        plt.imshow(cv2.cvtColor(self.images[self.ind], cv2.COLOR_BGR2RGB))
+        plt.title('Choose the least interrupted frame of the marimba: ' + str(self.ind + 1))
+        plt.xticks([]),plt.yticks([])
+
+        # Positions
+        axprev = plt.axes([0.1, 0.05, 0.1, 0.075])
+        axsel = plt.axes([0.25, 0.05, 0.1, 0.075])
+        axnext = plt.axes([0.4, 0.05, 0.1, 0.075])
+        axload = plt.axes([0.7, 0.05, 0.2, 0.075])
+        
+        # Buttons
+        bnext = Button(axnext, 'Next')
+        bsel = Button(axsel, 'Select')
+        bload = Button(axload, 'Load from File')
+        bprev = Button(axprev, 'Previous')
+
+        # Button events
+        bnext.on_clicked(self.next)
+        bsel.on_clicked(self.select)
+        bload.on_clicked(self.load)
+        bprev.on_clicked(self.prev)
+
+        plt.show()
 
 def check_position(mx, my, coords):
     (bx1, by1), (bx2, by2), (tx1, ty1), (tx2, ty2) = [coords[i] for i in range(len(coords))]
@@ -42,13 +100,14 @@ cap = cv2.VideoCapture(vid_path)
 
 # Get all the frames in which a note was struck
 i = j = 0
+base_images = []
 frames = []
 while cap.isOpened():
     ret, frame = cap.read()
     if ret == False:
         break
-    if i == 0:
-        base_image = cv2.resize(cv2.flip(frame, -1), (480, 360))
+    if i < (15 * 10) and i % 15 == 0:
+        base_images.append(cv2.resize(cv2.flip(frame, -1), (480, 360)))
     for notes_frame in struck_notes:
         if i == notes_frame:
             frames.append({})
@@ -59,7 +118,9 @@ while cap.isOpened():
     i += 1
 cap.release()
 
-#print(struck_notes)
+# Let the user decide which frame to use as the base image
+callback = Base(base_images)
+base_image = callback.selection
 
 note_boundaries = houghp.get_boundaries(base_image) # Get the corners of every marimba bar
 
