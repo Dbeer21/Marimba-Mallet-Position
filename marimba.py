@@ -1,6 +1,7 @@
 import librosa
 import cv2
 import os
+import tkinter as tk
 import notes
 import houghp
 import mallet
@@ -11,6 +12,9 @@ from tkinter.filedialog import askopenfilename
 class Base(object):
     def __init__(self, images):
         self.ind = 0
+        self.loaded = False
+        self.flip_h = False
+        self.flip_v = False
         self.images = images
         self.setup()
 
@@ -35,31 +39,62 @@ class Base(object):
     def load(self, event):
         filename = askopenfilename()
         plt.close()
-        self.selection = cv2.imread(filename)
+        if cv2.imread(filename).all() != None:
+            self.loaded = True
+            self.selection = cv2.imread(filename)
+        else:
+            self.setup(1)
 
-    def setup(self):
+    def fliph(self, event):
         plt.close()
-        plt.imshow(cv2.cvtColor(self.images[self.ind], cv2.COLOR_BGR2RGB))
-        plt.title('Choose the least interrupted frame of the marimba: ' + str(self.ind + 1))
+        self.flip_h = not self.flip_h
+        self.setup()
+
+    def flipv(self, event):
+        plt.close()
+        self.flip_v = not self.flip_v
+        self.setup()
+
+    def setup(self, err = 0):
+        plt.close()
+        if self.flip_h and self.flip_v:
+            plt.imshow(cv2.cvtColor(cv2.flip(self.images[self.ind], -1), cv2.COLOR_BGR2RGB))
+        elif self.flip_h and not self.flip_v:
+            plt.imshow(cv2.cvtColor(cv2.flip(self.images[self.ind], 0), cv2.COLOR_BGR2RGB))
+        elif not self.flip_h and self.flip_v:
+            plt.imshow(cv2.cvtColor(cv2.flip(self.images[self.ind], 1), cv2.COLOR_BGR2RGB))
+        else:
+            plt.imshow(cv2.cvtColor(self.images[self.ind], cv2.COLOR_BGR2RGB))
+        
+        if err == 0:
+            plt.title('Choose the least interrupted frame of the marimba: ' + str(self.ind + 1))
+        else:
+            plt.title('Error: Not an image\nChoose the least interrupted frame of the marimba: ' + str(self.ind + 1))
         plt.xticks([]),plt.yticks([])
 
         # Positions
+        axnext = plt.axes([0.4, 0.05, 0.1, 0.075])
         axprev = plt.axes([0.1, 0.05, 0.1, 0.075])
         axsel = plt.axes([0.25, 0.05, 0.1, 0.075])
-        axnext = plt.axes([0.4, 0.05, 0.1, 0.075])
         axload = plt.axes([0.7, 0.05, 0.2, 0.075])
+        axfliph = plt.axes([0.2, 0.2, 0.2, 0.075])
+        axflipv = plt.axes([0.6, 0.2, 0.2, 0.075])
         
         # Buttons
         bnext = Button(axnext, 'Next')
+        bprev = Button(axprev, 'Previous')
         bsel = Button(axsel, 'Select')
         bload = Button(axload, 'Load from File')
-        bprev = Button(axprev, 'Previous')
+        bfliph = Button(axfliph, 'Flip Horizontal')
+        bflipv = Button(axflipv, 'Flip Vertical')
 
         # Button events
         bnext.on_clicked(self.next)
+        bprev.on_clicked(self.prev)
         bsel.on_clicked(self.select)
         bload.on_clicked(self.load)
-        bprev.on_clicked(self.prev)
+        bfliph.on_clicked(self.fliph)
+        bflipv.on_clicked(self.flipv)
 
         plt.show()
 
@@ -92,29 +127,36 @@ def circumscribe(coords):
 
 path = os.path.realpath(__file__).strip('marimba.py')
 path = path.replace('\\', "/")
-vid_path = path + 'Source/random.mov'
 
-struck_notes = notes.get_notes(vid_path) # Get the timestamps of each struck note
+root = tk.Tk()
+root.withdraw()
+vid_path = askopenfilename()
+root.destroy()
 
 cap = cv2.VideoCapture(vid_path)
+
+fps = cap.get(cv2.CAP_PROP_FPS)
+video_images = []
+bar_frames = []
+
+struck_notes = notes.get_notes(vid_path, fps) # Get the timestamps of each struck note
 
 # Get all the frames in which a note was struck
 i = j = 0
 base_images = []
-frames = []
+hit_frames = []
 while cap.isOpened():
     ret, frame = cap.read()
     if ret == False:
         break
     if i < (15 * 10) and i % 15 == 0:
-        base_images.append(cv2.resize(cv2.flip(frame, -1), (480, 360)))
-    for notes_frame in struck_notes:
-        if i == notes_frame:
-            frames.append({})
-            frames[j]['frame'] = cv2.resize(cv2.flip(frame, -1), (480, 360))
-            frames[j]['timestamp'] = (i + 3) / 30
-            j += 1
-            break
+        base_images.append(cv2.resize(frame, (480, 360)))
+    video_images.append(cv2.resize(frame, (480, 360)))
+    if i in struck_notes:
+        hit_frames.append({})
+        hit_frames[j]['image'] = cv2.resize(frame, (480, 360))
+        hit_frames[j]['frame'] = i
+        j += 1
     i += 1
 cap.release()
 
@@ -122,9 +164,23 @@ cap.release()
 callback = Base(base_images)
 base_image = callback.selection
 
-note_boundaries = houghp.get_boundaries(base_image) # Get the corners of every marimba bar
+# Flip images if user specified
+if callback.flip_h or callback.flip_v:
+    if callback.flip_h and callback.flip_v:
+        flip = -1
+    elif callback.flip_h and not callback.flip_v:
+        flip = 0
+    else:
+        flip = 1
 
-#print (note_boundaries)
+    if not callback.loaded:
+        base_image = cv2.flip(base_image, flip)
+    for i in range(len(video_images)):
+        video_images[i] = cv2.flip(video_images[i], flip)
+    for i in range(len(hit_frames)):
+        hit_frames[i]['image'] = cv2.flip(hit_frames[i]['image'], flip)       
+
+note_boundaries = houghp.get_boundaries(base_image) # Get the corners of every marimba bar
 
 i = j = 0
 rope_strikes = []
@@ -138,7 +194,7 @@ for s in struck_notes: # Each frame with at least one struck note
 
     for bar in bars:
         min_x, min_y, max_x, max_y = circumscribe(bar['bar']) # Circumscribe a 90-degree rectangle with edges parallel to the image
-        crop = frames[i]['frame'][min_y:max_y, min_x:max_x]
+        crop = hit_frames[i]['image'][min_y:max_y, min_x:max_x]
 
         crop_x, crop_y = mallet.find_center(crop)
         if crop_x == -1:
@@ -147,28 +203,42 @@ for s in struck_notes: # Each frame with at least one struck note
             mallet_x = crop_x + min_x
             mallet_y = crop_y + min_y
 
-            cv2.circle(frames[i]['frame'], (mallet_x,mallet_y), 6, (0,255,0), 2)
+            cv2.line(hit_frames[i]['image'], (0, 0), (0, 359), (0, 0, 255), 2)
+            cv2.line(hit_frames[i]['image'], (0, 359), (479, 359), (0, 0, 255), 2)
+            cv2.line(hit_frames[i]['image'], (479, 359), (479, 0), (0, 0, 255), 2)
+            cv2.line(hit_frames[i]['image'], (479, 0), (0, 0), (0, 0, 255), 2)
 
         by, ty = check_position(mallet_x, mallet_y, bar['rope'])
-        #cv2.line(frames[i]['frame'], (mallet_x,ty), (mallet_x,by), (255,0,255), 2)
-        #cv2.line(frames[i]['frame'], bar['rope'][0], bar['rope'][1], (255,255,255), 2)
-        #cv2.line(frames[i]['frame'], bar['rope'][2], bar['rope'][3], (255,255,255), 2)
-        #cv2.namedWindow('frame', cv2.WINDOW_NORMAL)
-        #cv2.imshow('frame', frames[i]['frame'])
+        #cv2.line(hit_frames[i]['image'], (mallet_x,ty), (mallet_x,by), (255,0,255), 2)
+        #cv2.line(hit_frames[i]['image'], bar['rope'][0], bar['rope'][1], (255,255,255), 2)
+        #cv2.line(hit_frames[i]['image'], bar['rope'][2], bar['rope'][3], (255,255,255), 2)
+        #cv2.namedWindow('test', cv2.WINDOW_FULLSCREEN)
+        #cv2.imshow('test', hit_frames[i]['image'])
         #cv2.waitKey(0)
+        #cv2.destroyAllWindows()
 
         # Struck on rope
         if abs(mallet_y - by) < 10 or abs(mallet_y - ty) < 10:
+            cv2.circle(hit_frames[i]['image'], (mallet_x, mallet_y), 6, (0,255,0), 2)
             rope_strikes.append({})
-            rope_strikes[j]['img'] = frames[i]['frame']
-            rope_strikes[j]['timestamp'] = round(frames[i]['timestamp'], 2)
+            rope_strikes[j]['image'] = hit_frames[i]['image']
+            rope_strikes[j]['frame'] = hit_frames[i]['frame']
             rope_strikes[j]['note'] = list(note_boundaries.keys())[list(note_boundaries.values()).index(bar)]
+            bar_frames.append(rope_strikes[j]['frame'])
             j += 1
     i += 1
 
+# Format frame of misplaced hit
 for strike in rope_strikes:
-    strike['img'] = cv2.putText(strike['img'], 'Timestamp: ' + str(strike['timestamp']) + ' seconds', (20,340), cv2.FONT_HERSHEY_PLAIN, 1, (255,255,255), 1, cv2.LINE_AA)
-    strike['img'] = cv2.putText(strike['img'], 'Note: ' + str(strike['note']), (380,340), cv2.FONT_HERSHEY_PLAIN, 1, (255,255,255), 1, cv2.LINE_AA)
-    cv2.namedWindow('image', cv2.WINDOW_NORMAL)
-    cv2.imshow('image', strike['img'])
-    cv2.waitKey(0)
+    strike['image'] = cv2.putText(strike['image'], 'Timestamp: ' + str(round((strike['frame'] + (fps / 10)) / fps, 2)) + ' seconds', (20,340), cv2.FONT_HERSHEY_PLAIN, 1, (255,255,255), 1, cv2.LINE_AA)
+    strike['image'] = cv2.putText(strike['image'], 'Note: ' + str(strike['note']), (380,340), cv2.FONT_HERSHEY_PLAIN, 1, (255,255,255), 1, cv2.LINE_AA)
+    video_images[strike['frame']] = strike['image']
+
+# Write a video that highlights all the misplaced hits
+out = cv2.VideoWriter(vid_path[:-4] + '_output.avi', cv2.VideoWriter_fourcc(*'DIVX'), fps, (480, 360))
+for i in range(len(video_images)):
+    out.write(video_images[i])
+    if i in bar_frames:
+        for j in range(round(fps * 3)):
+            out.write(video_images[i])
+out.release()

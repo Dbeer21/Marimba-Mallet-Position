@@ -4,7 +4,7 @@ import math
 import numpy as np
 import moviepy.editor as mp
 
-def get_notes(vid_path):
+def get_notes(vid_path, fps):
     aud_path = vid_path[:-3] + 'wav'
 
     clip = mp.VideoFileClip(vid_path)
@@ -101,7 +101,7 @@ def get_notes(vid_path):
             mag_avg = mag_sum / mag_count
 
             if (mag_avg > mag_threshold):
-                frame = round(peak * 30) - 3 # Convert timestamp to frame number
+                frame = round(peak * fps) - 1 # Convert timestamp to frame number
                 if frame not in timestamps:
                     timestamps[frame] = []
                 timestamps[frame].append(x)

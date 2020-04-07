@@ -25,7 +25,7 @@ def average_lines(lines):
         sum_y1 += y1
         sum_x2 += x2
         sum_y2 += y2
-        
+
     return ([int(sum_x1/len(lines)), int(sum_y1/len(lines)), int(sum_x2/len(lines)), int(sum_y2/len(lines))])
 
 def interpolate_hori(line):
@@ -108,18 +108,18 @@ def get_boundaries(frame):
             #cv2.line(img,(x1, y1),(x2, y2),(255,0,0),2)
             diag_lines.append([x1,y1,x2,y2])
 
+
     # Get center horizontal line of marimba
     horizontal_line = interpolate_hori(average_lines(hori_lines))
     hori_y = int((horizontal_line[1] + horizontal_line[3]) / 2)
-    hori_m = (horizontal_line[1] - horizontal_line[3])/(horizontal_line[2] - horizontal_line[0])
 
     # Get the top and bottom diagonal lines of marimba
     top_diag_lines = []
     bot_diag_lines = []
     for x1, y1, x2, y2 in diag_lines:
-        if y1 > hori_y + 60 and y2 > hori_y + 60:
+        if y1 > hori_y + 30 and y2 > hori_y + 30:
             bot_diag_lines.append([x1, y1, x2, y2])
-        elif y2 < hori_y - 60 and y2 < hori_y - 60:
+        elif y2 < hori_y - 30 and y2 < hori_y - 30:
             top_diag_lines.append([x1, y1, x2, y2])
     top_diag_line = interpolate_hori(average_lines(top_diag_lines))
     bot_diag_line = interpolate_hori(average_lines(bot_diag_lines))
@@ -143,7 +143,7 @@ def get_boundaries(frame):
         if y2 < hori_y - 30: # lines above
             black_vert_lines.append(interpolate_vert([x1, y1, x2, y2], horizontal_line, top_diag_line))
 
-    # Merge close-by lines for black keys (two trials)
+    # Merge close-by lines for black keys
     merged_white_lines = merge_close_lines(white_vert_lines, 13)
     merged_black_lines = merge_close_lines(black_vert_lines, 15)
 
@@ -168,33 +168,27 @@ def get_boundaries(frame):
         freq *= 2**(1/12)
 
     # Display lines
-    #for x1,y1,x2,y2 in merged_white_lines:
+    #for x1,y1,x2,y2 in white_vert_lines:
     #    cv2.line(img,(x1, y1),(x2, y2),(0,255,0),2)
-    #for x1,y1,x2,y2 in merged_black_lines:
+    #for x1,y1,x2,y2 in black_vert_lines:
     #    cv2.line(img,(x1, y1),(x2, y2),(0,255,255),2)
 
     # Display note bounding boxes
-    #for n in note_boundaries:
-    #    r = np.random.randint(256)
-    #    g = np.random.randint(256)
-    #    b = np.random.randint(256)
-    #    for i in range(3):
-    #        cv2.line(img, note_boundaries[n]['bar'][i], note_boundaries[n]['bar'][i+1], (r, g, b), 2)
-    #    cv2.line(img, note_boundaries[n]['bar'][3], note_boundaries[n]['bar'][0], (r, g, b), 2)
-    #    cv2.line(frame, note_boundaries[n]['rope'][0], note_boundaries[n]['rope'][1], (255, 0, 255), 2)
-    #    cv2.line(frame, note_boundaries[n]['rope'][2], note_boundaries[n]['rope'][3], (255, 255, 255), 2)
-    #cv2.line(img, (horizontal_line[0], horizontal_line[1]), (horizontal_line[2], horizontal_line[3]), (0, 0, 255), 2)
-    #cv2.line(frame, (top_diag_line[0], top_diag_line[1]+25), (top_diag_line[2], top_diag_line[3]+25), (255, 0, 0), 2)
-    #cv2.line(frame, (bot_diag_line[0], bot_diag_line[1]-25), (bot_diag_line[2], bot_diag_line[3]-25), (255, 255, 0), 2)
+    for n in note_boundaries:
+        r = np.random.randint(256)
+        g = np.random.randint(256)
+        b = np.random.randint(256)
+        for i in range(3):
+            cv2.line(img, note_boundaries[n]['bar'][i], note_boundaries[n]['bar'][i+1], (r, g, b), 2)
+        cv2.line(img, note_boundaries[n]['bar'][3], note_boundaries[n]['bar'][0], (r, g, b), 2)
+        cv2.line(img, note_boundaries[n]['rope'][0], note_boundaries[n]['rope'][1], (255, 0, 255), 2)
+        cv2.line(img, note_boundaries[n]['rope'][2], note_boundaries[n]['rope'][3], (255, 255, 255), 2)
+    cv2.line(img, (horizontal_line[0], horizontal_line[1]), (horizontal_line[2], horizontal_line[3]), (0, 0, 255), 2)
+    cv2.line(img, (top_diag_line[0], top_diag_line[1]), (top_diag_line[2], top_diag_line[3]), (255, 0, 0), 2)
+    cv2.line(img, (bot_diag_line[0], bot_diag_line[1]), (bot_diag_line[2], bot_diag_line[3]), (255, 255, 0), 2)
 
-    #cv2.namedWindow('image', cv2.WINDOW_NORMAL)
-    #cv2.imshow('image', frame)
-
-    #k = cv2.waitKey(0)
-    #if k == 27:
-    #    cv2.destroyAllWindows()
-    #elif k == 115:
-    #    cv2.imwrite(imgPath + 'Source/houghp.png',img)
-    #    cv2.destroyAllWindows()
+    cv2.imshow('image', img)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
 
     return (note_boundaries)
