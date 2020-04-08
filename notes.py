@@ -115,6 +115,6 @@ def get_notes(vid_path, fps):
         #f.write('\n')
     #f.close()
     
-    os.remove(aud_path)
-    return (timestamps)
+    #os.remove(aud_path)
+    return (timestamps, aud_path)
         

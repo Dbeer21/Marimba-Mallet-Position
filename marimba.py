@@ -2,6 +2,7 @@ import librosa
 import cv2
 import os
 import tkinter as tk
+import moviepy.editor as mp
 import notes
 import houghp
 import mallet
@@ -9,13 +10,14 @@ from matplotlib import pyplot as plt
 from matplotlib.widgets import Button
 from tkinter.filedialog import askopenfilename
 
-class Base(object):
+class Frame_Select(object):
     def __init__(self, images):
         self.ind = 0
         self.loaded = False
         self.flip_h = False
         self.flip_v = False
         self.images = images
+        self.display = self.images[0]
         self.setup()
 
     def next(self, event):
@@ -23,6 +25,7 @@ class Base(object):
             self.ind += 1
         else:
             self.ind = 0
+        self.display = self.images[self.ind]
         self.setup()
 
     def prev(self, event):
@@ -30,6 +33,7 @@ class Base(object):
             self.ind -= 1
         else:
             self.ind = len(self.images) - 1
+        self.display = self.images[self.ind]
         self.setup()
 
     def select(self, event):
@@ -55,21 +59,43 @@ class Base(object):
         self.flip_v = not self.flip_v
         self.setup()
 
-    def setup(self, err = 0):
+    def showl(self, event):
         plt.close()
         if self.flip_h and self.flip_v:
-            plt.imshow(cv2.cvtColor(cv2.flip(self.images[self.ind], -1), cv2.COLOR_BGR2RGB))
+            success, image = houghp.get_boundaries(cv2.flip(self.display, -1))
         elif self.flip_h and not self.flip_v:
-            plt.imshow(cv2.cvtColor(cv2.flip(self.images[self.ind], 0), cv2.COLOR_BGR2RGB))
+            success, image = houghp.get_boundaries(cv2.flip(self.display, 0))
         elif not self.flip_h and self.flip_v:
-            plt.imshow(cv2.cvtColor(cv2.flip(self.images[self.ind], 1), cv2.COLOR_BGR2RGB))
+            success, image = houghp.get_boundaries(cv2.flip(self.display, 1))
         else:
-            plt.imshow(cv2.cvtColor(self.images[self.ind], cv2.COLOR_BGR2RGB))
+            success, image = houghp.get_boundaries(self.display)       
         
-        if err == 0:
-            plt.title('Choose the least interrupted frame of the marimba: ' + str(self.ind + 1))
+        if success:
+            self.display = image
+            self.setup(3)
         else:
+            self.setup(2)
+
+    def setup(self, param = 0):
+        plt.close()
+        if param == 3: # Showing lines
+            plt.imshow(cv2.cvtColor(self.display, cv2.COLOR_BGR2RGB))
+        else:
+            if self.flip_h and self.flip_v:
+                plt.imshow(cv2.cvtColor(cv2.flip(self.display, -1), cv2.COLOR_BGR2RGB))
+            elif self.flip_h and not self.flip_v:
+                plt.imshow(cv2.cvtColor(cv2.flip(self.display, 0), cv2.COLOR_BGR2RGB))
+            elif not self.flip_h and self.flip_v:
+                plt.imshow(cv2.cvtColor(cv2.flip(self.display, 1), cv2.COLOR_BGR2RGB))
+            else:
+                plt.imshow(cv2.cvtColor(self.display, cv2.COLOR_BGR2RGB))
+        
+        if param == 1: # Loaded a non-image
             plt.title('Error: Not an image\nChoose the least interrupted frame of the marimba: ' + str(self.ind + 1))
+        elif param == 2:
+            plt.title('Cannot draw lines on image. Please select a new frame.\nChoose the least interrupted frame of the marimba: ' + str(self.ind + 1))        
+        else:
+            plt.title('Choose the least interrupted frame of the marimba: ' + str(self.ind + 1))
         plt.xticks([]),plt.yticks([])
 
         # Positions
@@ -77,8 +103,9 @@ class Base(object):
         axprev = plt.axes([0.1, 0.05, 0.1, 0.075])
         axsel = plt.axes([0.25, 0.05, 0.1, 0.075])
         axload = plt.axes([0.7, 0.05, 0.2, 0.075])
-        axfliph = plt.axes([0.2, 0.2, 0.2, 0.075])
-        axflipv = plt.axes([0.6, 0.2, 0.2, 0.075])
+        axfliph = plt.axes([0.1, 0.2, 0.2, 0.075])
+        axflipv = plt.axes([0.4, 0.2, 0.2, 0.075])
+        axshowl = plt.axes([0.7, 0.2, 0.2, 0.075])
         
         # Buttons
         bnext = Button(axnext, 'Next')
@@ -87,6 +114,7 @@ class Base(object):
         bload = Button(axload, 'Load from File')
         bfliph = Button(axfliph, 'Flip Horizontal')
         bflipv = Button(axflipv, 'Flip Vertical')
+        bshowl = Button(axshowl, 'Show Lines')
 
         # Button events
         bnext.on_clicked(self.next)
@@ -95,6 +123,7 @@ class Base(object):
         bload.on_clicked(self.load)
         bfliph.on_clicked(self.fliph)
         bflipv.on_clicked(self.flipv)
+        bshowl.on_clicked(self.showl)
 
         plt.show()
 
@@ -139,7 +168,7 @@ fps = cap.get(cv2.CAP_PROP_FPS)
 video_images = []
 bar_frames = []
 
-struck_notes = notes.get_notes(vid_path, fps) # Get the timestamps of each struck note
+struck_notes, aud_path = notes.get_notes(vid_path, fps) # Get the timestamps of each struck note
 
 # Get all the frames in which a note was struck
 i = j = 0
@@ -161,7 +190,7 @@ while cap.isOpened():
 cap.release()
 
 # Let the user decide which frame to use as the base image
-callback = Base(base_images)
+callback = Frame_Select(base_images)
 base_image = callback.selection
 
 # Flip images if user specified
@@ -175,6 +204,7 @@ if callback.flip_h or callback.flip_v:
 
     if not callback.loaded:
         base_image = cv2.flip(base_image, flip)
+
     for i in range(len(video_images)):
         video_images[i] = cv2.flip(video_images[i], flip)
     for i in range(len(hit_frames)):
@@ -234,11 +264,27 @@ for strike in rope_strikes:
     strike['image'] = cv2.putText(strike['image'], 'Note: ' + str(strike['note']), (380,340), cv2.FONT_HERSHEY_PLAIN, 1, (255,255,255), 1, cv2.LINE_AA)
     video_images[strike['frame']] = strike['image']
 
+# Create folder for output video/images
+new_dir_path = vid_path[:-4] + '_output'
+if not os.path.exists(new_dir_path):
+    os.mkdir(new_dir_path)
+
 # Write a video that highlights all the misplaced hits
-out = cv2.VideoWriter(vid_path[:-4] + '_output.avi', cv2.VideoWriter_fourcc(*'DIVX'), fps, (480, 360))
+j = 0
+out = cv2.VideoWriter(new_dir_path + '/temp_video.mp4', cv2.VideoWriter_fourcc(*'mp4v'), fps, (480, 360))
 for i in range(len(video_images)):
     out.write(video_images[i])
     if i in bar_frames:
-        for j in range(round(fps * 3)):
-            out.write(video_images[i])
+        cv2.imwrite(new_dir_path + '/error_' + str(j) + '_' + str(rope_strikes[j]['note']) + '.jpg', video_images[i])
+        j += 1
 out.release()
+
+# Attach original audio to new video
+new_vid = mp.VideoFileClip(new_dir_path + '/temp_video.mp4')
+audio = mp.AudioFileClip(aud_path)
+aud_vid = new_vid.set_audio(audio)
+aud_vid.write_videofile(new_dir_path + '/video.mp4')
+
+# Remove temporary files
+os.remove(new_dir_path + '/temp_video.mp4')
+os.remove(aud_path)

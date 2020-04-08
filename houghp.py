@@ -108,7 +108,6 @@ def get_boundaries(frame):
             #cv2.line(img,(x1, y1),(x2, y2),(255,0,0),2)
             diag_lines.append([x1,y1,x2,y2])
 
-
     # Get center horizontal line of marimba
     horizontal_line = interpolate_hori(average_lines(hori_lines))
     hori_y = int((horizontal_line[1] + horizontal_line[3]) / 2)
@@ -151,44 +150,43 @@ def get_boundaries(frame):
     note_boundaries = {}
     freq = 110
     w = b = 0
-    while b < len(merged_black_lines) - 1 or w < len(merged_white_lines) - 1:
-        key = librosa.core.hz_to_note(freq)
-        note_boundaries[key] = {}
-        if key[1] == '#': # accidental
-            note_boundaries[key]['bar'] = [(merged_black_lines[b][0], merged_black_lines[b][1]), (merged_black_lines[b+1][0], merged_black_lines[b+1][1]), (merged_black_lines[b+1][2], merged_black_lines[b+1][3]), (merged_black_lines[b][2], merged_black_lines[b][3])]
-            note_boundaries[key]['rope'] = [(merged_black_lines[b][0], int(merged_black_lines[b][1]-25+b*0.5)), (merged_black_lines[b+1][0], int(merged_black_lines[b+1][1]-25+b*0.5)), (merged_black_lines[b+1][2], int(merged_black_lines[b+1][3]+25-b*0.2)), (merged_black_lines[b][2], int(merged_black_lines[b][3]+25-b*0.2))]
-            if key[0] == 'A' or key[0] == 'D': # skip gap in black keys
-                b += 2
-            else:
-                b += 1
-        else: # natural
-            note_boundaries[key]['bar'] = [(merged_white_lines[w][0], merged_white_lines[w][1]), (merged_white_lines[w+1][0], merged_white_lines[w+1][1]), (merged_white_lines[w+1][2], merged_white_lines[w+1][3]), (merged_white_lines[w][2], merged_white_lines[w][3])]
-            note_boundaries[key]['rope'] = [(merged_white_lines[w][0], int(merged_white_lines[w][1]-25+w*0.5)), (merged_white_lines[w+1][0], int(merged_white_lines[w+1][1]-25+w*0.5)), (merged_white_lines[w+1][2], int(merged_white_lines[w+1][3]+10+w*0.2)), (merged_white_lines[w][2], int(merged_white_lines[w][3]+10+w*0.2))]
-            w += 1
-        freq *= 2**(1/12)
+    try:
+        while b < len(merged_black_lines) - 1 or w < len(merged_white_lines) - 1:
+            key = librosa.core.hz_to_note(freq)
+            note_boundaries[key] = {}
+            if key[1] == '#': # accidental
+                note_boundaries[key]['bar'] = [(merged_black_lines[b][0], merged_black_lines[b][1]), (merged_black_lines[b+1][0], merged_black_lines[b+1][1]), (merged_black_lines[b+1][2], merged_black_lines[b+1][3]), (merged_black_lines[b][2], merged_black_lines[b][3])]
+                note_boundaries[key]['rope'] = [(merged_black_lines[b][0], int(merged_black_lines[b][1]-25+b*0.5)), (merged_black_lines[b+1][0], int(merged_black_lines[b+1][1]-25+b*0.5)), (merged_black_lines[b+1][2], int(merged_black_lines[b+1][3]+25-b*0.2)), (merged_black_lines[b][2], int(merged_black_lines[b][3]+25-b*0.2))]
+                if key[0] == 'A' or key[0] == 'D': # skip gap in black keys
+                    b += 2
+                else:
+                    b += 1
+            else: # natural
+                note_boundaries[key]['bar'] = [(merged_white_lines[w][0], merged_white_lines[w][1]), (merged_white_lines[w+1][0], merged_white_lines[w+1][1]), (merged_white_lines[w+1][2], merged_white_lines[w+1][3]), (merged_white_lines[w][2], merged_white_lines[w][3])]
+                note_boundaries[key]['rope'] = [(merged_white_lines[w][0], int(merged_white_lines[w][1]-25+w*0.5)), (merged_white_lines[w+1][0], int(merged_white_lines[w+1][1]-25+w*0.5)), (merged_white_lines[w+1][2], int(merged_white_lines[w+1][3]+10+w*0.2)), (merged_white_lines[w][2], int(merged_white_lines[w][3]+10+w*0.2))]
+                w += 1
+            freq *= 2**(1/12)       
 
-    # Display lines
-    #for x1,y1,x2,y2 in white_vert_lines:
-    #    cv2.line(img,(x1, y1),(x2, y2),(0,255,0),2)
-    #for x1,y1,x2,y2 in black_vert_lines:
-    #    cv2.line(img,(x1, y1),(x2, y2),(0,255,255),2)
+        # Display lines
+        #for x1,y1,x2,y2 in white_vert_lines:
+        #    cv2.line(img,(x1, y1),(x2, y2),(0,255,0),2)
+        #for x1,y1,x2,y2 in black_vert_lines:
+        #    cv2.line(img,(x1, y1),(x2, y2),(0,255,255),2)
 
-    # Display note bounding boxes
-    for n in note_boundaries:
-        r = np.random.randint(256)
-        g = np.random.randint(256)
-        b = np.random.randint(256)
-        for i in range(3):
-            cv2.line(img, note_boundaries[n]['bar'][i], note_boundaries[n]['bar'][i+1], (r, g, b), 2)
-        cv2.line(img, note_boundaries[n]['bar'][3], note_boundaries[n]['bar'][0], (r, g, b), 2)
-        cv2.line(img, note_boundaries[n]['rope'][0], note_boundaries[n]['rope'][1], (255, 0, 255), 2)
-        cv2.line(img, note_boundaries[n]['rope'][2], note_boundaries[n]['rope'][3], (255, 255, 255), 2)
-    cv2.line(img, (horizontal_line[0], horizontal_line[1]), (horizontal_line[2], horizontal_line[3]), (0, 0, 255), 2)
-    cv2.line(img, (top_diag_line[0], top_diag_line[1]), (top_diag_line[2], top_diag_line[3]), (255, 0, 0), 2)
-    cv2.line(img, (bot_diag_line[0], bot_diag_line[1]), (bot_diag_line[2], bot_diag_line[3]), (255, 255, 0), 2)
+        # Display note bounding boxes
+        for n in note_boundaries:
+            r = np.random.randint(256)
+            g = np.random.randint(256)
+            b = np.random.randint(256)
+            for i in range(3):
+                cv2.line(img, note_boundaries[n]['bar'][i], note_boundaries[n]['bar'][i+1], (r, g, b), 2)
+            cv2.line(img, note_boundaries[n]['bar'][3], note_boundaries[n]['bar'][0], (r, g, b), 2)
+            cv2.line(img, note_boundaries[n]['rope'][0], note_boundaries[n]['rope'][1], (255, 255, 255), 2)
+            cv2.line(img, note_boundaries[n]['rope'][2], note_boundaries[n]['rope'][3], (255, 255, 255), 2)
+        #cv2.line(img, (horizontal_line[0], horizontal_line[1]), (horizontal_line[2], horizontal_line[3]), (0, 0, 255), 2)
+        #cv2.line(img, (top_diag_line[0], top_diag_line[1]), (top_diag_line[2], top_diag_line[3]), (255, 0, 0), 2)
+        #cv2.line(img, (bot_diag_line[0], bot_diag_line[1]), (bot_diag_line[2], bot_diag_line[3]), (255, 255, 0), 2)
+    except IndexError:
+        note_boundaries = None
 
-    cv2.imshow('image', img)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-
-    return (note_boundaries)
+    return (note_boundaries, img)
