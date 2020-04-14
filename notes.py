@@ -14,9 +14,9 @@ def get_notes(vid_path, fps):
 
     y, sr = librosa.load(aud_path)
     onset_env = librosa.onset.onset_strength(y=y, sr=sr)
-    peaks = librosa.util.peak_pick(onset_env, 5, 5, 5, 5, 7, 5)
+    peaks = librosa.util.peak_pick(onset_env, 3, 3, 3, 5, 2, 5)
     sec_peaks = librosa.frames_to_time(peaks, sr=sr)
-    #print(peaks)
+    #print(sec_peaks)
 
     timestamps = {}
     for peak in sec_peaks:

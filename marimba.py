@@ -9,7 +9,9 @@ import mallet
 from matplotlib import pyplot as plt
 from matplotlib.widgets import Button
 from tkinter.filedialog import askopenfilename
+from tkinter import messagebox
 
+# Box that prompts the user for a base image and formatting
 class Frame_Select(object):
     def __init__(self, images):
         self.ind = 0
@@ -41,7 +43,7 @@ class Frame_Select(object):
         self.selection = self.images[self.ind]
 
     def load(self, event):
-        filename = askopenfilename()
+        filename = askopenfilename(title='Please select a base image of the marimba:')
         plt.close()
         if cv2.imread(filename).all() != None:
             self.loaded = True
@@ -78,6 +80,7 @@ class Frame_Select(object):
 
     def setup(self, param = 0):
         plt.close()
+        plt.figure(figsize=(5,5))
         if param == 3: # Showing lines
             plt.imshow(cv2.cvtColor(self.display, cv2.COLOR_BGR2RGB))
         else:
@@ -99,13 +102,13 @@ class Frame_Select(object):
         plt.xticks([]),plt.yticks([])
 
         # Positions
-        axnext = plt.axes([0.4, 0.05, 0.1, 0.075])
-        axprev = plt.axes([0.1, 0.05, 0.1, 0.075])
-        axsel = plt.axes([0.25, 0.05, 0.1, 0.075])
-        axload = plt.axes([0.7, 0.05, 0.2, 0.075])
-        axfliph = plt.axes([0.1, 0.2, 0.2, 0.075])
-        axflipv = plt.axes([0.4, 0.2, 0.2, 0.075])
-        axshowl = plt.axes([0.7, 0.2, 0.2, 0.075])
+        axnext = plt.axes([0.45, 0.05, 0.15, 0.05])
+        axprev = plt.axes([0.1, 0.05, 0.15, 0.05])
+        axsel = plt.axes([0.275, 0.05, 0.15, 0.05])
+        axload = plt.axes([0.65, 0.05, 0.25, 0.05])
+        axfliph = plt.axes([0.1, 0.125, 0.25, 0.05])
+        axflipv = plt.axes([0.375, 0.125, 0.25, 0.05])
+        axshowl = plt.axes([0.65, 0.125, 0.25, 0.05])
         
         # Buttons
         bnext = Button(axnext, 'Next')
@@ -127,6 +130,7 @@ class Frame_Select(object):
 
         plt.show()
 
+# Interpolate the top and bottom ropes to the mallet's x-position to get its vertical distance from the ropes
 def check_position(mx, my, coords):
     (bx1, by1), (bx2, by2), (tx1, ty1), (tx2, ty2) = [coords[i] for i in range(len(coords))]
     bm = (by2-by1)/(bx2-bx1)
@@ -137,6 +141,7 @@ def check_position(mx, my, coords):
 
     return (by, ty)
 
+# Create a rectangle that encompasses all of the points of the bar
 def circumscribe(coords):
     min_x = coords[0][0]
     min_y = coords[0][1]
@@ -152,14 +157,14 @@ def circumscribe(coords):
         if coord[1] > max_y:
             max_y = coord[1]
     
-    return ([min_x - 5, min_y - 5, max_x + 5, max_y + 5])
+    return ([min_x, min_y, max_x, max_y])
 
 path = os.path.realpath(__file__).strip('marimba.py')
 path = path.replace('\\', "/")
 
 root = tk.Tk()
 root.withdraw()
-vid_path = askopenfilename()
+vid_path = askopenfilename(title='Please select a video to analyze:')
 root.destroy()
 
 cap = cv2.VideoCapture(vid_path)
@@ -178,7 +183,7 @@ while cap.isOpened():
     ret, frame = cap.read()
     if ret == False:
         break
-    if i < (15 * 10) and i % 15 == 0:
+    if i < (round(fps/2) * 10) and i % round(fps/2) == 0:
         base_images.append(cv2.resize(frame, (480, 360)))
     video_images.append(cv2.resize(frame, (480, 360)))
     if i in struck_notes:
@@ -210,7 +215,7 @@ if callback.flip_h or callback.flip_v:
     for i in range(len(hit_frames)):
         hit_frames[i]['image'] = cv2.flip(hit_frames[i]['image'], flip)       
 
-note_boundaries = houghp.get_boundaries(base_image) # Get the corners of every marimba bar
+note_boundaries = houghp.get_boundaries(base_image)[0] # Get the corners of every marimba bar
 
 i = j = 0
 rope_strikes = []
@@ -242,6 +247,7 @@ for s in struck_notes: # Each frame with at least one struck note
         #cv2.line(hit_frames[i]['image'], (mallet_x,ty), (mallet_x,by), (255,0,255), 2)
         #cv2.line(hit_frames[i]['image'], bar['rope'][0], bar['rope'][1], (255,255,255), 2)
         #cv2.line(hit_frames[i]['image'], bar['rope'][2], bar['rope'][3], (255,255,255), 2)
+        #cv2.line(hit_frames[i]['image'], (0, 0), (mallet_x, mallet_y), (255, 255, 0), 2)
         #cv2.namedWindow('test', cv2.WINDOW_FULLSCREEN)
         #cv2.imshow('test', hit_frames[i]['image'])
         #cv2.waitKey(0)
@@ -278,6 +284,12 @@ for i in range(len(video_images)):
         cv2.imwrite(new_dir_path + '/error_' + str(j) + '_' + str(rope_strikes[j]['note']) + '.jpg', video_images[i])
         j += 1
 out.release()
+
+# Ask to save base image for future use if it was not loaded in
+if not callback.loaded:
+    msg_box = tk.messagebox.askquestion('Save Base Image', 'Do you want to save the base marimba image for future use?', icon = 'question')
+    if msg_box == 'yes':
+        cv2.imwrite(new_dir_path + '/base_image.jpg', base_image)
 
 # Attach original audio to new video
 new_vid = mp.VideoFileClip(new_dir_path + '/temp_video.mp4')
