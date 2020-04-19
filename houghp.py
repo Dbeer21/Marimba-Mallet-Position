@@ -96,16 +96,13 @@ def get_boundaries(frame):
         y2 = line[0][3]
         angle = math.atan2(abs(y2-y1), abs(x2-x1))
         if abs(angle - np.pi/2) < 5*np.pi/180:
-            #cv2.line(img,(x1, y1),(x2, y2),(0,255,0),2)
             if y2 > y1:
                 y1, y2 = y2, y1
                 x1, x2 = x2, x1
             vert_lines.append([x1,y1,x2,y2])
         elif abs(angle) < 2*np.pi/180:
-            #cv2.line(img,(x1, y1),(x2, y2),(0,0,255),2)
             hori_lines.append([x1,y1,x2,y2])
         elif abs(angle) > 2*np.pi/180 and abs(angle) < 15*np.pi/180:
-            #cv2.line(img,(x1, y1),(x2, y2),(255,0,0),2)
             diag_lines.append([x1,y1,x2,y2])
 
     # Get center horizontal line of marimba
@@ -167,13 +164,7 @@ def get_boundaries(frame):
                 w += 1
             freq *= 2**(1/12)       
 
-        # Display lines
-        #for x1,y1,x2,y2 in white_vert_lines:
-        #    cv2.line(img,(x1, y1),(x2, y2),(0,255,0),2)
-        #for x1,y1,x2,y2 in black_vert_lines:
-        #    cv2.line(img,(x1, y1),(x2, y2),(0,255,255),2)
-
-        # Display note bounding boxes
+        # Draw note bounding boxes
         for n in note_boundaries:
             r = np.random.randint(256)
             g = np.random.randint(256)
@@ -183,9 +174,6 @@ def get_boundaries(frame):
             cv2.line(img, note_boundaries[n]['bar'][3], note_boundaries[n]['bar'][0], (r, g, b), 2)
             cv2.line(img, note_boundaries[n]['rope'][0], note_boundaries[n]['rope'][1], (255, 255, 255), 2)
             cv2.line(img, note_boundaries[n]['rope'][2], note_boundaries[n]['rope'][3], (255, 255, 255), 2)
-        #cv2.line(img, (horizontal_line[0], horizontal_line[1]), (horizontal_line[2], horizontal_line[3]), (0, 0, 255), 2)
-        #cv2.line(img, (top_diag_line[0], top_diag_line[1]), (top_diag_line[2], top_diag_line[3]), (255, 0, 0), 2)
-        #cv2.line(img, (bot_diag_line[0], bot_diag_line[1]), (bot_diag_line[2], bot_diag_line[3]), (255, 255, 0), 2)
     except IndexError:
         note_boundaries = None
 

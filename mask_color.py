@@ -28,10 +28,3 @@ def mask(frame):
     opening = cv2.morphologyEx(result, cv2.MORPH_OPEN, kernel)
 
     return (opening)
-
-#imgPath = os.path.realpath(__file__).strip('mask_color.py')
-#imgPath = imgPath.replace('\\', "/")
-#img = mask(imgPath + 'Source/marimba_still.png')
-
-#cv2.imshow('image', img)
-#cv2.waitKey(0)

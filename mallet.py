@@ -12,8 +12,6 @@ def find_center(crop):
     kernel = np.ones((3,3),np.uint8)
     opening = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel)
 
-    #cv2.imshow('opening', opening)
-
     # Find all the white pixels in the opening of the mask
     white_pixels = [[],[]]
     for i in range(len(opening)):

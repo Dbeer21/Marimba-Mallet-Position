@@ -162,6 +162,7 @@ def circumscribe(coords):
 path = os.path.realpath(__file__).strip('marimba.py')
 path = path.replace('\\', "/")
 
+print('Please select a video to analyze.')
 root = tk.Tk()
 root.withdraw()
 vid_path = askopenfilename(title='Please select a video to analyze:')
@@ -173,6 +174,7 @@ fps = cap.get(cv2.CAP_PROP_FPS)
 video_images = []
 bar_frames = []
 
+print('Converting to audio and extracting notes.')
 struck_notes, aud_path = notes.get_notes(vid_path, fps) # Get the timestamps of each struck note
 
 # Get all the frames in which a note was struck
@@ -215,9 +217,11 @@ if callback.flip_h or callback.flip_v:
     for i in range(len(hit_frames)):
         hit_frames[i]['image'] = cv2.flip(hit_frames[i]['image'], flip)       
 
+print('Extracting bounding boxes for each marimba bar.')
 note_boundaries = houghp.get_boundaries(base_image)[0] # Get the corners of every marimba bar
 
-i = j = 0
+print('Detecting rope strikes.')
+w = j = 0
 rope_strikes = []
 for s in struck_notes: # Each frame with at least one struck note
     crops = []
@@ -229,7 +233,7 @@ for s in struck_notes: # Each frame with at least one struck note
 
     for bar in bars:
         min_x, min_y, max_x, max_y = circumscribe(bar['bar']) # Circumscribe a 90-degree rectangle with edges parallel to the image
-        crop = hit_frames[i]['image'][min_y:max_y, min_x:max_x]
+        crop = hit_frames[w]['image'][min_y:max_y, min_x:max_x]
 
         crop_x, crop_y = mallet.find_center(crop)
         if crop_x == -1:
@@ -238,31 +242,23 @@ for s in struck_notes: # Each frame with at least one struck note
             mallet_x = crop_x + min_x
             mallet_y = crop_y + min_y
 
-            cv2.line(hit_frames[i]['image'], (0, 0), (0, 359), (0, 0, 255), 2)
-            cv2.line(hit_frames[i]['image'], (0, 359), (479, 359), (0, 0, 255), 2)
-            cv2.line(hit_frames[i]['image'], (479, 359), (479, 0), (0, 0, 255), 2)
-            cv2.line(hit_frames[i]['image'], (479, 0), (0, 0), (0, 0, 255), 2)
+            cv2.line(hit_frames[w]['image'], (0, 0), (0, 359), (0, 0, 255), 2)
+            cv2.line(hit_frames[w]['image'], (0, 359), (479, 359), (0, 0, 255), 2)
+            cv2.line(hit_frames[w]['image'], (479, 359), (479, 0), (0, 0, 255), 2)
+            cv2.line(hit_frames[w]['image'], (479, 0), (0, 0), (0, 0, 255), 2)
 
         by, ty = check_position(mallet_x, mallet_y, bar['rope'])
-        #cv2.line(hit_frames[i]['image'], (mallet_x,ty), (mallet_x,by), (255,0,255), 2)
-        #cv2.line(hit_frames[i]['image'], bar['rope'][0], bar['rope'][1], (255,255,255), 2)
-        #cv2.line(hit_frames[i]['image'], bar['rope'][2], bar['rope'][3], (255,255,255), 2)
-        #cv2.line(hit_frames[i]['image'], (0, 0), (mallet_x, mallet_y), (255, 255, 0), 2)
-        #cv2.namedWindow('test', cv2.WINDOW_FULLSCREEN)
-        #cv2.imshow('test', hit_frames[i]['image'])
-        #cv2.waitKey(0)
-        #cv2.destroyAllWindows()
 
         # Struck on rope
         if abs(mallet_y - by) < 10 or abs(mallet_y - ty) < 10:
-            cv2.circle(hit_frames[i]['image'], (mallet_x, mallet_y), 6, (0,255,0), 2)
+            cv2.circle(hit_frames[w]['image'], (mallet_x, mallet_y), 6, (0,255,0), 2)
             rope_strikes.append({})
-            rope_strikes[j]['image'] = hit_frames[i]['image']
-            rope_strikes[j]['frame'] = hit_frames[i]['frame']
+            rope_strikes[j]['image'] = hit_frames[w]['image']
+            rope_strikes[j]['frame'] = hit_frames[w]['frame']
             rope_strikes[j]['note'] = list(note_boundaries.keys())[list(note_boundaries.values()).index(bar)]
             bar_frames.append(rope_strikes[j]['frame'])
             j += 1
-    i += 1
+    w += 1
 
 # Format frame of misplaced hit
 for strike in rope_strikes:
@@ -276,6 +272,7 @@ if not os.path.exists(new_dir_path):
     os.mkdir(new_dir_path)
 
 # Write a video that highlights all the misplaced hits
+print('Creating video highlighting rope strikes and saving frames to drive.')
 j = 0
 out = cv2.VideoWriter(new_dir_path + '/temp_video.mp4', cv2.VideoWriter_fourcc(*'mp4v'), fps, (480, 360))
 for i in range(len(video_images)):
@@ -292,6 +289,7 @@ if not callback.loaded:
         cv2.imwrite(new_dir_path + '/base_image.jpg', base_image)
 
 # Attach original audio to new video
+print('Attaching original audio to new video.')
 new_vid = mp.VideoFileClip(new_dir_path + '/temp_video.mp4')
 audio = mp.AudioFileClip(aud_path)
 aud_vid = new_vid.set_audio(audio)
@@ -300,3 +298,6 @@ aud_vid.write_videofile(new_dir_path + '/video.mp4')
 # Remove temporary files
 os.remove(new_dir_path + '/temp_video.mp4')
 os.remove(aud_path)
+
+print('Amount of rope strikes: ' + str(j))
+print('Percentage of strikes on rope: ' + str(j / w * 100) + '%')

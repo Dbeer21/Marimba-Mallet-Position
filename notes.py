@@ -10,23 +10,15 @@ def get_notes(vid_path, fps):
     clip = mp.VideoFileClip(vid_path)
     clip.audio.write_audiofile(aud_path)
 
-    #f = open(vid_path[:-4] + '_output.txt', 'w')
-
     y, sr = librosa.load(aud_path)
     onset_env = librosa.onset.onset_strength(y=y, sr=sr)
     peaks = librosa.util.peak_pick(onset_env, 3, 3, 3, 5, 2, 5)
     sec_peaks = librosa.frames_to_time(peaks, sr=sr)
-    #print(sec_peaks)
 
     timestamps = {}
     for peak in sec_peaks:
         yp, srp = librosa.load(aud_path, offset=peak, duration=0.2)
         pitches, magnitudes = librosa.piptrack(y=yp, sr=srp)
-
-        #f.write('Timestamp: ')
-        #f.write(str(peak))
-        #f.write(' seconds')
-        #f.write('\n')
 
         # Grab the pitches and magnitudes from the cluttered arrays
         real_pitches = []
@@ -36,15 +28,6 @@ def get_notes(vid_path, fps):
                 if pitches[i][j] > 107 and pitches[i][j] < 2140: #A2-C7
                     real_pitches.append(pitches[i][j])
                     real_magnitudes.append(magnitudes[i][j])
-
-                    #f.write(str(pitches[i][j]))
-                    #f.write(' = ')
-                    #f.write(librosa.hz_to_note(pitches[i][j]))
-                    #f.write(' with a volume of: ')
-                    #f.write(str(magnitudes[i][j]))
-                    #f.write(' and a tuning of: ')
-                    #f.write(str(librosa.core.pitch_tuning(pitches[i][j], resolution=0.001)))
-                    #f.write('\n')
         
         # Put the pitches/magnitudes into a dictionary {'note': [magnitudes]}
         note_dict = {}
@@ -69,26 +52,12 @@ def get_notes(vid_path, fps):
         elif mag_threshold < 2:
             mag_threshold = 2
 
-        #f.write('Magnitude Average: ')
-        #f.write(str(total_mag_sum / total_mag_count))
-        #f.write('\n')
-        #f.write("Magnitude Threshold: ")
-        #f.write(str(mag_threshold))
-        #f.write('\n')
-
         # Get the average frequency count of all the notes in the peak and determine the frequency count threshold
         note_count = len(note_dict)
         freq_count = 0
         for x in note_dict:
             freq_count += len(note_dict[x])
         freq_count_threshold = math.floor(freq_count / note_count)
-
-        #f.write('Frequency Count Average: ')
-        #f.write(str(freq_count / note_count))
-        #f.write('\n')
-        #f.write("Frequency Count Threshold: ")
-        #f.write(str(freq_count_threshold))
-        #f.write('\nSTRUCK NOTES:\n')
 
         for x in note_dict:
             if (len(note_dict[x]) < freq_count_threshold):
@@ -105,16 +74,5 @@ def get_notes(vid_path, fps):
                 if frame not in timestamps:
                     timestamps[frame] = []
                 timestamps[frame].append(x)
-                #f.write(str(librosa.note_to_hz(x)))
-                #f.write(' = ')
-                #f.write(x)
-                #f.write(' at a volume of: ')
-                #f.write(str(mag_avg))
-                #f.write('\n')
 
-        #f.write('\n')
-    #f.close()
-    
-    #os.remove(aud_path)
     return (timestamps, aud_path)
-        
