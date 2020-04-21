@@ -221,7 +221,8 @@ print('Extracting bounding boxes for each marimba bar.')
 note_boundaries = houghp.get_boundaries(base_image)[0] # Get the corners of every marimba bar
 
 print('Detecting rope strikes.')
-w = j = 0
+i = j = 0
+strikes = 0
 rope_strikes = []
 for s in struck_notes: # Each frame with at least one struck note
     crops = []
@@ -233,36 +234,38 @@ for s in struck_notes: # Each frame with at least one struck note
 
     for bar in bars:
         min_x, min_y, max_x, max_y = circumscribe(bar['bar']) # Circumscribe a 90-degree rectangle with edges parallel to the image
-        crop = hit_frames[w]['image'][min_y:max_y, min_x:max_x]
+        crop = hit_frames[i]['image'][min_y:max_y, min_x:max_x]
 
         crop_x, crop_y = mallet.find_center(crop)
         if crop_x == -1:
             continue
         else:
+            strikes += 1
+
             mallet_x = crop_x + min_x
             mallet_y = crop_y + min_y
 
-            cv2.line(hit_frames[w]['image'], (0, 0), (0, 359), (0, 0, 255), 2)
-            cv2.line(hit_frames[w]['image'], (0, 359), (479, 359), (0, 0, 255), 2)
-            cv2.line(hit_frames[w]['image'], (479, 359), (479, 0), (0, 0, 255), 2)
-            cv2.line(hit_frames[w]['image'], (479, 0), (0, 0), (0, 0, 255), 2)
+            cv2.line(hit_frames[i]['image'], (0, 0), (0, 359), (0, 0, 255), 2)
+            cv2.line(hit_frames[i]['image'], (0, 359), (479, 359), (0, 0, 255), 2)
+            cv2.line(hit_frames[i]['image'], (479, 359), (479, 0), (0, 0, 255), 2)
+            cv2.line(hit_frames[i]['image'], (479, 0), (0, 0), (0, 0, 255), 2)
 
         by, ty = check_position(mallet_x, mallet_y, bar['rope'])
 
         # Struck on rope
         if abs(mallet_y - by) < 10 or abs(mallet_y - ty) < 10:
-            cv2.circle(hit_frames[w]['image'], (mallet_x, mallet_y), 6, (0,255,0), 2)
+            cv2.circle(hit_frames[i]['image'], (mallet_x, mallet_y), 6, (0,255,0), 2)
             rope_strikes.append({})
-            rope_strikes[j]['image'] = hit_frames[w]['image']
-            rope_strikes[j]['frame'] = hit_frames[w]['frame']
+            rope_strikes[j]['image'] = hit_frames[i]['image']
+            rope_strikes[j]['frame'] = hit_frames[i]['frame']
             rope_strikes[j]['note'] = list(note_boundaries.keys())[list(note_boundaries.values()).index(bar)]
             bar_frames.append(rope_strikes[j]['frame'])
             j += 1
-    w += 1
+    i += 1
 
 # Format frame of misplaced hit
 for strike in rope_strikes:
-    strike['image'] = cv2.putText(strike['image'], 'Timestamp: ' + str(round((strike['frame'] + (fps / 10)) / fps, 2)) + ' seconds', (20,340), cv2.FONT_HERSHEY_PLAIN, 1, (255,255,255), 1, cv2.LINE_AA)
+    strike['image'] = cv2.putText(strike['image'], 'Timestamp: ' + str(round((strike['frame'] + 1) / fps, 2)) + ' seconds', (20,340), cv2.FONT_HERSHEY_PLAIN, 1, (255,255,255), 1, cv2.LINE_AA)
     strike['image'] = cv2.putText(strike['image'], 'Note: ' + str(strike['note']), (380,340), cv2.FONT_HERSHEY_PLAIN, 1, (255,255,255), 1, cv2.LINE_AA)
     video_images[strike['frame']] = strike['image']
 
@@ -299,5 +302,6 @@ aud_vid.write_videofile(new_dir_path + '/video.mp4')
 os.remove(new_dir_path + '/temp_video.mp4')
 os.remove(aud_path)
 
-print('Amount of rope strikes: ' + str(j))
-print('Percentage of strikes on rope: ' + str(j / w * 100) + '%')
+print('Amount of strikes: ' + str(strikes))
+print('Amount of strikes on rope: ' + str(j))
+print('Percentage of strikes on rope: ' + str(j / strikes * 100) + '%')
