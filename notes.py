@@ -1,5 +1,4 @@
 import librosa
-import os
 import math
 import numpy as np
 import moviepy.editor as mp

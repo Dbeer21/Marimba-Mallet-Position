@@ -1,6 +1,5 @@
 import librosa
 import cv2
-import os
 import numpy as np
 import math
 import mask_color
@@ -75,10 +74,6 @@ def merge_close_lines(lines, spread):
     return (merged_lines)
 
 def get_boundaries(frame):
-    #imgPath = os.path.realpath(__file__).strip('houghp.py')
-    #imgPath = imgPath.replace('\\', "/")
-    #frame = cv2.imread(imgPath + 'Source/marimba_still.png')
-
     img = mask_color.mask(frame)
 
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

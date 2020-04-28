@@ -281,7 +281,7 @@ out = cv2.VideoWriter(new_dir_path + '/temp_video.mp4', cv2.VideoWriter_fourcc(*
 for i in range(len(video_images)):
     out.write(video_images[i])
     if i in bar_frames:
-        cv2.imwrite(new_dir_path + '/error_' + str(j) + '_' + str(rope_strikes[j]['note']) + '.jpg', video_images[i])
+        cv2.imwrite(new_dir_path + '/error_' + str(j + 1) + '_' + str(rope_strikes[j]['note']) + '.jpg', video_images[i])
         j += 1
 out.release()
 
